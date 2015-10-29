@@ -9,7 +9,7 @@ import java.util.*;
 
 public class ChampCalc {
    
-   static String dir = "C:\\Riot Games\\League of Legends\\Logs\\Game - R3d Logs";
+   static String dir = "C:\\Riot Games\\League of Legends\\Logs\\Game - R3d Logs\\";
    static TreeMap<String, Integer> champSet = new TreeMap<String, Integer>();
    
    public static void main(String[] args){
@@ -36,7 +36,7 @@ public class ChampCalc {
          count += 1;
          try{
             Scanner reader = null;
-            reader = new Scanner(new File("C:\\Riot Games\\League of Legends\\Logs\\Game - R3d Logs\\"+string)); 
+            reader = new Scanner(new File(dir+string)); 
             while(reader.hasNextLine()){
                String curr = reader.nextLine();
                String champName = "";
