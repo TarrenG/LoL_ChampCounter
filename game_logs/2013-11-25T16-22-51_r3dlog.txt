@@ -1,0 +1,863 @@
+000000.000|   11376.0000kb|  11376.0000kb added| ALWAYS| Logging started at 2013-11-25T16:22:51.571
+000000.002|   11388.0000kb|     12.0000kb added| ALWAYS| Loading RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.042|   11500.0000kb|    112.0000kb added|   OKAY| Riot::RADS::Reader::RadsExportsMain::Initialize: RADS library initializing with specified working directory "C:\Riot Games\League of Legends\RADS\solutions\lol_game_client_sln\releases\0.0.0.254\deploy".
+000000.043|   11516.0000kb|     16.0000kb added|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.043|   11528.0000kb|     12.0000kb added|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.254/solutionmanifest")
+000000.058|   11568.0000kb|     40.0000kb added|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.254/configurationmanifest")
+000000.058|   11572.0000kb|      4.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client_en_us/releases/0.0.0.175/releasemanifest")
+000000.069|   11664.0000kb|     92.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client/releases/0.0.0.188/releasemanifest")
+000007.474|   17020.0000kb|   5356.0000kb added| ALWAYS| Loaded RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000007.706|   44420.0000kb|  27400.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects/lol_air_client/releases/0.0.1.58/deploy/preferences/
+000007.744|   44916.0000kb|    496.0000kb added| ALWAYS| Global logging level set to   WARN
+000007.744|   44988.0000kb|     72.0000kb added| ALWAYS| Build Version: Version 3.14.0.700 (Nov 18 2013/16:51:17) [PUBLIC] <Releases/3.14> ChangeList: 407208
+000007.849|   46580.0000kb|   1592.0000kb added| ALWAYS| "8394" "LoLLauncher.exe" "C:/Riot Games/League of Legends/RADS/projects/lol_air_client/releases/0.0.1.58/deploy/LolClient.exe" "192.64.170.163 5107 SIjntsSAeGnj3mJy5uUMGQ== <id_removed>"
+000007.853|   46820.0000kb|    240.0000kb added| ALWAYS| Started System Init
+000007.854|   47284.0000kb|    464.0000kb added| ALWAYS| Maestro Init
+000007.892|   51764.0000kb|   4480.0000kb added| ALWAYS| Maestro completed init
+000007.892|   51780.0000kb|     16.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "ClientZips.txt" because it's not in the manifest.
+000007.893|   51788.0000kb|      8.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = r; errno = 2; pFilename = ClientZips.txt; msg = No such file or directory;
+000007.893|   51788.0000kb|      0.0000kb added|  ERROR| Failed to open "ClientZips.txt"
+000007.995|   53268.0000kb|   1480.0000kb added| ALWAYS| StartSession called
+000007.995|   53280.0000kb|     12.0000kb added| ALWAYS| Started Init event arguments
+000008.008|   53392.0000kb|    112.0000kb added| ALWAYS| Waiting until connection...
+000009.068|   57724.0000kb|   4332.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000009.068|   57724.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz, Intel64 Family 6 Model 58 Stepping 9, 2294 (0 core)
+000009.068|   57724.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 2330
+000009.068|   57724.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 9.18.13.2049
+000009.068|   57724.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000009.069|   57768.0000kb|     44.0000kb added| ALWAYS| {"messageType":"hardware_information","message_body":"Hardware Info","operating_system":"Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit","cpu":"GenuineIntel","cpu_processor":"Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz","cpu_identifier":"Intel64 Family 6 Model 58 Stepping 9","cpu_topology":4,"gpu":"NVIDIA GeForce GTX 660M","video_memory":"2147483648","driver_version":"9.18.13.2049","physical_memory":8589934592}
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION START-----
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| Operating System: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| GPU Manufacturer: NVIDIA GeForce GTX 660M
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| GPU Memory: 2147483648
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| GPU Driver Version: 9.18.13.2049
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| CPU Brand: GenuineIntel
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| CPU Processor Name: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| CPU Identifier: Intel64 Family 6 Model 58 Stepping 9
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| CPU Speed: 2294
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| CPU Topology: 4 Core
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000009.069|   57768.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION END-----
+000010.500|   61868.0000kb|   4100.0000kb added| ALWAYS| InitRenderer() enter
+000010.500|   62056.0000kb|    188.0000kb added| ALWAYS| r3dRenderLayer::Init(0x008308f8) enter
+000010.674|   65548.0000kb|   3492.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000011.546|   75044.0000kb|   9496.0000kb added| ALWAYS| Loaded locale en_US via fontconfig
+000011.643|   71816.0000kb|  -3228.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.254/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000011.643|   71816.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.254/deploy/Data/Menu/IMEConfig.xml; msg = No such file or directory;
+000011.643|   71816.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.254/deploy/Data/Menu/IMEConfig.xml
+000011.753|   72268.0000kb|    452.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1366, YRes = 768, BPP = 32,  Flags=4) enter
+000011.753|   72284.0000kb|     16.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000011.950|   87412.0000kb|  15128.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000012.408|   89588.0000kb|   2176.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000012.897|   92092.0000kb|   2504.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000014.377|   92852.0000kb|    760.0000kb added| ALWAYS| In Riot::Win::Resize: Resizing the window and retrieving monitor info
+000014.377|   92852.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Initial VideoMode(6387f00) and resolution (1366 x 768) 
+000014.377|   92852.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: VideoMode(6387f00) and resolution (683 x 384) 
+000014.379|   92872.0000kb|     20.0000kb added| ALWAYS| In Riot::Win::Resize: Resized window to resolution 1366x768
+000014.852|   96188.0000kb|   3316.0000kb added| ALWAYS| Sleeping
+000014.952|   96188.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000014.952|   96192.0000kb|      4.0000kb added| ALWAYS| End processing App Update
+000014.952|   96192.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000015.052|   96192.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000015.052|   96208.0000kb|     16.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Hard Connect"}
+000015.053|   96220.0000kb|     12.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID: 0000000045e17656, PlatformID: NA1
+000015.053|   96220.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000015.053|   96220.0000kb|      0.0000kb added| ALWAYS| Received client ID
+000015.053|   96092.0000kb|   -128.0000kb added| ALWAYS| Set focus to app
+000015.053|   96092.0000kb|      0.0000kb added| ALWAYS| Input started
+000015.081|   96208.0000kb|    116.0000kb added|   WARN| Duplicate key/value pair ([evtToggleQC, [z]] in DATA/CFG/defaults/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell2, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell2, [w]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell2, [w]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell2, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell4, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell3, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell2, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell1, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell4, [r]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell3, [e]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell2, [w]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell1, [q]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell4, [r]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell3, [e]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell2, [w]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell1, [q]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell4, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell3, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.102|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell2, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell1, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell2, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell2, [w]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell2, [w]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell2, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell4, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell3, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell2, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtSmartCastSpell1, [<Unbound>]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell4, [r]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell3, [e]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell2, [w]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.103|   96208.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([evtCastSpell1, [q]] in C:/Riot Games/League of Legends/Config/Input.ini
+000015.132|   96240.0000kb|     32.0000kb added| ALWAYS| Query Status Req started
+000015.241|   96240.0000kb|      0.0000kb added| ALWAYS| Query Status Req ended
+000015.241|   96240.0000kb|      0.0000kb added| ALWAYS| Waiting for server response...
+000015.341|   96240.0000kb|      0.0000kb added| ALWAYS| Receiving PKT_SynchVersionS2C_s, Server :Version 3.14.0.714 [PUBLIC]
+000015.359|   96276.0000kb|     36.0000kb added| ALWAYS| netUID: 4 defaultname
+000015.359|   96276.0000kb|      0.0000kb added| ALWAYS| Adding level zip file: Map1.zip
+000015.439|   96284.0000kb|      8.0000kb added| ALWAYS| PlayGame Started
+000015.444|   96380.0000kb|     96.0000kb added| ALWAYS| Performing WSAStartup
+000015.528|  100656.0000kb|   4276.0000kb added| ALWAYS| Performing WSACleanup
+000017.216|  146156.0000kb|  45500.0000kb added| ALWAYS| PlayGame Entered
+000017.217|  146196.0000kb|     40.0000kb added| ALWAYS| CurRenderPipeline
+000017.245|  146276.0000kb|     80.0000kb added| ALWAYS| CreateParticleSystemManager
+000018.090|  146832.0000kb|    556.0000kb added| ALWAYS| CreateAudioManager: Create audio manager FMOD.
+000022.040|  156992.0000kb|  10160.0000kb added| ALWAYS| FMOD: Attempting to load localized audio for en_US
+000022.040|  156992.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data\Sounds\FMOD\en_US/LoL_Audio_en_US.fev" because it's not in the manifest.
+000022.040|  156992.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data\Sounds\FMOD\en_US/LoL_Audio_en_US.fev; msg = No such file or directory;
+000022.040|  156992.0000kb|      0.0000kb added|  ERROR| MyFMODFileOpenCallback: Failed to open Data\Sounds\FMOD\en_US/LoL_Audio_en_US.fev
+000022.056|  157000.0000kb|      8.0000kb added|  ERROR| Manager::LoadEventFile(); attempting to load en_US/LoL_Audio_en_US.fev.  FMOD 23, File not found. 
+000022.056|  157000.0000kb|      0.0000kb added|   WARN| AudioManager::LoadEventFile: Failed to load event file: en_US/LoL_Audio_en_US.fev
+000024.200|  160812.0000kb|   3812.0000kb added| ALWAYS| Audio::Load(): Successfully loaded default desired language locale: LoL_Audio_en_US.fev
+000027.606|  259108.0000kb|  98296.0000kb added|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000045.636|  346192.0000kb|  87084.0000kb added| ALWAYS| GameWorld.Update()
+000045.636|  346192.0000kb|      0.0000kb added| ALWAYS| Begin Game Object Update
+000047.957|  364992.0000kb|  18800.0000kb added| ALWAYS| End Game Object Update
+000048.573|  368180.0000kb|   3188.0000kb added| ALWAYS| PreloadGlobalEffects()
+000048.573|  368180.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000053.343|  384476.0000kb|  16296.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000053.343|  384476.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalBuffAssets()
+000054.257|  387544.0000kb|   3068.0000kb added| ALWAYS| Preload Announcements
+000054.608|  401212.0000kb|  13668.0000kb added| ALWAYS| ObjectManager_RegisterNetworkWorld()
+000054.617|  401236.0000kb|     24.0000kb added| ALWAYS| FogOfWar::Init()
+000054.627|  401372.0000kb|    136.0000kb added| ALWAYS| Gamma::CreateIAPI()
+000054.634|  401408.0000kb|     36.0000kb added| ALWAYS| SimulationClock->Init()
+000055.807|  444984.0000kb|  43576.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink.dds" because it's not in the manifest.
+000055.807|  444984.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink.dds; msg = No such file or directory;
+000055.807|  444984.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink.dds
+000055.807|  444984.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/TurretTipImage.png-nolink.dds" because it's not in the manifest.
+000055.807|  444984.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/TurretTipImage.png-nolink.dds; msg = No such file or directory;
+000055.807|  444984.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/TurretTipImage.png-nolink.dds
+000055.807|  444984.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/recapSplash.png-nolink.dds" because it's not in the manifest.
+000055.807|  444984.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/recapSplash.png-nolink.dds; msg = No such file or directory;
+000055.807|  444984.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/recapSplash.png-nolink.dds
+000061.946|  467104.0000kb|  22120.0000kb added|  ERROR| Failed to load mesh file name<Olaf_Russian_Axe.sco>.
+000064.182|  481796.0000kb|  14692.0000kb added|  ERROR| Failed to load mesh file name<Olaf_Russian_Shields.sco>.
+000064.183|  481796.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Olaf_Russian_Shields.sco>.
+000064.521|  487128.0000kb|   5332.0000kb added|  ERROR| Failed to load mesh file name<Olaf_Russian_Axe.sco>.
+000064.523|  487128.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Olaf_Russian_Shields.sco>.
+000064.523|  487128.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Olaf_Russian_Shields.sco>.
+000068.138|  512608.0000kb|  25480.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000068.139|  512656.0000kb|     48.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000069.192|  523688.0000kb|  11032.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000072.531|  577780.0968kb|  54092.0000kb added| ALWAYS| PKT_C2S_CharSelected sent
+000072.531|  577780.0968kb|      0.0000kb added| ALWAYS| Start Main Loop
+000072.534|  577876.0968kb|     96.0000kb added| ALWAYS| Waiting for all players to connect
+000072.540|  577876.0968kb|      0.0000kb added| ALWAYS| Waiting for all players to connect end
+000073.302|  527168.0000kb| -50708.0000kb added| ALWAYS| PKT_S2C_StartSpawn
+000073.303|  527168.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000073.376|  527224.0000kb|     56.0000kb added| ALWAYS| Spawning champion (Olaf) with skinID 2 on team 100 for clientID 7 and summonername (NWK SheepHerder) (is HUMAN PLAYER)
+000073.376|  527224.0000kb|      0.0000kb added| ALWAYS| Hero Olaf(2) created for NWK SheepHerder
+000073.597|  527456.0000kb|    232.0000kb added| ALWAYS| Spawning heroes/minions
+000073.956|  527568.0000kb|    112.0000kb added| ALWAYS| Finished spawning heroes/minions
+000073.990|  527576.0000kb|      8.0000kb added| ALWAYS| Creating Hero...
+000073.992|  527576.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Olaf) with skinID 0 on team 100 for clientID 2 and summonername (RackBallz) (is HUMAN PLAYER)
+000073.992|  527576.0000kb|      0.0000kb added| ALWAYS| Hero Olaf(0) created for RackBallz
+000073.992|  527576.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000073.994|  527576.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Olaf) with skinID 4 on team 100 for clientID 8 and summonername (ChefBoyarJeff) (is HUMAN PLAYER)
+000073.994|  527576.0000kb|      0.0000kb added| ALWAYS| Hero Olaf(4) created for ChefBoyarJeff
+000074.459|  527772.0000kb|    196.0000kb added| ALWAYS| Creating Hero...
+000074.461|  527772.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Olaf) with skinID 0 on team 100 for clientID 1 and summonername (Skycomet) (is HUMAN PLAYER)
+000074.462|  527772.0000kb|      0.0000kb added| ALWAYS| Hero Olaf(0) created for Skycomet
+000075.288|  528704.0000kb|    932.0000kb added| ALWAYS| Creating Hero...
+000075.290|  528724.0000kb|     20.0000kb added| ALWAYS| Spawning champion (Olaf) with skinID 0 on team 100 for clientID 4 and summonername (I LikeApplesauce) (is HUMAN PLAYER)
+000075.293|  528844.0000kb|    120.0000kb added| ALWAYS| Hero Olaf(0) created for I LikeApplesauce
+000075.294|  528844.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000075.663|  529900.0000kb|   1056.0000kb added| ALWAYS| Spawning champion (Xerath) with skinID 3 on team 200 for clientID 0 and summonername (RemedialHappyMan) (is HUMAN PLAYER)
+000075.663|  529900.0000kb|      0.0000kb added| ALWAYS| Hero Xerath(3) created for RemedialHappyMan
+000075.738|  529900.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000075.742|  529900.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Xerath) with skinID 3 on team 200 for clientID 6 and summonername (BeatinGutz) (is HUMAN PLAYER)
+000075.742|  529900.0000kb|      0.0000kb added| ALWAYS| Hero Xerath(3) created for BeatinGutz
+000076.187|  532688.0000kb|   2788.0000kb added| ALWAYS| Creating Hero...
+000076.190|  532688.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Xerath) with skinID 0 on team 200 for clientID 9 and summonername (LAllswell) (is HUMAN PLAYER)
+000076.190|  532688.0000kb|      0.0000kb added| ALWAYS| Hero Xerath(0) created for LAllswell
+000076.190|  532688.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000076.192|  532688.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Xerath) with skinID 0 on team 200 for clientID 3 and summonername (Vanisaris) (is HUMAN PLAYER)
+000076.192|  532688.0000kb|      0.0000kb added| ALWAYS| Hero Xerath(0) created for Vanisaris
+000076.192|  532688.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000076.194|  532688.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Xerath) with skinID 0 on team 200 for clientID 5 and summonername (Anguskh) (is HUMAN PLAYER)
+000076.194|  532688.0000kb|      0.0000kb added| ALWAYS| Hero Xerath(0) created for Anguskh
+000077.246|  539844.0968kb|   7156.0000kb added| ALWAYS| PKT_S2C_EndSpawn
+000078.125|  544124.0032kb|   4280.0000kb added| ALWAYS| PKT_StartGame
+000079.223|  556424.0000kb|  12300.0000kb added| ALWAYS| PKT_StartGame Finished proccessing
+000079.596|  557956.0968kb|   1532.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b40af89
+000079.616|  558560.0000kb|    604.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000079.616|  558560.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000079.624|  558560.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000079.624|  558560.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000079.624|  558564.0968kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000079.624|  558564.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000079.624|  558564.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000079.634|  558956.0032kb|    392.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000079.634|  558956.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000079.704|  565928.0000kb|   6972.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000079.704|  565928.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000079.705|  565928.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000079.716|  567372.0032kb|   1444.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000081.752|  630992.0000kb|  63620.0000kb added| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000081.752|  630992.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000081.753|  630992.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000081.753|  630992.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000081.753|  631004.0032kb|     12.0000kb added| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000081.782|  633520.0000kb|   2516.0000kb added| ALWAYS| Performing WSAStartup
+000081.783|  626344.0000kb|  -7176.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000081.861|  626520.0000kb|    176.0000kb added| ALWAYS| Performing WSACleanup
+000083.390|  640028.0032kb|  13508.0000kb added|  ERROR| Failed to load mesh file name<wraith_hit.sco>.
+000199.309|  689420.0032kb|  49392.0000kb added|  ERROR| Failed to load mesh file name<Olaf_Russian_Axe.sco>.
+000201.421|  699896.0000kb|  10476.0000kb added| ALWAYS| Performing WSAStartup
+000201.507|  700004.0968kb|    108.0000kb added| ALWAYS| Performing WSACleanup
+000321.411|  711424.0000kb|  11420.0000kb added| ALWAYS| Performing WSAStartup
+000321.511|  711424.0000kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+000327.110|  711380.0968kb|    -44.0000kb added|   WARN| character Xerath does not have animation 'NONE' (spell 'Recall')
+000370.551|  709320.0000kb|  -2060.0000kb added|   WARN| Attempting to begin unprepared MusicCue (cueID: 41).  For better performance call PrepareMusicCue() before calling Begin() on this cue.
+000411.373|  709296.0000kb|    -24.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000411.454|  709296.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000416.467|  709444.0968kb|    148.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000416.548|  709444.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000441.417|  719036.0032kb|   9592.0000kb added| ALWAYS| Performing WSAStartup
+000441.511|  719036.0032kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+000497.699|  725296.0000kb|   6260.0000kb added|   WARN| Attempting to begin unprepared MusicCue (cueID: 36).  For better performance call PrepareMusicCue() before calling Begin() on this cue.
+000561.423|  719308.0032kb|  -5988.0000kb added| ALWAYS| Performing WSAStartup
+000561.508|  719308.0032kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+000635.900|  722244.0968kb|   2936.0000kb added|   WARN| [Vanisaris] warning: PKT_CastSpell received for dead Unit. Spell: XerathBasicAttack
+000681.422|  722416.0000kb|    172.0000kb added| ALWAYS| Performing WSAStartup
+000681.509|  722432.0000kb|     16.0000kb added| ALWAYS| Performing WSACleanup
+000801.422|  725520.0000kb|   3088.0000kb added| ALWAYS| Performing WSAStartup
+000801.511|  725540.0968kb|     20.0000kb added| ALWAYS| Performing WSACleanup
+000822.157|  725496.0000kb|    -44.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.158|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.159|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.159|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.179|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.180|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.181|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.182|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.203|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.203|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.204|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.205|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.225|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.225|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.227|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.228|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.249|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.249|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.250|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.251|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.271|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.327|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.330|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.330|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.358|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.358|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.360|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.361|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.384|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.387|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.387|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.411|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.413|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.436|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.439|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.462|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.465|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.488|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.491|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.514|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.516|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.540|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.542|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.563|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.565|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.587|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.590|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.612|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.613|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.635|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.636|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.656|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.658|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.678|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.679|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.700|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.701|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.721|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.723|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.743|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.745|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.765|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.767|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000822.793|  725496.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000842.398|  726428.0032kb|    932.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000842.488|  726428.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000844.120|  726444.0032kb|     16.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000844.209|  726448.0000kb|      4.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000846.141|  727024.0000kb|    576.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000846.224|  727024.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000846.279|  727032.0000kb|      8.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000846.364|  727032.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000846.451|  727328.0000kb|    296.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000846.534|  727328.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000846.590|  727332.0968kb|      4.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000846.671|  727332.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000846.839|  727368.0000kb|     36.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000846.843|  727368.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000846.922|  727368.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000847.028|  727368.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000921.408|  739596.0032kb|  12228.0000kb added| ALWAYS| Performing WSAStartup
+000921.501|  739596.0032kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+000937.212|  742452.0968kb|   2856.0000kb added|   WARN| character Xerath does not have animation 'NONE' (spell 'Recall')
+001017.328|  743680.0000kb|   1228.0000kb added|   WARN| [Anguskh] warning: PKT_CastSpell received for dead Unit. Spell: XerathBasicAttack
+001041.412|  748048.0000kb|   4368.0000kb added| ALWAYS| Performing WSAStartup
+001041.486|  748076.0032kb|     28.0000kb added| ALWAYS| Performing WSACleanup
+001055.301|  748104.0000kb|     28.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.301|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.301|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.302|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.302|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.303|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.324|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.324|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.324|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.326|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.326|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.327|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.348|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.348|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.348|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.349|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.350|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.350|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.371|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.371|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.371|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.373|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.373|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.373|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.394|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.394|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.395|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.396|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.396|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.396|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.417|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.417|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.417|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.418|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.419|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.419|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.440|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.440|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.441|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.442|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.442|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.442|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.464|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.464|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.464|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.465|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.466|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.466|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.487|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.487|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.487|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.489|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.489|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.489|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.511|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.511|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.511|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.512|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.512|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.512|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.534|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.534|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.534|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.535|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.536|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.536|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.557|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.557|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.557|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.559|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.559|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.559|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.580|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.581|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.581|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.582|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.583|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.583|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.604|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.604|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.604|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.605|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.605|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.605|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.627|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.627|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.627|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.629|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.629|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.629|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.651|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.651|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.651|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.653|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.653|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.653|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.674|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.674|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.674|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.676|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.676|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.676|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.698|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.698|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.698|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.700|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.700|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.700|  748104.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.858|  748132.0968kb|     28.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.859|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.859|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.860|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.860|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.860|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.888|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.888|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.889|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.890|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.890|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.890|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.918|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.918|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.919|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.920|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.920|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.920|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.948|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.948|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.948|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.950|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.950|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.950|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.976|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.976|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.976|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.978|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.978|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001055.978|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.005|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.005|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.005|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.007|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.007|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.007|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.034|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.034|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.034|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.035|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.035|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.036|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.062|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.062|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.064|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.065|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.065|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.091|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.091|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.092|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.092|  748132.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.119|  748136.0000kb|      4.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.119|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.121|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.121|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.148|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.148|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.149|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.150|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.176|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.176|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.177|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.177|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.205|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.205|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.206|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.206|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.234|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.235|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.235|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.261|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.262|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.290|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.291|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.318|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.319|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.346|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.347|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.373|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.375|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.402|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.403|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.431|  748136.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001056.917|  748144.0000kb|      8.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001056.982|  748144.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001065.317|  748212.0968kb|     68.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001065.427|  748212.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001065.513|  748212.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001065.599|  748212.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001065.907|  748228.0968kb|     16.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001065.911|  748228.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001065.911|  748228.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001065.946|  748228.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001066.188|  748228.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001066.192|  748228.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001066.192|  748228.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001066.307|  748228.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001070.990|  748232.0000kb|      4.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 081ec549
+001082.433|  748604.0032kb|    372.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 081ec549
+001097.514|  748604.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 081ec549
+001107.995|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001107.997|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.017|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.018|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.039|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.040|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.060|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.062|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.082|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.083|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.103|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.104|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.124|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.125|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.146|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.147|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.167|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.168|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.188|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.189|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.209|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.211|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.231|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.232|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.251|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.253|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.273|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.274|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.294|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.295|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.315|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.316|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001108.336|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001151.256|  748604.0032kb|      0.0000kb added|   WARN| [LAllswell] warning: PKT_CastSpell received for dead Unit. Spell: XerathBasicAttack2
+001161.399|  748660.0968kb|     56.0000kb added| ALWAYS| Performing WSAStartup
+001161.493|  748660.0968kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+001165.215|  748604.0032kb|    -56.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.216|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.239|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.242|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.265|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.267|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.290|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.292|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.316|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.317|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.341|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.342|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.366|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.367|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.394|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.395|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.419|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.421|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.444|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.446|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.470|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.471|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.497|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.498|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.523|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.525|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.549|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.550|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.575|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.577|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.600|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.602|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.632|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.632|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.657|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.658|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.684|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.686|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.711|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.712|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001165.738|  748604.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001183.876|  753900.0032kb|   5296.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 06ec3f52
+001219.923|  750948.0968kb|  -2952.0000kb added|  ERROR| Assertion failed!
+
+File: ..\..\..\..\..\..\..\gameengine\aipath\NavigationGrid.cpp
+Line: 631
+
+Function: TestNavGrid::GetHeightForPosition
+
+Expression: !"InvalidCell"
+
+Description: Assert occurred, game may crash.
+001233.212|  752364.0032kb|   1416.0000kb added|  ERROR| Failed to load spell ini or script: "masterybutcherbuff"
+001233.215|  752368.0000kb|      4.0000kb added|  ERROR| Failed to load spell ini or script: "masterysiegecommanderbuff"
+001233.216|  752372.0968kb|      4.0000kb added|  ERROR| Failed to load spell ini or script: "masteryinitiatebuff"
+001233.216|  752372.0968kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "masterybountyhunterbuff"
+001233.217|  752372.0968kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "masteryjuggernautbuff"
+001233.279|  752648.0000kb|    276.0000kb added|  ERROR| Failed to load spell ini or script: "masteryscholarbuff"
+001233.284|  752676.0968kb|     28.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ab8cf04
+001233.285|  752680.0000kb|      4.0000kb added|   WARN| Death Recap damage has two different types! Spell: _BasicAttack
+001233.285|  752680.0000kb|      0.0000kb added| ALWAYS| The Killer was: RemedialHappyMan
+001233.285|  752680.0000kb|      0.0000kb added| ALWAYS| HEALS
+001233.285|  752680.0000kb|      0.0000kb added| ALWAYS|   I LikeApplesauce applied amount 43.0705 with abilities [_Passive|amount:43.0705|priority:41][OlafAxeThrow|amount:0|priority:37][OlafRagnarok|amount:0|priority:10][MasterySecondWind|amount:0|priority:0][game_item_displayname_3097|amount:0|priority:0][game_item_displayname_3074|amount:0|priority:0][game_item_displayname_3156|amount:0|priority:0][OlafFrenziedStrikes|amount:0|priority:0]
+001233.285|  752680.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+001233.285|  752680.0000kb|      0.0000kb added| ALWAYS|   Vanisaris applied amount 707.182 with abilities [XerathArcaneBarrageWrapper|amount:389.33|priority:389][XerathArcanopulse|amount:188.465|priority:198][XerathMageChains|amount:129.387|priority:129]
+001233.285|  752680.0000kb|      0.0000kb added| ALWAYS|   RemedialHappyMan applied amount 513.518 with abilities [XerathArcanopulse|amount:318.326|priority:327][XerathArcaneBarrageWrapper|amount:110.504|priority:110][XerathMageChains|amount:84.6873|priority:84]
+001233.285|  752680.0000kb|      0.0000kb added| ALWAYS|   BeatinGutz applied amount 481.757 with abilities [XerathArcanopulse|amount:368.544|priority:193][XerathMageChains|amount:113.213|priority:113]
+001233.285|  752680.0000kb|      0.0000kb added| ALWAYS|   Anguskh applied amount 403.63 with abilities [XerathArcaneBarrageWrapper|amount:204.23|priority:204][XerathMageChains|amount:148.494|priority:148][_BasicAttack|amount:50.9055|priority:48]
+001233.287|  752680.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 06ec3f52
+001233.287|  752680.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 06ec3f52
+001243.888|  748208.0000kb|  -4472.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001243.962|  748208.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001249.250|  748208.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001249.350|  748208.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001250.111|  748208.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001250.207|  748208.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001253.023|  748208.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001253.116|  748208.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001257.225|  748812.0032kb|    604.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001257.346|  748836.0968kb|     24.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001257.770|  749212.0032kb|    376.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001257.806|  749212.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001258.150|  749212.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001258.279|  749228.0032kb|     16.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001265.189|  750164.0968kb|    936.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001265.319|  750164.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001268.535|  750420.0968kb|    256.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001268.615|  750420.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001270.663|  750944.0000kb|    524.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b40af89
+001272.952|  750944.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001273.055|  750944.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001273.280|  750996.0968kb|     52.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001273.383|  750996.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001274.693|  751020.0032kb|     24.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001274.782|  751020.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001276.284|  751304.0000kb|    284.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001276.387|  751304.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001277.354|  751304.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001277.433|  751304.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001278.913|  751840.0000kb|    536.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001279.012|  751840.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001281.365|  752620.0032kb|    780.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001281.410|  752676.0968kb|     56.0000kb added| ALWAYS| Performing WSAStartup
+001281.447|  752716.0032kb|     40.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001281.450|  752716.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001281.504|  752688.0000kb|    -28.0000kb added| ALWAYS| Performing WSACleanup
+001305.539|  753860.0968kb|   1172.0000kb added| ALWAYS| End game message processing!
+001305.539|  753860.0968kb|      0.0000kb added| ALWAYS| End game message processed!
+001305.540|  753868.0032kb|      8.0000kb added| ALWAYS| Performing WSAStartup
+001305.621|  753876.0968kb|      8.0000kb added| ALWAYS| Performing WSACleanup
+001305.647|  753876.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001308.100|  622364.0032kb| -131512.0000kb added| ALWAYS| Finished Main Loop
+001308.138|  622392.0000kb|     28.0000kb added|  ERROR| C:/Riot Games/League of Legends/Config/Input.ini file contains a corrupt entry.
+001308.141|  622444.0032kb|     52.0000kb added| ALWAYS| Performing WSAStartup
+001308.141|  622472.0000kb|     28.0000kb added| ALWAYS| Performing WSAStartup
+001308.216|  622496.0000kb|     24.0000kb added| ALWAYS| Performing WSACleanup
+001308.266|  622440.0000kb|    -56.0000kb added| ALWAYS| Performing WSACleanup
+001311.281|  496504.0000kb| -125936.0000kb added| ALWAYS| Finished Play game
+001311.281|  496504.0000kb|      0.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Game exited","exit_code":"EXITCODE_WIN"}
+001311.281|  496532.0000kb|     28.0000kb added| ALWAYS| Performing WSAStartup
+001311.297|  495728.0000kb|   -804.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+001311.351|  485496.0000kb| -10232.0000kb added| ALWAYS| Performing WSACleanup
+001311.388|  478764.0000kb|  -6732.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinketUpgrade_Square.dds" ref count 2.
+001311.388|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3350_GreaterYellowTrinket.dds" ref count 1.
+001311.388|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3301_BabyPhilo.dds" ref count 1.
+001311.388|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3008_Boots_Of_Swiftness_A.dds" ref count 1.
+001311.388|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3047_Phase_Striders_A.dds" ref count 1.
+001311.388|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3191_Seekers_Armguard.dds" ref count 1.
+001311.388|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3174_AthenesUnholyGrail.dds" ref count 1.
+001311.388|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3158_Ionian_Boots_of_Lucidity.dds" ref count 1.
+001311.389|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3156_PhaseBlade.dds" ref count 1.
+001311.389|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3155_Hexdrinker.dds" ref count 1.
+001311.389|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "073_Zettas_Mana-Stick.dds" ref count 1.
+001311.389|  478764.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3052_Reverb_Coil.dds" ref count 1.
+001311.389|  478728.0000kb|    -36.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3008_Boots_Of_Swiftness.dds" ref count 1.
+001311.389|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "113_Tome_of_Minor_Necro_Compulsion.dds" ref count 1.
+001311.390|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3211_SpectresCowl.dds" ref count 1.
+001311.390|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3097_ReaperEmblem.dds" ref count 1.
+001311.390|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3062_Soul_Pendant.dds" ref count 1.
+001311.390|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "WardOverwrite.tga" ref count 26.
+001311.390|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinket_Square.dds" ref count 2.
+001311.390|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3340_YellowTrinket.dds" ref count 1.
+001311.390|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3077_Tiamat.dds" ref count 1.
+001311.391|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3074_Ravenous_Hydra.dds" ref count 1.
+001311.391|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3070_Tear_of_the_Goddess.dds" ref count 1.
+001311.391|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3067_Kindlegem.dds" ref count 1.
+001311.391|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3065_Spirit_Visage.dds" ref count 1.
+001311.391|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3047_Phase_Striders.dds" ref count 1.
+001311.391|  478728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3044_Phage.dds" ref count 1.
+001311.391|  478436.0000kb|   -292.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3028_Harmony_Ring.dds" ref count 1.
+001311.392|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3020_Flamewalkers.dds" ref count 1.
+001311.392|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "caution_small.dds" ref count 1.
+001311.392|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "attack_small.dds" ref count 1.
+001311.392|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "directionIndicator.dds" ref count 1.
+001311.392|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "MasteryRunicShield.dds" ref count 1.
+001311.392|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00024.tga" ref count 1.
+001311.392|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00023.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00022.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00021.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00020.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00019.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00018.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00017.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00016.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00015.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00014.tga" ref count 1.
+001311.393|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00013.tga" ref count 1.
+001311.394|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00012.tga" ref count 1.
+001311.394|  478436.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00011.tga" ref count 1.
+001311.394|  477604.0000kb|   -832.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00010.tga" ref count 1.
+001311.394|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00009.tga" ref count 1.
+001311.394|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00008.tga" ref count 1.
+001311.394|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00007.tga" ref count 1.
+001311.394|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00006.tga" ref count 1.
+001311.394|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00005.tga" ref count 1.
+001311.395|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00004.tga" ref count 1.
+001311.395|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00003.tga" ref count 1.
+001311.395|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00002.tga" ref count 1.
+001311.395|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00001.tga" ref count 1.
+001311.395|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xp2_00000.tga" ref count 1.
+001311.395|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xpBarMask.tga" ref count 2.
+001311.395|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "xpBar.tga" ref count 1.
+001311.395|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00042.tga" ref count 10.
+001311.395|  477604.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00041.tga" ref count 10.
+001311.396|  477364.0000kb|   -240.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00040.tga" ref count 10.
+001311.396|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00039.tga" ref count 10.
+001311.396|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00038.tga" ref count 10.
+001311.396|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00037.tga" ref count 10.
+001311.396|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00036.tga" ref count 10.
+001311.396|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00035.tga" ref count 10.
+001311.396|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00034.tga" ref count 10.
+001311.396|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00033.tga" ref count 10.
+001311.396|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00032.tga" ref count 10.
+001311.397|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00031.tga" ref count 10.
+001311.397|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00030.tga" ref count 10.
+001311.397|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00029.tga" ref count 10.
+001311.397|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00028.tga" ref count 10.
+001311.397|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lvlUp_00027.tga" ref count 10.
+001311.397|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SightWard_Square.dds" ref count 1.
+001311.397|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VisionWard_Square.dds" ref count 1.
+001311.397|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2009_Mini_Pot.dds" ref count 1.
+001311.397|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "GW_Debuff.dds" ref count 1.
+001311.398|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2004_Flask_of_Crystal_Water.dds" ref count 1.
+001311.398|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2003_Regeneration_Potion.dds" ref count 1.
+001311.398|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "161_Elementium_Woven_Mantle.dds" ref count 1.
+001311.398|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "165_Harmony_Ring.dds" ref count 1.
+001311.398|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PetAttack.dds" ref count 1.
+001311.398|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1053_Vampiric_Scepter.dds" ref count 1.
+001311.398|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1052_Amplifying_Scepter.dds" ref count 1.
+001311.399|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1038_BF_Sword.dds" ref count 1.
+001311.399|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1037_Broadsword.dds" ref count 1.
+001311.399|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1036_Long_Sword.dds" ref count 1.
+001311.399|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1033_Elementium_Threaded_Cloak.dds" ref count 1.
+001311.399|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1029_Cloth_Armour.dds" ref count 1.
+001311.399|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1028_RubyCrystal.dds" ref count 1.
+001311.400|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1026_Blasting_Band.dds" ref count 1.
+001311.400|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1004_Faerie_Charm.dds" ref count 1.
+001311.400|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1001_Boots_of_Speed.dds" ref count 1.
+001311.400|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Chronokeeper_Recall.dds" ref count 1.
+001311.400|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Xerath_ArcaneBarrage.dds" ref count 1.
+001311.400|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Xerath_MageChains.dds" ref count 1.
+001311.400|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Xerath_Arcanopulse.dds" ref count 1.
+001311.401|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Xerath_Square.dds" ref count 3.
+001311.401|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Xerath_Circle.dds" ref count 43.
+001311.401|  477364.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Xerath_AscendedForm.dds" ref count 2.
+001311.401|  476576.0000kb|   -788.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Olaf_Square.dds" ref count 4.
+001311.401|  476576.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Olaf_Circle.dds" ref count 49.
+001311.401|  476576.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Olaf_Passive.dds" ref count 3.
+001311.402|  476548.0000kb|    -28.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_iced.dds" ref count 1.
+001311.402|  476548.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_streak.dds" ref count 1.
+001311.402|  476548.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_normal.dds" ref count 1.
+001311.402|  476548.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "come_here_small.dds" ref count 1.
+001311.402|  476548.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "on_my_way_small.dds" ref count 1.
+001311.402|  476548.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "mia_small.dds" ref count 1.
+001311.402|  476548.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "get_back_small.dds" ref count 1.
+001311.402|  476548.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ring.tga" ref count 92.
+001311.403|  476280.0000kb|   -268.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "EmptyIcon.dds" ref count 1.
+001311.403|  476280.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001311.403|  476280.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingCancel.dds" ref count 1.
+001311.403|  475836.0000kb|   -444.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingMIA.dds" ref count 1.
+001311.403|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingComeHere.dds" ref count 1.
+001311.403|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingOMW.dds" ref count 1.
+001311.403|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PingGetBack.dds" ref count 1.
+001311.403|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosHqTower_Icon.dds" ref count 1.
+001311.403|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon_C.dds" ref count 1.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lamp.dds" ref count 374.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "wraith_Square.dds" ref count 1.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Golem_Square.dds" ref count 1.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosTurretWorm_Square.dds" ref count 1.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "wraith_Square.dds" ref count 1.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YoungLizard_Square.dds" ref count 1.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Chronokeeper_Timestop.dds" ref count 3.
+001311.404|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LizardElder_Square.dds" ref count 1.
+001311.405|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Giantwolf_Square.dds" ref count 1.
+001311.405|  475836.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lesserwraith_Square.dds" ref count 1.
+001311.405|  475816.0000kb|    -20.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AncientGolem_Square.dds" ref count 1.
+001311.405|  475816.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "wolf_Square.dds" ref count 1.
+001311.405|  475664.0000kb|   -152.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Golem_Square.dds" ref count 1.
+001311.405|  475664.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon1.dds" ref count 1.
+001311.405|  475632.0000kb|    -32.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Dragon_Square.dds" ref count 1.
+001311.406|  475632.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lizard_Square.dds" ref count 1.
+001311.406|  475632.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosHqTower_Icon.dds" ref count 1.
+001311.406|  475632.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosGateTower_Icon.dds" ref count 1.
+001311.406|  475632.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosLaneTower_Icon_C.dds" ref count 2.
+001311.406|  475632.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosLaneTower_Icon.dds" ref count 2.
+001311.406|  475632.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon.dds" ref count 1.
+001311.406|  475000.0000kb|   -632.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon_C.dds" ref count 1.
+001311.406|  475000.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderGateTower_Icon.dds" ref count 1.
+001311.407|  474968.0000kb|    -32.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderHqTower_Icon.dds" ref count 1.
+001311.407|  474968.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Redmechmelee_Square.dds" ref count 1.
+001311.407|  474952.0000kb|    -16.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedMelee_Square.dds" ref count 1.
+001311.407|  474952.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedRange_Square.dds" ref count 1.
+001311.407|  474952.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Redmechcannon_Square.dds" ref count 1.
+001311.407|  474904.0000kb|    -48.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bluemechmelee_Square.dds" ref count 1.
+001311.407|  474904.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueMelee_Square.dds" ref count 1.
+001311.407|  474904.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueRange_Square.dds" ref count 1.
+001311.408|  474864.0000kb|    -40.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bluemechcannon_Square.dds" ref count 1.
+001311.408|  474864.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE.tga" ref count 10.
+001311.408|  474448.0000kb|   -416.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_teleport.dds" ref count 1.
+001311.408|  474416.0000kb|    -32.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon505.dds" ref count 1.
+001311.408|  474416.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_exhaust.dds" ref count 1.
+001311.408|  474416.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon11.dds" ref count 1.
+001311.409|  474416.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon583.dds" ref count 1.
+001311.409|  474416.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerBarrier.dds" ref count 1.
+001311.409|  474404.0000kb|    -12.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon578.dds" ref count 1.
+001311.409|  474404.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon579.dds" ref count 1.
+001311.409|  474404.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_flash.dds" ref count 1.
+001311.409|  474404.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon576.dds" ref count 1.
+001311.409|  474404.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_haste.dds" ref count 1.
+001311.410|  474404.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerIgnite.dds" ref count 1.
+001311.412|  469632.0000kb|  -4772.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+001311.412|  469632.0000kb|      0.0000kb added| ALWAYS| Destroying the Renderer (1)
+001311.412|  469632.0000kb|      0.0000kb added| ALWAYS| game::Shutdown
+001311.412|  469632.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001311.412|  469632.0000kb|      0.0000kb added| ALWAYS| Exiting WinMain

@@ -1,0 +1,1573 @@
+--- Log started at Sun Jun 24 21:35:17 2012
+
+000000.000|   13388.0000kb|  13388.0000kb added| ALWAYS| RADS::Common::Cider::Create: Running on Windows
+000000.356|  195548.0000kb| 182160.0000kb added| ALWAYS| Global Log Level set to WARN
+000000.356|  195548.0000kb|      0.0000kb added| ALWAYS| Build Version: Version 1.0.0.141 (Jun 15 2012/17:03:43) [PUBLIC] <__LIVE__>
+000000.438|  198348.0000kb|   2800.0000kb added| ALWAYS| 8394 LoLLauncher.exe C:/Riot Games/League of Legends/RADS/projects/lol_air_client/releases/0.0.0.154/deploy/LolClient.exe 216.133.234.133 5192 ttZvfIhTuDEcim5H82XOKw== 19087802 
+000000.439|  198392.0000kb|     44.0000kb added| ALWAYS| Started System Init
+000000.440|  199240.0000kb|    848.0000kb added| ALWAYS| Maestro Init
+000000.613|  200252.0000kb|   1012.0000kb added| ALWAYS| Maestro completed init
+000000.626|  201184.0000kb|    932.0000kb added| ALWAYS| StartSession called
+000000.626|  201188.0000kb|      4.0000kb added| ALWAYS| Started Init event arguments
+000000.626|  201220.0000kb|     32.0000kb added| ALWAYS| Waiting until connection...
+000000.626|  201220.0000kb|      0.0000kb added| ALWAYS| InitRender() enter
+000000.653|  201832.0000kb|    612.0000kb added| ALWAYS| r3dRenderLayer::Init(0x000703d0) enter
+000000.671|  211228.0000kb|   9396.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000000.682|  211872.0000kb|    644.0000kb added| ALWAYS| Attempting to load fontconfig file for en_US (DATA/Menu/fontconfig_en_US.txt).
+000001.453|  228856.0000kb|  16984.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000001.453|  228856.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.160/deploy/data/menu/IMEConfig.xml", "rb") failed: No such file or directory
+000001.453|  228856.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000001.453|  228856.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.160/deploy/data/menu/IMEConfig.xml".
+000001.454|  228860.0000kb|      4.0000kb added|   WARN| FileManager::Open: Can't open C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.160/deploy/data/menu/IMEConfig.xml (from file (null))
+000001.744|  231160.0000kb|   2300.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.744|  231160.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.744|  231160.0000kb|      0.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000001.744|  231160.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz, Intel64 Family 6 Model 58 Stepping 9, 2294 (0 core)
+000001.744|  231164.0000kb|      4.0000kb added| ALWAYS| Measured processor speed: 2321
+000001.744|  231164.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.744|  231164.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.878|  231088.0000kb|    -76.0000kb added| ALWAYS| Connected
+000001.878|  231116.0000kb|     28.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001987f9d8
+000001.878|  231116.0000kb|      0.0000kb added| ALWAYS| Received client ID
+000001.878|  231116.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.878|  231116.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.878|  231116.0000kb|      0.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000001.878|  231116.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz, Intel64 Family 6 Model 58 Stepping 9, 2294 (0 core)
+000001.878|  231116.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 2323
+000001.878|  231116.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.878|  231116.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.878|  231116.0000kb|      0.0000kb added| ALWAYS| Started Init render
+000001.878|  231128.0000kb|     12.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects\lol_air_client\releases\0.0.0.154\deploy\preferences\
+000001.878|  231136.0000kb|      8.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(0)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(1)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(2)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(3)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(4)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(5)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(6)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(7)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(8)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(9)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(10)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(11)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(12)
+000001.879|  231136.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(13)
+000001.879|  231140.0000kb|      4.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(14)
+000001.879|  231148.0000kb|      8.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(15)
+000001.879|  231148.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(16)
+000001.879|  231148.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(17)
+000001.879|  231148.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(18)
+000001.879|  231148.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(19)
+000001.879|  231148.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(20)
+000001.879|  231152.0000kb|      4.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(21)
+000001.879|  231152.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(22)
+000001.879|  231152.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(23)
+000001.879|  231152.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(24)
+000001.879|  231152.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(25)
+000001.879|  231152.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(26)
+000001.879|  231152.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(27)
+000001.879|  231152.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(28)
+000001.887|  231336.0000kb|    184.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1280, YRes = 720, BPP = 32,  Flags=256, RenderPath = 101) enter
+000001.887|  231336.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Enumerating Display Modes
+000001.888|  231372.0000kb|     36.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000003.533|  252736.0000kb|  21364.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000003.583|  254236.0000kb|   1500.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000003.705|  259380.0000kb|   5144.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000003.774|  260856.0000kb|   1476.0000kb added| ALWAYS| Set focus to app
+000003.774|  260856.0000kb|      0.0000kb added| ALWAYS| Input started
+000003.788|  261064.0000kb|    208.0000kb added| ALWAYS| Query Status Req started
+000003.958|  260948.0000kb|   -116.0000kb added| ALWAYS| Query Status Req ended
+000003.958|  260948.0000kb|      0.0000kb added| ALWAYS| Waiting for server response...
+000004.258|  260948.0000kb|      0.0000kb added| ALWAYS| Receiving PKT_SynchVersionS2C_s, Server :Version 1.0.0.141 [PUBLIC]
+000004.258|  260956.0000kb|      8.0000kb added| ALWAYS| Started Map Map1
+000004.258|  260980.0000kb|     24.0000kb added| ALWAYS| netUID: 0 defaultname
+000004.258|  260980.0000kb|      0.0000kb added| ALWAYS| Adding level zip file: Map1.zip
+000004.262|  260996.0000kb|     16.0000kb added| ALWAYS| PlayGame Started
+000004.381|  266148.0000kb|   5152.0000kb added| ALWAYS| PlayGame Entered
+000004.381|  266448.0000kb|    300.0000kb added| ALWAYS| CurRenderPipeline
+000004.405|  274908.0000kb|   8460.0000kb added| ALWAYS| CreateParticleSystemManager
+000006.764|  425052.0000kb| 150144.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000006.764|  425052.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/items/icons2d/annieincinerate.dds", "rb") failed: No such file or directory
+000006.764|  425052.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000006.764|  425052.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/items/icons2d/annieincinerate.dds".
+000006.764|  425052.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/items/icons2d/annieincinerate.dds (from file r3dTexture::LoadRawTexture)
+000006.764|  425052.0000kb|      0.0000kb added|  ERROR| Can not open file <data/items/icons2d/annieincinerate.dds> *********
+000006.764|  425052.0000kb|      0.0000kb added|  ERROR| Failed to load data/items/icons2d/annieincinerate.dds
+000006.764|  425052.0000kb|      0.0000kb added|   WARN| r3dTexture EX: data/items/icons2d/annieincinerate.dds - not found. Dummy texture created.
+000007.606|  437004.0000kb|  11952.0000kb added| ALWAYS| FMOD: Attempting to load localized audio for en_US
+000007.648|  439120.0000kb|   2116.0000kb added| ALWAYS| LoLAudio::Load(): Successfully loaded default desired language locale: LoL_Audio_en_US.fev
+000007.650|  439396.0000kb|    276.0000kb added| ALWAYS| GameWorld.Update()
+000007.650|  439416.0000kb|     20.0000kb added| ALWAYS| Begin Game Object Update
+000008.012|  455912.0000kb|  16496.0000kb added| ALWAYS| End Game Object Update
+000008.995|  484224.0000kb|  28312.0000kb added| ALWAYS| PreloadGlobalEffects()
+000008.995|  484224.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000009.378|  520896.0000kb|  36672.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000009.378|  520896.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalBuffAssets()
+000009.493|  525088.0000kb|   4192.0000kb added| ALWAYS| ObjectManager_RegisterNetworkWorld()
+000009.494|  525116.0000kb|     28.0000kb added| ALWAYS| FogOfWar::Init()
+000009.496|  525208.0000kb|     92.0000kb added| ALWAYS| Gamma::CreateIAPI()
+000009.497|  525216.0000kb|      8.0000kb added| ALWAYS| SimulationClock->Init()
+000009.663|  550144.0000kb|  24928.0000kb added|   WARN| Flash swf data/menu/Scoreboard.swf does not have a valid _global.ContentWidth defaulting
+000010.202|  593252.0968kb|  43108.0000kb added|   WARN| Flash swf data\menu\Tooltips.swf does not have a valid _global.ContentWidth defaulting
+000010.205|  593696.0000kb|    444.0000kb added|   WARN| Flash swf data\menu\RainboomTooltip.swf does not have a valid _global.ContentWidth defaulting
+000011.953|  675556.0968kb|  81860.0000kb added|  ERROR| Bone name too long.  Truncating name: bclothmvr_anim_b_cloth_anim_b_c!
+000012.830|  700816.0000kb|  25260.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000012.830|  700816.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/particles/rust_dust_01.tga", "rb") failed: No such file or directory
+000012.830|  700816.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000012.830|  700816.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/particles/rust_dust_01.tga".
+000012.830|  700816.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/particles/rust_dust_01.tga (from file r3dTexture::LoadRawTexture)
+000012.830|  700816.0000kb|      0.0000kb added|  ERROR| Can not open file <data/particles/rust_dust_01.tga> *********
+000012.831|  700816.0000kb|      0.0000kb added|  ERROR| Failed to load data/particles/rust_dust_01.tga
+000012.831|  700816.0000kb|      0.0000kb added|   WARN| r3dTexture EX: data/particles/rust_dust_01.tga - not found. Dummy texture created.
+000012.980|  709380.0968kb|   8564.0000kb added|   WARN| ManifestSerializer: Could not find animation 'Spell2' for Data\Characters\Nautilus
+000012.980|  709380.0968kb|      0.0000kb added|   WARN| ManifestSerializer: Could not find animation 'Spell2b' for Data\Characters\Nautilus
+000014.046|  733804.0032kb|  24424.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000014.047|  733804.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000014.163|  762176.0000kb|  28372.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000014.191|  764644.0968kb|   2468.0000kb added| ALWAYS| Start Main Loop
+000014.191|  764644.0968kb|      0.0000kb added| ALWAYS| PKT_C2S_CharSelected sent
+000014.191|  764656.0000kb|     12.0000kb added| ALWAYS| Waiting for all players to connect
+000014.192|  764648.0000kb|     -8.0000kb added| ALWAYS| Waiting for all players to connect end
+000014.683|  778948.0968kb|  14300.0000kb added| ALWAYS| PKT_S2C_StartSpawn
+000014.684|  778948.0968kb|      0.0000kb added| ALWAYS| Creating Hero...
+000014.686|  778980.0968kb|     32.0000kb added| ALWAYS| Hero Shaco created for RIP Benny
+000014.797|  783536.0000kb|   4556.0000kb added| ALWAYS| Spawning heroes/minions
+000014.801|  783544.0000kb|      8.0000kb added| ALWAYS| Creating Hero...
+000014.808|  784000.0000kb|    456.0000kb added| ALWAYS| Hero Brand created for Drakeling
+000014.825|  784360.0000kb|    360.0000kb added| ALWAYS| Finished spawning heroes/minions
+000015.087|  785100.0032kb|    740.0000kb added| ALWAYS| Creating Hero...
+000015.090|  785108.0968kb|      8.0000kb added| ALWAYS| Hero Pantheon created for xombiefied
+000015.091|  785108.0968kb|      0.0000kb added| ALWAYS| Creating Hero...
+000015.094|  785112.0000kb|      4.0000kb added| ALWAYS| Hero Alistar created for DibsOnThisName
+000015.095|  785112.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000015.101|  785200.0000kb|     88.0000kb added| ALWAYS| Hero Sivir created for blackskills
+000015.326|  785280.0000kb|     80.0000kb added| ALWAYS| Creating Hero...
+000015.369|  786996.0968kb|   1716.0000kb added|  ERROR| Failed to load .skn file for character [data\characters\ezreal_cyber_1/ezreal_cyber_1.ini], skin [MeshSkin]000015.369|  786996.0968kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\characters\ezreal_cyber_1\_skeleton", "rb") failed: No such file or directory
+000015.369|  786996.0968kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000015.369|  786996.0968kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\characters\ezreal_cyber_1\_skeleton".
+000015.369|  786996.0968kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\characters\ezreal_cyber_1\_skeleton (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\Animation\AnimUtils\RigResourceSerializer.cpp)
+000015.369|  786996.0968kb|      0.0000kb added|  ERROR| Failed to load data\characters\ezreal_cyber_1\_skeleton
+000015.369|  786996.0968kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000015.369|  786996.0968kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("Data\Characters\ezreal_cyber_1\Animations.list", "rt") failed: No such file or directory
+000015.370|  786996.0968kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "Data\Characters\ezreal_cyber_1\Animations.list".
+000015.370|  786996.0968kb|      0.0000kb added|   WARN| FileManager::Open: Can't open Data\Characters\ezreal_cyber_1\Animations.list (from file Riot::Animation::`anonymous-namespace'::LoadCompatibleList)
+000015.405|  790408.0000kb|   3412.0000kb added|  ERROR| Failed to load .skn file for character [data\characters\ezreal_cyber_2/ezreal_cyber_2.ini], skin [MeshSkin]000015.405|  790408.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000015.405|  790408.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\characters\ezreal_cyber_2\_skeleton", "rb") failed: No such file or directory
+000015.405|  790408.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000015.405|  790408.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\characters\ezreal_cyber_2\_skeleton".
+000015.405|  790408.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\characters\ezreal_cyber_2\_skeleton (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\Animation\AnimUtils\RigResourceSerializer.cpp)
+000015.405|  790408.0000kb|      0.0000kb added|  ERROR| Failed to load data\characters\ezreal_cyber_2\_skeleton
+000015.405|  790408.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000015.405|  790408.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("Data\Characters\ezreal_cyber_2\Animations.list", "rt") failed: No such file or directory
+000015.405|  790408.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000015.405|  790408.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "Data\Characters\ezreal_cyber_2\Animations.list".
+000015.405|  790408.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open Data\Characters\ezreal_cyber_2\Animations.list (from file Riot::Animation::`anonymous-namespace'::LoadCompatibleList)
+000015.429|  791768.0000kb|   1360.0000kb added|  ERROR| Failed to load .skn file for character [data\characters\ezreal_cyber_3/ezreal_cyber_3.ini], skin [MeshSkin]000015.429|  791768.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000015.429|  791768.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\characters\ezreal_cyber_3\_skeleton", "rb") failed: No such file or directory
+000015.429|  791768.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\characters\ezreal_cyber_3\_skeleton".
+000015.429|  791768.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\characters\ezreal_cyber_3\_skeleton (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\Animation\AnimUtils\RigResourceSerializer.cpp)
+000015.430|  791768.0000kb|      0.0000kb added|  ERROR| Failed to load data\characters\ezreal_cyber_3\_skeleton
+000015.430|  791768.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000015.430|  791768.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("Data\Characters\ezreal_cyber_3\Animations.list", "rt") failed: No such file or directory
+000015.430|  791768.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000015.430|  791768.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "Data\Characters\ezreal_cyber_3\Animations.list".
+000015.430|  791768.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open Data\Characters\ezreal_cyber_3\Animations.list (from file Riot::Animation::`anonymous-namespace'::LoadCompatibleList)
+000015.446|  793152.0000kb|   1384.0000kb added| ALWAYS| Hero Ezreal created for NWK SheepHerder
+000015.948|  793152.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000015.957|  793176.0000kb|     24.0000kb added| ALWAYS| Hero Nautilus created for EctomimedBison
+000015.958|  793176.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000016.000|  794160.0000kb|    984.0000kb added| ALWAYS| Hero Anivia created for Velcydura
+000016.502|  794160.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000016.530|  796212.0968kb|   2052.0000kb added| ALWAYS| Hero Blitzcrank created for Squatch
+000017.032|  796436.0968kb|    224.0000kb added| ALWAYS| Creating Hero...
+000017.085|  799476.0968kb|   3040.0000kb added| ALWAYS| Hero Teemo created for zanderjh
+000017.624|  805660.0032kb|   6184.0000kb added| ALWAYS| PKT_S2C_EndSpawn
+000018.744|  811240.0000kb|   5580.0000kb added| ALWAYS| PKT_StartGame
+000020.121|  850104.0000kb|  38864.0000kb added| ALWAYS| PKT_StartGame Finished proccessing
+000020.365|  866660.0968kb|  16556.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000020.365|  866660.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Starting music and loading announcements
+000020.366|  866684.0032kb|     24.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000020.383|  866876.0032kb|    192.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000020.383|  867068.0032kb|    192.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000020.383|  867076.0968kb|      8.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000020.383|  867076.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000020.383|  867320.0000kb|    244.0000kb added| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000020.404|  869352.0000kb|   2032.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000020.404|  869352.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000020.460|  873932.0032kb|   4580.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000020.460|  873932.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000020.462|  874144.0000kb|    212.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000020.477|  875900.0032kb|   1756.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000020.477|  875896.0000kb|     -4.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.477|  875908.0968kb|     12.0000kb added|  ERROR| Failed to write value 1.0000 for GlobalScale:Globals in DATA\Menu\HUD\Hud1280x720.ini.
+000020.477|  875908.0968kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.477|  875908.0968kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:Minimap in DATA\Menu\HUD\Hud1280x720.ini.
+000020.478|  875904.0000kb|     -4.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.478|  875904.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:MinimapFlipped in DATA\Menu\HUD\Hud1280x720.ini.
+000020.478|  875904.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.478|  875904.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:MapOverlay in DATA\Menu\HUD\Hud1280x720.ini.
+000020.478|  875896.0000kb|     -8.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.478|  875896.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChat in DATA\Menu\HUD\Hud1280x720.ini.
+000020.478|  875896.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.478|  875896.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChatFlipped in DATA\Menu\HUD\Hud1280x720.ini.
+000020.479|  875896.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.479|  875896.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChatReplay in DATA\Menu\HUD\Hud1280x720.ini.
+000020.479|  875896.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.479|  875896.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:ItemShop in DATA\Menu\HUD\Hud1280x720.ini.
+000020.479|  875896.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.479|  875896.0000kb|      0.0000kb added|  ERROR| Failed to write value 0.0000 for XPos:ChampionsFriendly in DATA\Menu\HUD\Hud1280x720.ini.
+000020.479|  875896.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.479|  875896.0000kb|      0.0000kb added|  ERROR| Failed to write value 0.0000 for XPos:ChampionsEnemy in DATA\Menu\HUD\Hud1280x720.ini.
+000020.479|  875896.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-LIVE\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000020.479|  875896.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for MinimapScale:Globals in DATA\Menu\HUD\Hud1280x720.ini.
+000020.559|  891592.0000kb|  15696.0000kb added| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000020.559|  891592.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000020.559|  891592.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000020.559|  891592.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000020.559|  891592.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000020.563|  885520.0000kb|  -6072.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000124.318|  985752.0000kb| 100232.0000kb added|  ERROR| Assertion failed!
+
+Program: League of Legends.exe
+File: C:\jenkins\workspace\New-Code-CI-LIVE\code\HeroWars_clientServer\Sources\ObjectsCode\SPELLS_NEW\BuffManager_Client.cpp
+Line: 91
+
+Function: BuffManager_pimpl::OnNetworkPacket
+Expression: sb.IsActive()
+
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts
+
+(Press Retry to debug the application - JIT must be enabled)
+
+000124.318|  985752.0000kb|      0.0000kb added|  ERROR| Assert Description: General hard assert occurred, game may crash!
+000131.766|  988652.0032kb|   2900.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 02445c36
+000131.766|  988652.0032kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000131.766|  988652.0032kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000131.767|  988652.0032kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0069265e
+000131.767|  988652.0032kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 08fa0bb2
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS| The Killer was: Drakeling
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS| HEALS
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS|   Squatch applied amount 0 with abilities [MasteryHoardBuff|amount:0|priority:0][ManaBarrierCooldown|amount:0|priority:0][ManaBarrier|amount:0|priority:0][game_item_displayname_3132|amount:0|priority:0][Overdrive|amount:0|priority:0][game_item_displayname_3096|amount:0|priority:0]
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS|   NWK SheepHerder applied amount 0 with abilities [EzrealEssenceFlux|amount:0|priority:0]
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS| DAMAGE
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS|   Drakeling applied amount 736.757 with abilities [BrandFissure|amount:282.457|priority:282][BrandConflagration|amount:186.136|priority:186][BrandBlaze|amount:177.016|priority:177][BrandAblaze|amount:91.1484|priority:91]
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS|   xombiefied applied amount 577.614 with abilities [Pantheon_Throw|amount:267.751|priority:267][Pantheon_GrandSkyfall_Jump|amount:195.193|priority:195][Pantheon_LeapBash|amount:0|priority:143][_BasicAttack|amount:114.671|priority:114]
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS|   RIP Benny applied amount 551.698 with abilities [_BasicAttack|amount:243.248|priority:243][TwoShivPoison|amount:191.4|priority:225][HallucinateFull|amount:117.05|priority:117][blessingofthelizardelder|amount:0|priority:0]
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS|   DibsOnThisName applied amount 136.518 with abilities [Pulverize|amount:37.6025|priority:228][AlistarTrample|amount:20.6179|priority:211][Headbutt|amount:78.2974|priority:172]
+000131.767|  988652.0032kb|      0.0000kb added| ALWAYS|   blackskills applied amount 61.7834 with abilities [_BasicAttack|amount:61.7834|priority:61][SummonerDot|amount:0|priority:9]
+000212.565| 1002200.0000kb|  13548.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000212.565| 1002200.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000212.565| 1002200.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000212.565| 1002200.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 02445c36
+000212.565| 1002200.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0069265e
+000212.565| 1002200.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 08fa0bb2
+000212.565| 1002200.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 00079664
+000212.565| 1002200.0000kb|      0.0000kb added| ALWAYS| The Killer was: RIP Benny
+000212.565| 1002200.0000kb|      0.0000kb added| ALWAYS| HEALS
+000212.565| 1002200.0000kb|      0.0000kb added| ALWAYS|   Squatch applied amount 0 with abilities [MasteryHoardBuff|amount:0|priority:0][game_item_displayname_3132|amount:0|priority:0][game_item_displayname_3096|amount:0|priority:0][Recall|amount:0|priority:0][ManaBarrierCooldown|amount:0|priority:0][ManaBarrier|amount:0|priority:0][Root|amount:0|priority:0][Overdrive|amount:0|priority:0]
+000212.565| 1002200.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000212.565| 1002200.0000kb|      0.0000kb added| ALWAYS|   Drakeling applied amount 1495.62 with abilities [BrandFissure|amount:414.914|priority:414][BrandWildfire|amount:492.754|priority:282][BrandAblaze|amount:210.553|priority:210][BrandConflagration|amount:209.013|priority:209][BrandBlaze|amount:168.386|priority:168]
+000212.565| 1002200.0000kb|      0.0000kb added| ALWAYS|   RIP Benny applied amount 609.532 with abilities [_BasicAttack|amount:553.532|priority:553][blessingofthelizardelder|amount:56|priority:56][TwoShivPoison|amount:0|priority:0]
+000212.565| 1002200.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 54.4737 with abilities [_BasicAttack|amount:54.4737|priority:54]
+000347.263| 1018388.0968kb|  16188.0000kb added|  ERROR| Assertion failed!
+
+Program: League of Legends.exe
+File: C:\jenkins\workspace\New-Code-CI-LIVE\code\gameengine\Stats\Health.cpp
+Line: 217
+
+Function: Health::InvariantCheck
+Expression: mCurrent <= mMax
+
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts
+
+(Press Retry to debug the application - JIT must be enabled)
+
+000347.263| 1018388.0968kb|      0.0000kb added|  ERROR| Assert Description: General hard assert occurred, game may crash!
+000641.213| 1062224.0000kb|  43836.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 02445c36
+000641.214| 1062224.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000641.214| 1062224.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000641.214| 1062224.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0069265e
+000641.214| 1062224.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 00079664
+000641.214| 1062224.0000kb|      0.0000kb added| ALWAYS| The Killer was: blackskills
+000641.214| 1062224.0000kb|      0.0000kb added| ALWAYS| HEALS
+000641.214| 1062224.0000kb|      0.0000kb added| ALWAYS|   Squatch applied amount 0 with abilities [PowerFist|amount:0|priority:9][MasteryHoardBuff|amount:0|priority:0][game_item_displayname_3111|amount:0|priority:0][ManaBarrierCooldown|amount:0|priority:0][Root|amount:0|priority:0][StaticField|amount:0|priority:0][game_item_displayname_3132|amount:0|priority:0][game_item_displayname_3096|amount:0|priority:0][Overdrive|amount:0|priority:0]
+000641.214| 1062224.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000641.214| 1062224.0000kb|      0.0000kb added| ALWAYS|   RIP Benny applied amount 408.537 with abilities [TwoShivPoison|amount:195.281|priority:232][_BasicAttack|amount:213.256|priority:213][blessingofthelizardelder|amount:0|priority:0]
+000641.214| 1062224.0000kb|      0.0000kb added| ALWAYS|   Drakeling applied amount 248.483 with abilities [BrandConflagration|amount:248.483|priority:248][BrandAblaze|amount:0|priority:0]
+000641.214| 1062224.0000kb|      0.0000kb added| ALWAYS|   blackskills applied amount 174 with abilities [SummonerDot|amount:174|priority:183]
+000641.214| 1062224.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 109.057 with abilities [_BasicAttack|amount:109.057|priority:109]
+000798.854| 1080388.0968kb|  18164.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 02445c36
+000798.854| 1080388.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0069265e
+000798.854| 1080388.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 08fa0bb2
+000798.854| 1080388.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 00079664
+000798.854| 1080388.0968kb|      0.0000kb added| ALWAYS| The Killer was: RIP Benny
+000798.854| 1080388.0968kb|      0.0000kb added| ALWAYS| HEALS
+000798.854| 1080388.0968kb|      0.0000kb added| ALWAYS|   Squatch applied amount 0 with abilities [RocketGrab|amount:0|priority:214][SummonerFlash|amount:0|priority:9][MasteryHoardBuff|amount:0|priority:0][game_item_displayname_3111|amount:0|priority:0][ManaBarrierCooldown|amount:0|priority:0][ManaBarrier|amount:0|priority:0][game_item_displayname_3132|amount:0|priority:0][game_item_displayname_3096|amount:0|priority:0][Root|amount:0|priority:0]
+000798.854| 1080388.0968kb|      0.0000kb added| ALWAYS| DAMAGE
+000798.854| 1080388.0968kb|      0.0000kb added| ALWAYS|   RIP Benny applied amount 1476.27 with abilities [_BasicAttack|amount:1305.58|priority:1305][TwoShivPoison|amount:170.688|priority:209]
+000798.854| 1080388.0968kb|      0.0000kb added| ALWAYS|   Drakeling applied amount 630.083 with abilities [BrandWildfire|amount:257.704|priority:297][BrandFissure|amount:223.502|priority:223][BrandAblaze|amount:102.721|priority:102][BrandBlaze|amount:46.1557|priority:46]
+000798.854| 1080388.0968kb|      0.0000kb added| ALWAYS|   xombiefied applied amount 255.251 with abilities [_BasicAttack|amount:255.251|priority:127]
+000809.614| 1082324.0968kb|   1936.0000kb added|   WARN| [Velcydura] warning: PKT_CastSpell received for dead Unit. Spell: AniviaBasicAttack
+001388.450| 1156008.0936kb|  73684.0000kb added| ALWAYS| End game message processing!
+001388.450| 1156008.0936kb|      0.0000kb added| ALWAYS| End game message processed!
+001388.466| 1156008.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001388.640| 1155980.0032kb|    -28.0000kb added| ALWAYS| ClientFacade::Stop
+001388.695| 1156412.0032kb|    432.0000kb added| ALWAYS| ClientFacade::Stop
+001388.761| 1156560.0000kb|    148.0000kb added| ALWAYS| ClientFacade::Stop
+001388.819| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001388.878| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001388.936| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001388.994| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.052| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.111| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.169| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.227| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.285| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.344| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.402| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.457| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.510| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.564| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.622| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.680| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.738| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.795| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.849| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.905| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001389.963| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.020| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.077| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.134| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.187| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.245| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.303| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.361| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.418| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.475| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.532| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.585| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.638| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.691| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.744| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.797| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.850| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.903| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001390.956| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.009| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.062| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.120| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.173| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.226| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.279| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.332| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.385| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.442| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.500| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.557| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.615| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.672| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.729| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.786| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.843| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.900| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001391.957| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.015| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.073| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.131| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.188| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.246| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.304| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.361| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.418| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.476| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.534| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.591| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.649| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.707| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.765| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.822| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.880| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.938| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001392.996| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.053| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.112| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.170| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.228| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.285| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.338| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.396| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.453| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.510| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.568| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.625| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.683| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.740| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.798| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.855| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.913| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001393.971| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.029| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.086| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.143| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.201| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.258| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.316| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.374| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.432| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.489| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.547| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.605| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.663| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.720| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.778| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.836| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.893| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001394.951| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.009| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.067| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.124| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.182| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.240| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.298| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.356| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.414| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.472| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.530| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.588| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.646| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.704| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.762| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.819| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.877| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.935| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001395.993| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.051| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.109| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.167| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.224| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.282| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.340| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.398| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.455| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.513| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.571| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.628| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.686| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.743| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.801| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.859| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.917| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001396.975| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.033| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.090| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.148| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.206| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.260| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.317| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.375| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.433| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.490| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.548| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.606| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.664| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.721| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.779| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.837| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.894| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001397.951| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.009| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.066| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.123| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.181| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.238| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.295| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.352| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.409| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.467| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.524| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.582| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.640| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.698| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.755| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.813| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.871| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.929| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001398.986| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.043| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.101| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.158| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.216| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.274| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.332| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.389| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.447| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.505| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.562| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.619| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.677| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.735| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.792| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.850| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.908| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001399.966| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.023| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.081| 1156560.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.139| 1156564.0968kb|      4.0000kb added| ALWAYS| ClientFacade::Stop
+001400.196| 1156564.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.253| 1156756.0968kb|    192.0000kb added| ALWAYS| ClientFacade::Stop
+001400.311| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.369| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.426| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.484| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.542| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.599| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.656| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.714| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.772| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.829| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.887| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.945| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.003| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.060| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.118| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.176| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.233| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.290| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.348| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.406| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.464| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.521| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.579| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.637| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.694| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.752| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.810| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.868| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.925| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001401.983| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.040| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.097| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.154| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.212| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.270| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.327| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.385| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.442| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.500| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.557| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.615| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.673| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.730| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.787| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.845| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.902| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001402.959| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.017| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.075| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.132| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.189| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.247| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.305| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.362| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.420| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.478| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.535| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.592| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.650| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.708| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.765| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.822| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.880| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.937| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001403.994| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.052| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.110| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.167| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.224| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.282| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.340| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.397| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.455| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.513| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.571| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.628| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.686| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.744| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.802| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.859| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.917| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.975| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.032| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.090| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.148| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.206| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.263| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.321| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.379| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.436| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.493| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.551| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.609| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.667| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.724| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.782| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.839| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.896| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001405.954| 1156756.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.012| 1156760.0064kb|      4.0000kb added| ALWAYS| ClientFacade::Stop
+001406.069| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.126| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.184| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.241| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.298| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.356| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.414| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.472| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.529| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.587| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.645| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.703| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.760| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.818| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.876| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.933| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001406.991| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.049| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.107| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.164| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.222| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.280| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.338| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.395| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.453| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.511| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.568| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.625| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.683| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.740| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.797| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.855| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.913| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001407.971| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.028| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.086| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.144| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.202| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.260| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.318| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.376| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.434| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.491| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.549| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.607| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.664| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.722| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.780| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.838| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.895| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001408.953| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.011| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.069| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.126| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.184| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.242| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.299| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.357| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.415| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.473| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.530| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.588| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.646| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.704| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.762| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.820| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.878| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.936| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001409.993| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.051| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.109| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.166| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.224| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.282| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.340| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.397| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.455| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.513| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.571| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.629| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.687| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.745| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.803| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.861| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.919| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001410.977| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.034| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.092| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.150| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.208| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.265| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.323| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.381| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.439| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.497| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.555| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.613| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.671| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.728| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.786| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.844| 1156760.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001411.901| 1156776.0936kb|     16.0000kb added| ALWAYS| ClientFacade::Stop
+001411.959| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.017| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.075| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.132| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.190| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.248| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.306| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.363| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.421| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.478| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.535| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.593| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.651| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.709| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.766| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.824| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.882| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.940| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001412.997| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.055| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.113| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.171| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.229| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.287| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.345| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.403| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.461| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.518| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.576| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.633| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.691| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.748| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.805| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.862| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.920| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001413.978| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.035| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.093| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.151| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.208| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.265| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.322| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.379| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.436| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.494| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.551| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.608| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.665| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.723| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.781| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.839| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.895| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001414.952| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.009| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.066| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.124| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.183| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.240| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.296| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.354| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.408| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.465| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.523| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.580| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.637| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.695| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.752| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.809| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.867| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.924| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001415.983| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.040| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.099| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.156| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.214| 1156776.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.272| 1156780.0032kb|      4.0000kb added| ALWAYS| ClientFacade::Stop
+001416.329| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.384| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.442| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.499| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.557| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.614| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.672| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.730| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.788| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.846| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.903| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001416.961| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.019| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.075| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.133| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.191| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.248| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.306| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.363| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.421| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.479| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.536| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.594| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.651| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.708| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.765| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.823| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.881| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.938| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001417.996| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.053| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.111| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.168| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.226| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.283| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.340| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.394| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.452| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.510| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.567| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.625| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.683| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.740| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.797| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.854| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.911| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001418.968| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.026| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.084| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.142| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.199| 1156780.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.257| 1156832.0000kb|     52.0000kb added| ALWAYS| ClientFacade::Stop
+001419.315| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.372| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.430| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.488| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.545| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.603| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.661| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.718| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.776| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.833| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.890| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001419.947| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.004| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.062| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.120| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.177| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.234| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.291| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.348| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.405| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.463| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.520| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.577| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.634| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.692| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.750| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.807| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.864| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.922| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001420.980| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.037| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.095| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.152| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.210| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.267| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.325| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.383| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.440| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.498| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.556| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.613| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.670| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.727| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.785| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.842| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.899| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001421.956| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.013| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.070| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.128| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.186| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.243| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.300| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.358| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.416| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.473| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.531| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.589| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.646| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.703| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.760| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.817| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.875| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.933| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001422.991| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.048| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.105| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.162| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.220| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.277| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.335| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.393| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.450| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.507| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.565| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.623| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.680| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.737| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.795| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.852| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.909| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001423.966| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.024| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.081| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.138| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.196| 1156832.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.254| 1156884.0968kb|     52.0000kb added| ALWAYS| ClientFacade::Stop
+001424.312| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.369| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.427| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.484| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.541| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.598| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.656| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.714| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.772| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.830| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.888| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.941| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001424.998| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.056| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.114| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.171| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.229| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.287| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.344| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.401| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.459| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.517| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.574| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.632| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.689| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.746| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.803| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.861| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.918| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001425.975| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.032| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.089| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.146| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.203| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.260| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.317| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.374| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.432| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.489| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.546| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.603| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.661| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.719| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.776| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.833| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.890| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001426.947| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.004| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.062| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.120| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.177| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.234| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.292| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.350| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.407| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.464| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.521| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.578| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.635| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.693| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.750| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.807| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.864| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.922| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001427.979| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.036| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.094| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.151| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.208| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.265| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.322| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.379| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.436| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.494| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.552| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.609| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.667| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.724| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.781| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.838| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.896| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001428.953| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.010| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.067| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.125| 1156884.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.182| 1156888.0064kb|      4.0000kb added| ALWAYS| ClientFacade::Stop
+001429.239| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.297| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.354| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.412| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.469| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.527| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.584| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.641| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.699| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.756| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.813| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.870| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.928| 1156888.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001429.985| 1156956.0032kb|     68.0000kb added| ALWAYS| ClientFacade::Stop
+001430.042| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.100| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.157| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.214| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.271| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.328| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.386| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.443| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.501| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.558| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.615| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.672| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.730| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.787| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.844| 1156956.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001430.902| 1157008.0000kb|     52.0000kb added| ALWAYS| ClientFacade::Stop
+001430.959| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.016| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.073| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.131| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.189| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.246| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.303| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.361| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.418| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.475| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.533| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.590| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.647| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.704| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.761| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.818| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.875| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.932| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001431.990| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.047| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.104| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.161| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.218| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.275| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.333| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.390| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.447| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.504| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.561| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.618| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.675| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.733| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.791| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.848| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.905| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001432.962| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.019| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.076| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.133| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.190| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.247| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.304| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.361| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.418| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.475| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.532| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.589| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.646| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.703| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.761| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.818| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.875| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.933| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001433.991| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.048| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.105| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.162| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.219| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.276| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.334| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.391| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.448| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.505| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.562| 1157008.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.619| 1157012.0968kb|      4.0000kb added| ALWAYS| ClientFacade::Stop
+001434.676| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.734| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.791| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.848| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.905| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001434.962| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.019| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.077| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.134| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.191| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.248| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.305| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.363| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.420| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.477| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.535| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.592| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.649| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.706| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.763| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.820| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.877| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.935| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001435.993| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.050| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.107| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.164| 1157012.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.221| 1157180.0032kb|    168.0000kb added| ALWAYS| ClientFacade::Stop
+001436.278| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.336| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.393| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.450| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.507| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.564| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.621| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.678| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.735| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.792| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.849| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.906| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001436.963| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.020| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.078| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.135| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.192| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.249| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.306| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.363| 1157180.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.420| 1157184.0000kb|      4.0000kb added| ALWAYS| ClientFacade::Stop
+001437.477| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.535| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.592| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.649| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.706| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.763| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.820| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.877| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.934| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001437.991| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.048| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.106| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.163| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.220| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.277| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.334| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.391| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.448| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.505| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.562| 1157184.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.619| 1157236.0968kb|     52.0000kb added| ALWAYS| ClientFacade::Stop
+001438.676| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.734| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.791| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.848| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.905| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001438.963| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.020| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.077| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.135| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.192| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.249| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.306| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.364| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.421| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.478| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.536| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.593| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.650| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.707| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.765| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.822| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.879| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.937| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001439.994| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.051| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.109| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.166| 1157236.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.223| 1157240.0064kb|      4.0000kb added| ALWAYS| ClientFacade::Stop
+001440.281| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.339| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.396| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.453| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.510| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.567| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.625| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.682| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.740| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.797| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.854| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.911| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001440.968| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.025| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.082| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.140| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.197| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.254| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.311| 1157240.0064kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.369| 1157244.0032kb|      4.0000kb added| ALWAYS| ClientFacade::Stop
+001441.426| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.483| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.540| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.597| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.654| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.711| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.768| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.825| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.882| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.939| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001441.996| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.053| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.112| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.168| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.225| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.282| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.339| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.396| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.453| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.510| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.567| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.624| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.681| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.739| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.797| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.854| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.911| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001442.968| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.026| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.083| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.140| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.197| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.254| 1157244.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.311| 1157248.0000kb|      4.0000kb added| ALWAYS| ClientFacade::Stop
+001443.370| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.426| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.483| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.541| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.598| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.655| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.712| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.769| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.826| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.883| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.942| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001443.999| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.056| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.113| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.170| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.227| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.284| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.342| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.400| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.456| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.513| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.571| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.628| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.685| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.743| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.800| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.858| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.914| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001444.971| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.028| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.086| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.143| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.200| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.257| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.314| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.372| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.429| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.486| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.543| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.601| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.658| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.715| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.772| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.829| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.886| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001445.943| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.000| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.057| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.114| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.171| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.228| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.285| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.343| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.400| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.457| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.514| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.571| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.628| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.685| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.742| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.796| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.853| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.911| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001446.968| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.025| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.082| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.140| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.198| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.255| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.312| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.369| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.426| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.483| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.540| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.598| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.655| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.712| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.769| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.826| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.883| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.940| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001447.997| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.054| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.112| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.169| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.226| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.283| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.341| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.398| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.455| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.512| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.569| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.626| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.683| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.741| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.798| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.855| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.912| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001448.969| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.026| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.083| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.141| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.198| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.255| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.312| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.370| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.427| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.484| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.541| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.598| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.656| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.713| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.770| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.827| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.884| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.941| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001449.998| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.055| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.112| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.169| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.224| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.281| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.339| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.392| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.449| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.507| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.564| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.621| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.679| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.736| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.793| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.850| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.907| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001450.964| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.021| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.078| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.135| 1157248.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.193| 1157504.0000kb|    256.0000kb added| ALWAYS| ClientFacade::Stop
+001451.250| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.308| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.366| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.423| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.480| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.538| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.595| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.652| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.710| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.767| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.824| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.881| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.939| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001451.996| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.053| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.111| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.168| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.225| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.282| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.339| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.397| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.454| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.512| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.569| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.626| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.683| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.741| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.798| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.855| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.912| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001452.969| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.026| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.083| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.140| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.198| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.255| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.312| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.369| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.427| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.485| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.543| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.601| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.659| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.716| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.774| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.832| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.889| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001453.948| 1157504.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001454.005| 1157516.0032kb|     12.0000kb added| ALWAYS| ClientFacade::Stop
+001454.062| 1157516.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001454.120| 1157516.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001454.177| 1157516.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001454.303| 1014084.0968kb| -143432.0000kb added| ALWAYS| Finished Main Loop
+001457.376|  780500.0968kb| -233584.0000kb added| ALWAYS| Finished Play game
+001457.376|  780500.0968kb|      0.0000kb added| ALWAYS| Game exited
+001457.390|  755320.0000kb| -25180.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+001457.411|  645416.0000kb| -109904.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001457.411|  645140.0968kb|   -276.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00024.tga" ref count 1.
+001457.411|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00023.tga" ref count 1.
+001457.411|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00022.tga" ref count 1.
+001457.411|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00021.tga" ref count 1.
+001457.411|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00020.tga" ref count 1.
+001457.412|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00019.tga" ref count 1.
+001457.412|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00018.tga" ref count 1.
+001457.412|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00017.tga" ref count 1.
+001457.412|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00016.tga" ref count 1.
+001457.412|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00015.tga" ref count 1.
+001457.412|  645140.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00014.tga" ref count 1.
+001457.412|  644700.0032kb|   -440.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00013.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00012.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00011.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00010.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00009.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00008.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00007.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00006.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00005.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00004.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00003.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00002.tga" ref count 1.
+001457.412|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00001.tga" ref count 1.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00000.tga" ref count 1.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/xpbarmask.tga" ref count 2.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/xpbar.tga" ref count 1.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00042.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00041.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00040.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00039.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00038.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00037.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00036.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00035.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00034.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00033.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00032.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00031.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00030.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00029.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00028.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00027.tga" ref count 54.
+001457.413|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/teleporthome.DDS" ref count 1.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/blitzcrank_manabarriercd.DDS" ref count 1.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/aniviaegg/info/cryophoenix_circle.DDS" ref count 1.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/particles/aoe_brand.DDS" ref count 3.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3051_renewal_tunic.DDS" ref count 1.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3004_assault_treads.DDS" ref count 1.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/176_rogues_chucks.DDS" ref count 1.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/139_strygwyrs_reaver.DDS" ref count 1.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/034_steel_shield.DDS" ref count 1.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3069_shurelyas_firecrest.DDS" ref count 1.
+001457.414|  644700.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3031_infinity_edge.DDS" ref count 1.
+001457.414|  643844.0968kb|   -856.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/1043_steel_stiletto.DDS" ref count 1.
+001457.414|  643844.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/1037_broadsword.DDS" ref count 1.
+001457.414|  643844.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/teemo_poisoneddart.DDS" ref count 2.
+001457.414|  643844.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/teemo/info/teemo_square_0.DDS" ref count 1.
+001457.414|  643844.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/teemo/info/teemo_circle_0.DDS" ref count 12.
+001457.414|  643844.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/blitzcrank/info/blitzcrank_manabarrier.DDS" ref count 1.
+001457.414|  643844.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/blitzcrank_staticfield.DDS" ref count 2.
+001457.414|  643844.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/blitzcrank_powerfist.DDS" ref count 2.
+001457.414|  643844.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/blitzcrank_overdrive.DDS" ref count 5.
+001457.415|  643844.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/blitzcrank_rocketgrab.DDS" ref count 1.
+001457.415|  643560.0000kb|   -284.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/blitzcrank/info/steamgolem_square.DDS" ref count 1.
+001457.415|  643560.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/blitzcrank/info/steamgolem_circle.DDS" ref count 7.
+001457.415|  643560.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/anivia/info/cryophoenix_square.DDS" ref count 1.
+001457.415|  643560.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/anivia/info/cryophoenix_circle.DDS" ref count 9.
+001457.415|  643528.0000kb|    -32.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/nautilus_staggeringblow.DDS" ref count 2.
+001457.415|  643528.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/nautilus_rippleeffect.DDS" ref count 1.
+001457.415|  643528.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/nautilus/info/nautilus_square_0.DDS" ref count 1.
+001457.415|  643528.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/nautilus/info/nautilus_circle_0.DDS" ref count 4.
+001457.415|  643228.0032kb|   -300.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/ezreal/info/ezreal_square.DDS" ref count 1.
+001457.415|  643228.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/ezreal/info/ezreal_circle.DDS" ref count 18.
+001457.415|  643068.0032kb|   -160.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/sivir/info/sivir_circle.DDS" ref count 9.
+001457.415|  643068.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/minotaur_ferocioushowl.DDS" ref count 2.
+001457.415|  643068.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/alistar/info/minotaur_circle.DDS" ref count 3.
+001457.415|  643036.0032kb|    -32.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/pantheon/info/pantheon_circle_0.DDS" ref count 11.
+001457.416|  640480.0000kb|  -2556.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/brandblaze.DDS" ref count 1.
+001457.416|  640352.0000kb|   -128.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/brand/info/brand_circle.DDS" ref count 16.
+001457.416|  639920.0000kb|   -432.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/minotaur_colossalstrength.DDS" ref count 2.
+001457.416|  639784.0000kb|   -136.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/shaco/info/jester_circle.DDS" ref count 8.
+001457.416|  639664.0000kb|   -120.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/minimapicons/ring.tga" ref count 99.
+001457.416|  639664.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/textures/hudcenterbar.tga" ref count 1.
+001457.416|  639084.0032kb|   -580.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/textures/hudatlas.tga" ref count 1.
+001457.417|  634976.0000kb|  -4108.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/gsb_taunt.DDS" ref count 1.
+001457.417|  634524.0032kb|   -452.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/particles/aoe.DDS" ref count 10.
+001457.417|  634136.0000kb|   -388.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/gw_debuff.DDS" ref count 2.
+001457.417|  634092.0032kb|    -44.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/122_frozen_heart.DDS" ref count 4.
+001457.417|  632424.0000kb|  -1668.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3154_wrigglelantern.DDS" ref count 1.
+001457.417|  632204.0032kb|   -220.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/bowmaster_archersmark.DDS" ref count 2.
+001457.418|  632204.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/3022_frozen_heart.DDS" ref count 2.
+001457.418|  631104.0000kb|  -1100.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/healthbarsdefault.tga" ref count 130.
+001457.418|  630740.0968kb|   -364.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/lamp.DDS" ref count 374.
+001457.418|  630740.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/averdrian_astralbeam.DDS" ref count 1.
+001457.418|  630380.0032kb|   -360.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/chronokeeper_timestop.DDS" ref count 2.
+001457.418|  629404.0032kb|   -976.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/greenterror_chitinousexoplates.DDS" ref count 1.
+001457.418|  629300.0968kb|   -104.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/annie_incinerate.DDS" ref count 2.
+001457.418|  628972.0032kb|   -328.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/red_minion_mechcannon/info/redmechcannon_circle.DDS" ref count 1.
+001457.419|  628972.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/summoner_flash.DDS" ref count 1.
+001457.419|  628972.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/summoner_exhaust.DDS" ref count 1.
+001457.419|  628972.0032kb|      0.0000kb added|   WARN| WARNING: Direct3DDevice was released but has a reference count of 1
+001457.419|  628972.0032kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+001457.419|  628972.0032kb|      0.0000kb added| ALWAYS| Destroying the Renderer (1)
+001457.419|  628972.0032kb|      0.0000kb added| ALWAYS| game::Shutdown
+001457.419|  628972.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001457.419|  628972.0032kb|      0.0000kb added| ALWAYS| Pre ::R3D::Perf::DinitPerfLists
+001457.419|  628972.0032kb|      0.0000kb added| ALWAYS| Post ::R3D::Perf::DinitPerfLists
+001457.419|  628972.0032kb|      0.0000kb added| ALWAYS| Exiting WinMain

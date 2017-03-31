@@ -1,0 +1,877 @@
+--- Log started at Wed Aug 15 17:51:49 2012
+
+000000.000|   13364.0000kb|  13364.0000kb added| ALWAYS| RADS::Common::Cider::Create: Running on Windows
+000000.361|  196276.0000kb| 182912.0000kb added| ALWAYS| Global Log Level set to WARN
+000000.361|  196300.0000kb|     24.0000kb added| ALWAYS| Build Version: Version 1.0.0.145 (Aug 10 2012/15:28:56) [PUBLIC] <__MAIN__>
+000000.388|  199660.0000kb|   3360.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000000.388|  199660.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("ClientZips.txt", "rt") failed: No such file or directory
+000000.388|  199660.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000000.388|  199660.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "ClientZips.txt".
+000000.388|  199664.0000kb|      4.0000kb added|   WARN| FileManager::Open: Can't open ClientZips.txt (from file Riot::File::InputFileStream::open)
+000000.388|  199664.0000kb|      0.0000kb added|  ERROR| Failed to open "ClientZips.txt"
+000000.388|  199700.0000kb|     36.0000kb added| ALWAYS| "8394" "LoLLauncher.exe" "C:/Riot Games/League of Legends/RADS/projects/lol_air_client/releases/0.0.0.190/deploy/LolClient.exe" "spectator spectator.na.lol.riotgames.com:8088 WGjL4kFS1EXikJl9HIEBHHQKYvzMoTUe 483534524 <id_removed>"
+000000.397|  200704.0000kb|   1004.0000kb added| ALWAYS| Started ReplayDownloadManager thread.
+000000.397|  200716.0000kb|     12.0000kb added| ALWAYS| ==== Fetch MetaData Phase ====
+000000.397|  200716.0000kb|      0.0000kb added| ALWAYS| ---- Waiting to fetch 5000
+000000.397|  200716.0000kb|      0.0000kb added| ALWAYS| Started System Init
+000000.397|  200720.0000kb|      4.0000kb added| ALWAYS| Maestro Init
+000000.557|  201172.0000kb|    452.0000kb added| ALWAYS| Maestro completed init
+000000.557|  201172.0000kb|      0.0000kb added| ALWAYS| Replay mode
+000000.562|  201404.0000kb|    232.0000kb added| ALWAYS| StartSession called
+000000.562|  201408.0000kb|      4.0000kb added| ALWAYS| Started Init event arguments
+000000.563|  201432.0000kb|     24.0000kb added| ALWAYS| Waiting until connection...
+000000.563|  201432.0000kb|      0.0000kb added| ALWAYS| InitRender() enter
+000000.565|  202056.0000kb|    624.0000kb added| ALWAYS| r3dRenderLayer::Init(0x001103f8) enter
+000000.592|  219860.0000kb|  17804.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000000.604|  220596.0000kb|    736.0000kb added| ALWAYS| Attempting to load fontconfig file for en_US (DATA/Menu/fontconfig_en_US.txt).
+000001.378|  237776.0000kb|  17180.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000001.378|  237776.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.176/deploy/data/menu/IMEConfig.xml", "rb") failed: No such file or directory
+000001.378|  237776.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000001.378|  237776.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.176/deploy/data/menu/IMEConfig.xml".
+000001.378|  237776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.176/deploy/data/menu/IMEConfig.xml (from file (null))
+000001.398|  238756.0000kb|    980.0000kb added| ALWAYS| Sleeping
+000001.496|  238756.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000001.497|  238764.0000kb|      8.0000kb added| ALWAYS| End processing App Update
+000001.497|  238764.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000001.596|  238920.0000kb|    156.0000kb added| ALWAYS| Start processing App Update
+000001.597|  238920.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000001.597|  238920.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000001.615|  238928.0000kb|      8.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.615|  238928.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.615|  238928.0000kb|      0.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000001.615|  238928.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz, Intel64 Family 6 Model 58 Stepping 9, 2294 (0 core)
+000001.615|  238932.0000kb|      4.0000kb added| ALWAYS| Measured processor speed: 2333
+000001.615|  238932.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.615|  238932.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.696|  238892.0000kb|    -40.0000kb added| ALWAYS| Start processing App Update
+000001.697|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000001.697|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000001.796|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000001.797|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000001.797|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000001.896|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000001.897|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000001.897|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000001.996|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000001.997|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000001.997|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.096|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.097|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.097|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.196|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.197|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.197|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.296|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.297|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.297|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.396|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.397|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.397|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.496|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.497|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.497|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.596|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.596|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.596|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.696|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.697|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.697|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.796|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.797|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.797|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.896|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.897|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.897|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000002.996|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000002.997|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000002.997|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.096|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.097|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.097|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.196|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.197|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.197|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.296|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.297|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.297|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.396|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.397|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.397|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.496|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.497|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.497|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.596|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.596|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.597|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.696|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.697|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.697|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.796|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.797|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.797|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.896|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.897|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.897|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.996|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.997|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.997|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.096|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.097|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.097|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.196|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.197|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.197|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.296|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.297|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.297|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.396|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.397|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.397|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.496|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.497|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.497|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.596|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.596|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.597|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.696|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.697|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.697|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.796|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.796|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.796|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.896|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.897|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.897|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000004.996|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000004.996|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000004.997|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000005.096|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000005.097|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000005.097|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000005.196|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000005.197|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000005.197|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000005.296|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000005.296|  238892.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000005.297|  238892.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000005.396|  238892.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000005.396|  238896.0000kb|      4.0000kb added| ALWAYS| End processing App Update
+000005.397|  238900.0000kb|      4.0000kb added| ALWAYS| Sleeping
+000005.496|  238924.0000kb|     24.0000kb added| ALWAYS| Start processing App Update
+000005.497|  238924.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000005.497|  238924.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000005.569|  238932.0000kb|      8.0000kb added| ALWAYS| Spectator server version retrieved: 1.62.12
+000005.596|  238940.0000kb|      8.0000kb added| ALWAYS| Start processing App Update
+000005.596|  238940.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000005.597|  238940.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000005.696|  238940.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000005.697|  238940.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000005.697|  238940.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000005.746|  238988.0000kb|     48.0000kb added| ALWAYS| Replay metadata retrieved.
+000005.746|  238988.0000kb|      0.0000kb added| ALWAYS| ==== Fetch Startup Chunk Phase ====
+000005.796|  238988.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| Replay ready.
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz, Intel64 Family 6 Model 58 Stepping 9, 2294 (0 core)
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 2311
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000005.797|  238988.0000kb|      0.0000kb added| ALWAYS| Started Init render
+000005.798|  239004.0000kb|     16.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects\lol_air_client\releases\0.0.0.190\deploy\preferences\
+000005.799|  239016.0000kb|     12.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(0)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(1)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(2)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(3)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(4)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(5)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(6)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(7)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(8)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(9)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(10)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(11)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(12)
+000005.799|  239016.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(13)
+000005.800|  239020.0000kb|      4.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(14)
+000005.800|  239032.0000kb|     12.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(15)
+000005.800|  239032.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(16)
+000005.800|  239032.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(17)
+000005.800|  239032.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(18)
+000005.800|  239032.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(19)
+000005.800|  239032.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(20)
+000005.800|  239036.0000kb|      4.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(21)
+000005.800|  239036.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(22)
+000005.800|  239036.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(23)
+000005.800|  239036.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(24)
+000005.800|  239036.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(25)
+000005.800|  239036.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(26)
+000005.801|  239036.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(27)
+000005.801|  239036.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(28)
+000005.809|  239200.0000kb|    164.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1280, YRes = 720, BPP = 32,  Flags=256, RenderPath = 101) enter
+000005.809|  239200.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Enumerating Display Modes
+000005.809|  239232.0000kb|     32.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000005.936|  240888.0000kb|   1656.0000kb added| ALWAYS| ---- Waiting to fetch 5
+000005.946|  240888.0000kb|      0.0000kb added| ALWAYS| ---- Downloading Chunk 1
+000006.430|  244496.0000kb|   3608.0000kb added| ALWAYS| ---- Waiting to fetch 5
+000006.436|  244496.0000kb|      0.0000kb added| ALWAYS| ---- Downloading Chunk 2
+000006.638|  244568.0000kb|     72.0000kb added| ALWAYS| ==== Fetch All Chunks Phase ====
+000006.639|  244568.0000kb|      0.0000kb added| ALWAYS| ---- Waiting to fetch 9950
+000007.613|  257292.0000kb|  12724.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000007.692|  258652.0000kb|   1360.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000007.838|  263728.0000kb|   5076.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000007.903|  265768.0000kb|   2040.0000kb added| ALWAYS| Set focus to app
+000007.903|  265768.0000kb|      0.0000kb added| ALWAYS| Input started
+000007.917|  265968.0000kb|    200.0000kb added| ALWAYS| Waiting for server response...
+000008.012|  265832.0000kb|   -136.0000kb added| ALWAYS| **** Request chunk 1
+000008.013|  265832.0000kb|      0.0000kb added| ALWAYS| Requesting chunk id 1 of chunk type 1
+000008.013|  265832.0000kb|      0.0000kb added| ALWAYS| Started new chunk.  ChunkID: 1  chunk start time: 0.000000  current time: 0.000000
+000008.013|  265860.0000kb|     28.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.013|  265864.0000kb|      4.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.013|  265864.0000kb|      0.0000kb added| ALWAYS| Receiving PKT_SynchVersionS2C_s, Server :Version 1.0.0.145 [PUBLIC]
+000008.013|  265868.0000kb|      4.0000kb added| ALWAYS| Started Map Map1
+000008.013|  265896.0000kb|     28.0000kb added| ALWAYS| netUID: ffffffff defaultname
+000008.013|  265896.0000kb|      0.0000kb added| ALWAYS| Adding level zip file: Map1.zip
+000008.017|  265904.0000kb|      8.0000kb added| ALWAYS| PlayGame Started
+000008.158|  270944.0000kb|   5040.0000kb added| ALWAYS| PlayGame Entered
+000008.158|  270956.0000kb|     12.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.158|  270964.0000kb|      8.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.158|  270968.0000kb|      4.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.220|  281532.0000kb|  10564.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.508|  318068.0000kb|  36536.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.509|  318076.0000kb|      8.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.525|  325472.0000kb|   7396.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.582|  328004.0000kb|   2532.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001cd226bc
+000008.722|  328464.0000kb|    460.0000kb added| ALWAYS| CurRenderPipeline
+000008.728|  328528.0000kb|     64.0000kb added| ALWAYS| CreateParticleSystemManager
+000009.257|  348296.0000kb|  19768.0000kb added| ALWAYS| **** Request chunk 2
+000009.257|  348296.0000kb|      0.0000kb added| ALWAYS| Requesting chunk id 2 of chunk type 1
+000009.257|  348296.0000kb|      0.0000kb added| ALWAYS| Started new chunk.  ChunkID: 2  chunk start time: 0.000000  current time: 0.000000
+000009.263|  348296.0000kb|      0.0000kb added| ALWAYS| **** Didnt have a valid chunk.  keyframe: -1   chunk: 3
+000014.952|  443688.0000kb|  95392.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000014.952|  443688.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/items/icons2d/annieincinerate.dds", "rb") failed: No such file or directory
+000014.952|  443688.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000014.952|  443688.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/items/icons2d/annieincinerate.dds".
+000014.952|  443688.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/items/icons2d/annieincinerate.dds (from file r3dTexture::LoadRawTexture)
+000014.952|  443688.0000kb|      0.0000kb added|  ERROR| Can not open file <data/items/icons2d/annieincinerate.dds> *********
+000014.952|  443688.0000kb|      0.0000kb added|  ERROR| Failed to load data/items/icons2d/annieincinerate.dds
+000014.952|  443688.0000kb|      0.0000kb added|   WARN| r3dTexture EX: data/items/icons2d/annieincinerate.dds - not found. Dummy texture created.
+000016.466|  449876.0000kb|   6188.0000kb added|  ERROR| Failed to load Behavior Tree Node Definition file: DATA\Summoner\SummonerBlockLibrary.xml!
+000016.466|  449876.0000kb|      0.0000kb added|  ERROR| Failed to load Behavior Tree Node Definition file: DATA\Summoner\SummonerBlockLibraryClient.xml!
+000016.466|  449876.0000kb|      0.0000kb added|  ERROR| Unable to load Behavior Tree metadata file: DATA\Summoner\SummonerBlockLibrary.xml. from group BehaviorTreeMetaData, using key 'BehaviorTreeMetaData' on map: Map1  Remaining Behavior Tree loading skipped!
+000016.593|  452408.0000kb|   2532.0000kb added| ALWAYS| Requesting LastAvailableChunkInfo.
+000016.691|  455420.0000kb|   3012.0000kb added| ALWAYS| ---- Downloading Chunk 22
+000016.708|  455960.0000kb|    540.0000kb added| ALWAYS| FMOD: Attempting to load localized audio for en_US
+000016.755|  458192.0000kb|   2232.0000kb added| ALWAYS| LoLAudio::Load(): Successfully loaded default desired language locale: LoL_Audio_en_US.fev
+000016.764|  458364.0000kb|    172.0000kb added| ALWAYS| GameWorld.Update()
+000016.764|  458364.0000kb|      0.0000kb added| ALWAYS| Begin Game Object Update
+000017.065|  462692.0000kb|   4328.0000kb added| ALWAYS| ---- Downloading Keyframe 10
+000017.221|  466200.0000kb|   3508.0000kb added| ALWAYS| ---- Waiting to fetch 10000
+000017.317|  469484.0000kb|   3284.0000kb added| ALWAYS| **** Request keyframe 10
+000017.318|  469488.0000kb|      4.0000kb added| ALWAYS| ReplayDataManager set minTimeSinceAvailable to 0 to stop throttling chunk fetching
+000017.318|  469488.0000kb|      0.0000kb added| ALWAYS| Requesting chunk id 10 of chunk type 2
+000017.318|  469488.0000kb|      0.0000kb added| ALWAYS| Requesting LastAvailableChunkInfo.
+000017.318|  469488.0000kb|      0.0000kb added| ALWAYS| Started new chunk.  ChunkID: 10  chunk start time: 540.003601  current time: 0.000000
+000017.318|  469488.0000kb|      0.0000kb added| ALWAYS| Set Pending Replay time: 540.003601
+000017.501|  471076.0000kb|   1588.0000kb added| ALWAYS| ---- Downloading Chunk 23
+000017.829|  472244.0000kb|   1168.0000kb added| ALWAYS| End Game Object Update
+000018.057|  475028.0000kb|   2784.0000kb added| ALWAYS| ---- Downloading Keyframe 11
+000018.339|  481104.0000kb|   6076.0000kb added| ALWAYS| ---- Waiting to fetch 10000
+000018.938|  494444.0000kb|  13340.0000kb added| ALWAYS| PreloadGlobalEffects()
+000018.939|  494444.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000019.041|  499940.0000kb|   5496.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000019.041|  499940.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/particles/aoe.tga", "rb") failed: No such file or directory
+000019.041|  499940.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/particles/aoe.tga".
+000019.041|  499940.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/particles/aoe.tga (from file r3dTexture::LoadRawTexture)
+000019.041|  499940.0000kb|      0.0000kb added|  ERROR| Can not open file <data/particles/aoe.tga> *********
+000019.042|  499940.0000kb|      0.0000kb added|  ERROR| Failed to load data/particles/aoe.tga
+000019.042|  500084.0000kb|    144.0000kb added|   WARN| r3dTexture EX: data/particles/aoe.tga - not found. Dummy texture created.
+000019.327|  529928.0000kb|  29844.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000019.327|  529928.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalBuffAssets()
+000019.444|  534220.0000kb|   4292.0000kb added| ALWAYS| ObjectManager_RegisterNetworkWorld()
+000019.447|  534256.0000kb|     36.0000kb added| ALWAYS| FogOfWar::Init()
+000019.449|  534348.0000kb|     92.0000kb added| ALWAYS| Gamma::CreateIAPI()
+000019.451|  534368.0000kb|     20.0000kb added| ALWAYS| SimulationClock->Init()
+000019.589|  556700.0032kb|  22332.0000kb added|   WARN| Flash swf data\menu\ReplayUI.swf does not have a valid _global.ContentHeight defaulting
+000019.589|  556704.0000kb|      4.0000kb added|   WARN| Flash swf data\menu\ReplayUI.swf does not have a valid _global.ContentWidth defaulting
+000019.638|  564784.0000kb|   8080.0000kb added|   WARN| Flash swf data\menu\VictoryPointDisplay.swf does not have a valid _global.ContentHeight defaulting
+000019.641|  565220.0968kb|    436.0000kb added|   WARN| Flash swf data\menu\MessageList.swf does not have a valid _global.ContentHeight defaulting
+000019.676|  570764.0032kb|   5544.0000kb added|   WARN| Flash swf data/menu/MessageBoxSmall.swf does not have a valid _global.ContentHeight defaulting
+000023.236|  628556.0032kb|  57792.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000023.236|  628556.0032kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/particles/uv-renekton_runewars_hot.tga", "rb") failed: No such file or directory
+000023.236|  628556.0032kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000023.236|  628556.0032kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/particles/uv-renekton_runewars_hot.tga".
+000023.236|  628556.0032kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/particles/uv-renekton_runewars_hot.tga (from file r3dTexture::LoadRawTexture)
+000023.236|  628556.0032kb|      0.0000kb added|  ERROR| Can not open file <data/particles/uv-renekton_runewars_hot.tga> *********
+000023.236|  628556.0032kb|      0.0000kb added|  ERROR| Failed to load data/particles/uv-renekton_runewars_hot.tga
+000023.236|  628556.0032kb|      0.0000kb added|   WARN| r3dTexture EX: data/particles/uv-renekton_runewars_hot.tga - not found. Dummy texture created.
+000028.333|  669820.0000kb|  41264.0000kb added| ALWAYS| Requesting LastAvailableChunkInfo.
+000028.459|  671424.0000kb|   1604.0000kb added| ALWAYS| ---- Downloading Chunk 24
+000028.698|  674700.0000kb|   3276.0000kb added| ALWAYS| ---- Waiting to fetch 10000
+000028.991|  676632.0000kb|   1932.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000028.991|  676632.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000029.073|  687216.0000kb|  10584.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000029.150|  713636.0968kb|  26420.0000kb added| ALWAYS| Start Main Loop
+000029.150|  713628.0032kb|     -8.0000kb added| ALWAYS| PKT_C2S_CharSelected sent
+000029.151|  713644.0032kb|     16.0000kb added| ALWAYS| Waiting for all players to connect
+000029.151|  713640.0000kb|     -4.0000kb added| ALWAYS| Creating Hero...
+000029.212|  715364.0968kb|   1724.0000kb added| ALWAYS| Hero TwistedFate(6) created for iusedtobecool
+000029.255|  716904.0000kb|   1540.0000kb added| ALWAYS| Creating Hero...
+000029.259|  716904.0000kb|      0.0000kb added| ALWAYS| Hero Skarner(0) created for Genki yim
+000029.303|  716972.0032kb|     68.0000kb added| ALWAYS| Creating Hero...
+000029.305|  716976.0000kb|      4.0000kb added| ALWAYS| Hero Renekton(3) created for Yoshi 88
+000029.331|  717028.0968kb|     52.0000kb added| ALWAYS| Creating Hero...
+000029.357|  717064.0000kb|     36.0000kb added| ALWAYS| Hero Taric(0) created for littlefriend
+000029.376|  717432.0000kb|    368.0000kb added| ALWAYS| Creating Hero...
+000029.405|  718492.0032kb|   1060.0000kb added| ALWAYS| Hero Corki(1) created for Donkeysniper
+000029.408|  718508.0032kb|     16.0000kb added| ALWAYS| Creating Hero...
+000029.413|  718516.0968kb|      8.0000kb added| ALWAYS| Hero Caitlyn(4) created for FGxL On The Case
+000029.421|  718644.0968kb|    128.0000kb added| ALWAYS| Creating Hero...
+000029.433|  719116.0032kb|    472.0000kb added| ALWAYS| Hero Garen(0) created for oldsalty7
+000029.436|  719120.0000kb|      4.0000kb added| ALWAYS| Creating Hero...
+000029.452|  720864.0000kb|   1744.0000kb added| ALWAYS| Hero Katarina(5) created for Danny Judy
+000029.455|  720864.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000029.459|  721172.0968kb|    308.0000kb added| ALWAYS| Hero Amumu(0) created for Haughty
+000029.460|  721172.0968kb|      0.0000kb added| ALWAYS| Creating Hero...
+000029.488|  722600.0000kb|   1428.0000kb added| ALWAYS| Hero Blitzcrank(0) created for xImpreza
+000029.588|  729144.0000kb|   6544.0000kb added| ALWAYS| PKT_S2C_EndSpawn
+000029.588|  729212.0032kb|     68.0000kb added| ALWAYS| PKT_StartGame
+000030.805|  762808.0000kb|  33596.0000kb added| ALWAYS| PKT_StartGame Finished proccessing
+000030.805|  762812.0032kb|      4.0000kb added| ALWAYS| Waiting for all players to connect end
+000031.088|  772988.0032kb|  10176.0000kb added| ALWAYS| Start timer. Game Time: 30.827509, Real Time: 31.088779
+000031.088|  772988.0032kb|      0.0000kb added| ALWAYS| Set Replay time: 540.003601 oldTime: 0.000000
+000031.088|  772988.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000031.088|  772988.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Starting music and loading announcements
+000031.089|  773008.0000kb|     20.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000031.107|  773596.0032kb|    588.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000031.107|  773600.0000kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000031.109|  773600.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000031.122|  773980.0032kb|    380.0000kb added| ALWAYS| Replay speedup.  timeBehind: 44.820984
+000031.122|  773980.0032kb|      0.0000kb added| ALWAYS| Set playback speed: 100.000000
+000031.122|  773984.0000kb|      4.0000kb added| ALWAYS| GUI::HandleReplayFastForwardStart
+000031.708|  803776.0000kb|  29792.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.708|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for GlobalScaleReplay:Globals in DATA\Menu\HUD\Hud1280x720.ini.
+000031.709|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.709|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:Minimap in DATA\Menu\HUD\Hud1280x720.ini.
+000031.709|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.709|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:MinimapFlipped in DATA\Menu\HUD\Hud1280x720.ini.
+000031.709|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.709|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:MapOverlay in DATA\Menu\HUD\Hud1280x720.ini.
+000031.709|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.709|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChat in DATA\Menu\HUD\Hud1280x720.ini.
+000031.709|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.709|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChatFlipped in DATA\Menu\HUD\Hud1280x720.ini.
+000031.709|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.710|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChatReplay in DATA\Menu\HUD\Hud1280x720.ini.
+000031.710|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.710|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:ItemShop in DATA\Menu\HUD\Hud1280x720.ini.
+000031.710|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.710|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 0.0000 for XPos:ChampionsFriendly in DATA\Menu\HUD\Hud1280x720.ini.
+000031.710|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.710|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 0.0000 for XPos:ChampionsEnemy in DATA\Menu\HUD\Hud1280x720.ini.
+000031.710|  803776.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000031.710|  803776.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for MinimapScale:Globals in DATA\Menu\HUD\Hud1280x720.ini.
+000031.734|  785568.0000kb| -18208.0000kb added| ALWAYS| Replay resuming after fast forward. Time: 587.007568 FirstPacketTime 540.008484    TimeBehind: -1.571716
+000031.734|  785572.0968kb|      4.0000kb added| ALWAYS| Set Replay time: 585.435852 oldTime: 587.007568
+000031.734|  785572.0968kb|      0.0000kb added| ALWAYS| Set playback speed: 1.000000
+000031.734|  785572.0968kb|      0.0000kb added| ALWAYS| GUI::HandleReplayFastForwardEnd
+000031.934|  800836.0000kb|  15264.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.934|  800836.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.934|  800836.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.934|  800836.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.934|  800836.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.935|  800844.0000kb|      8.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.935|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.935|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.935|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.935|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.935|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.935|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.935|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.935|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.935|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.935|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.935|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.935|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.935|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.935|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.935|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.936|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.936|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.936|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.936|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.936|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.936|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.936|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.936|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.936|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.936|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.936|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.936|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.936|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.936|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.937|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.937|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.937|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.937|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.937|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.937|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.937|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.938|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.938|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.938|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.938|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.938|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.938|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.938|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.938|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.938|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.938|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.938|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.938|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.938|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.939|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.939|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.939|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.939|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.939|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.939|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.939|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.939|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.940|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.940|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.940|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.940|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.940|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.940|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.940|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.940|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.940|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.940|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.940|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.940|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.940|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.941|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.941|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.941|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.941|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.941|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.941|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.941|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.941|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.941|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.942|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.942|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.942|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.942|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.942|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.942|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.942|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.942|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.942|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.942|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.942|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.942|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.942|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.942|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.943|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.943|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.943|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.943|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.943|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.943|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.943|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.943|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.944|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.944|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.944|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.944|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.944|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.944|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.944|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.944|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.944|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.944|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.944|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.944|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.944|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.944|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.945|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.945|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.945|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.945|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.945|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.945|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.945|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.946|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.946|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.946|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.946|  800844.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.946|  800844.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.946|  800844.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.946|  800844.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.946|  800848.0000kb|      4.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.946|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.946|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.946|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.946|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.947|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.947|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.947|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.947|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.947|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.947|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.947|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.947|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.948|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.948|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.948|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.948|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.948|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.948|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.948|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.948|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.948|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.948|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.948|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.948|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.948|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.949|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.949|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.949|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.949|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.949|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.949|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.949|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.949|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.949|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.950|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.950|  800848.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.950|  800848.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.950|  800848.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.950|  800848.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.950|  800852.0000kb|      4.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.950|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.950|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.950|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.950|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.950|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.950|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.950|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.951|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.951|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.951|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.951|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.951|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.951|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.951|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.951|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.951|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.951|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.951|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.951|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.951|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.951|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.951|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.951|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.951|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.952|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.952|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.952|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.952|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.952|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.952|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.952|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.952|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.952|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.952|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.952|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.952|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.952|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.952|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.952|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.953|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.953|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.953|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.953|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.953|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.953|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.953|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.954|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.954|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.954|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.954|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.954|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.954|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.954|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.954|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.954|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.955|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.955|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.955|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.955|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.955|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.955|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.955|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.956|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.956|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.956|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.956|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.956|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.956|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.956|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.956|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.957|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.957|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.957|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.957|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.957|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.957|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.957|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.957|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.957|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.957|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.957|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.957|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.957|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.957|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.957|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.957|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.958|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.958|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.958|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.958|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.958|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.958|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.958|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.959|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.959|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.959|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.959|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.959|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.959|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.959|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.959|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.960|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.960|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.960|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.960|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.960|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.960|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.960|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000031.960|  800852.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\menu\2EB70440", "rb") failed: No such file or directory
+000031.960|  800852.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000031.960|  800852.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\menu\2EB70440".
+000031.960|  800852.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\menu\2EB70440 (from file (null))
+000031.964|  800988.0032kb|    136.0000kb added| ALWAYS| Set playback speed: 1.000000
+000032.104|  827260.0032kb|  26272.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 12.161000    timeUpdated: 28.459274    startChunk: 4    latestTime: 615.821960
+000033.105|  861976.0000kb|  34716.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 12.161000    timeUpdated: 28.459274    startChunk: 4    latestTime: 616.822632
+000033.829|  854592.0000kb|  -7384.0000kb added| ALWAYS| **** Request chunk 22
+000033.830|  854592.0000kb|      0.0000kb added| ALWAYS| Requesting chunk id 22 of chunk type 1
+000033.830|  854592.0000kb|      0.0000kb added| ALWAYS| Started new chunk.  ChunkID: 22  chunk start time: 540.008545  current time: 587.671204
+000034.035|  860092.0032kb|   5500.0000kb added| ALWAYS| The Killer was: Genki yim
+000034.035|  860092.0032kb|      0.0000kb added| ALWAYS| HEALS
+000034.035|  860092.0032kb|      0.0000kb added| ALWAYS|   Danny Judy applied amount 0 with abilities [KatarinaR|amount:0|priority:0][KatarinaW|amount:0|priority:0][KatarinaE|amount:0|priority:0]
+000034.035|  860092.0032kb|      0.0000kb added| ALWAYS| DAMAGE
+000034.035|  860100.0968kb|      8.0000kb added| ALWAYS|   iusedtobecool applied amount 536.949 with abilities [WildCards|amount:169.083|priority:169][SummonerDot|amount:126|priority:134][_BasicAttack|amount:102.113|priority:102][PickACard|amount:85.2994|priority:85][CardmasterStack|amount:54.4527|priority:54]
+000034.035|  860100.0968kb|      0.0000kb added| ALWAYS|   Genki yim applied amount 278.845 with abilities [SkarnerImpale|amount:127.807|priority:302][SkarnerVirulentSlash|amount:104.067|priority:104][_BasicAttack|amount:46.9721|priority:46]
+000034.035|  860100.0968kb|      0.0000kb added| ALWAYS|   Minion applied amount 142.641 with abilities [_BasicAttack|amount:142.641|priority:142]
+000034.093|  862936.0000kb|   2836.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000034.093|  862936.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000034.093|  862936.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0bd1a208
+000034.093|  862936.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 04c04794
+000034.093|  862936.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 048adcb3
+000034.093|  862944.0000kb|      8.0000kb added| ALWAYS| The Killer was: Haughty
+000034.093|  862944.0000kb|      0.0000kb added| ALWAYS| HEALS
+000034.093|  862944.0000kb|      0.0000kb added| ALWAYS|   iusedtobecool applied amount 0 with abilities [SummonerFlash|amount:0|priority:8][WildCards|amount:0|priority:0][CardmasterStack|amount:0|priority:0][PickACard|amount:0|priority:0][SecondSight|amount:0|priority:0][BurningEmbers|amount:0|priority:0]
+000034.093|  862944.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000034.093|  862944.0000kb|      0.0000kb added| ALWAYS|   Danny Judy applied amount 787.022 with abilities [KatarinaRMis|amount:426.832|priority:434][KatarinaQ|amount:197.34|priority:171][_BasicAttack|amount:63.7115|priority:63][KatarinaW|amount:49.8927|priority:49][KatarinaE|amount:49.2461|priority:49]
+000034.093|  862944.0000kb|      0.0000kb added| ALWAYS|   Haughty applied amount 258.383 with abilities [BandageToss|amount:76.3784|priority:167][Tantrum|amount:107.788|priority:107][_BasicAttack|amount:50.4153|priority:50][AuraofDespair|amount:23.8009|priority:23][blessingofthelizardelder|amount:0|priority:0][CursedTouch|amount:0|priority:0]
+000034.093|  862944.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 68.9057 with abilities [_BasicAttack|amount:68.9057|priority:68]
+000034.110|  863684.0968kb|    740.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 12.161000    timeUpdated: 28.459274    startChunk: 4    latestTime: 617.827576
+000034.312|  870848.0000kb|   7164.0000kb added| ALWAYS| **** Request chunk 23
+000034.312|  870848.0000kb|      0.0000kb added| ALWAYS| Requesting chunk id 23 of chunk type 1
+000034.313|  870848.0000kb|      0.0000kb added| ALWAYS| Started new chunk.  ChunkID: 23  chunk start time: 570.018005  current time: 588.156555
+000035.117|  882896.0000kb|  12048.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 12.161000    timeUpdated: 28.459274    startChunk: 4    latestTime: 618.835205
+000036.120|  885720.0000kb|   2824.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 12.161000    timeUpdated: 28.459274    startChunk: 4    latestTime: 619.837891
+000037.194|  887072.0000kb|   1352.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 12.161000    timeUpdated: 28.459274    startChunk: 4    latestTime: 620.912170
+000038.195|  884640.0000kb|  -2432.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 12.161000    timeUpdated: 28.459274    startChunk: 4    latestTime: 621.912354
+000038.693|  892888.0000kb|   8248.0000kb added| ALWAYS| Requesting LastAvailableChunkInfo.
+000038.885|  892892.0000kb|      4.0000kb added| ALWAYS| ---- Waiting to fetch 7504
+000039.195|  892896.0000kb|      4.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 22.546001    timeUpdated: 38.885822    startChunk: 4    latestTime: 622.871277
+000040.204|  892896.0000kb|      0.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 22.546001    timeUpdated: 38.885822    startChunk: 4    latestTime: 623.879944
+000041.215|  894180.0968kb|   1284.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 22.546001    timeUpdated: 38.885822    startChunk: 4    latestTime: 624.890930
+000042.215|  894180.0968kb|      0.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 22.546001    timeUpdated: 38.885822    startChunk: 4    latestTime: 625.891235
+000043.215|  894652.0032kb|    472.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 22.546001    timeUpdated: 38.885822    startChunk: 4    latestTime: 626.891296
+000044.215|  894652.0032kb|      0.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 22.546001    timeUpdated: 38.885822    startChunk: 4    latestTime: 627.891296
+000045.215|  894652.0032kb|      0.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 22.546001    timeUpdated: 38.885822    startChunk: 4    latestTime: 628.891479
+000046.101|  894776.0000kb|    124.0000kb added| ALWAYS| **** Request chunk 24
+000046.101|  894776.0000kb|      0.0000kb added| ALWAYS| Requesting chunk id 24 of chunk type 1
+000046.101|  894776.0000kb|      0.0000kb added| ALWAYS| Started new chunk.  ChunkID: 24  chunk start time: 600.015503  current time: 599.978638
+000046.215|  894776.0000kb|      0.0000kb added| ALWAYS| LastAvailableChunk -----  id: 24 gameTime: 1 timeSinceAvailable: 22.546001    timeUpdated: 38.885822    startChunk: 4    latestTime: 629.891479
+000046.395|  894776.0000kb|      0.0000kb added| ALWAYS| Requesting LastAvailableChunkInfo.
+000046.574|  894776.0000kb|      0.0000kb added| ALWAYS| ---- Downloading Chunk 25
+000046.831|  770580.0968kb| -124196.0000kb added| ALWAYS| Finished Main Loop
+000046.879|  770580.0000kb|      0.0000kb added| ALWAYS| ---- Waiting to fetch 10000
+000049.655|  612180.0968kb| -158400.0000kb added| ALWAYS| Finished Play game
+000049.655|  612180.0968kb|      0.0000kb added| ALWAYS| Game exited
+000049.685|  591336.0000kb| -20844.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+000049.702|  504392.0000kb| -86944.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+000049.702|  504136.0000kb|   -256.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00042.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00041.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00040.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00039.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00038.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00037.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00036.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00035.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00034.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00033.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00032.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00031.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00030.tga" ref count 111.
+000049.702|  504136.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00029.tga" ref count 111.
+000049.702|  504052.0000kb|    -84.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00028.tga" ref count 111.
+000049.703|  502320.0000kb|  -1732.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00027.tga" ref count 111.
+000049.703|  502320.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/otherchatbubble.tga" ref count 111.
+000049.703|  501884.0000kb|   -436.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/amumu/info/amumu_circle_0.DDS" ref count 1.
+000049.703|  501756.0000kb|   -128.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/katarina/info/katarina_circle.DDS" ref count 1.
+000049.703|  501644.0000kb|   -112.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/skarner/info/skarner_circle.DDS" ref count 1.
+000049.703|  500476.0000kb|  -1168.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/twistedfate/info/twistedfate_circle_0.DDS" ref count 1.
+000049.703|  500188.0000kb|   -288.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/minimapicons/ring.tga" ref count 4.
+000049.704|  499732.0000kb|   -456.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/textures/hudcenterbar.tga" ref count 1.
+000049.704|  499732.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/textures/hudatlas.tga" ref count 1.
+000049.704|  495624.0000kb|  -4108.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/textures/aoe.DDS" ref count 3.
+000049.704|  495240.0000kb|   -384.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/gsb_taunt.DDS" ref count 1.
+000049.704|  494660.0000kb|   -580.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/healthbarsspectator.tga" ref count 226.
+000049.704|  493284.0000kb|  -1376.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/lamp.DDS" ref count 374.
+000049.705|  493248.0000kb|    -36.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/096_eye_of_the_observer.DDS" ref count 1.
+000049.705|  493228.0000kb|    -20.0000kb added|   WARN| WARNING: Direct3DDevice was released but has a reference count of 1
+000049.705|  493228.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+000049.705|  493228.0000kb|      0.0000kb added| ALWAYS| Destroying the Renderer (1)
+000049.705|  493228.0000kb|      0.0000kb added| ALWAYS| game::Shutdown
+000049.705|  493228.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+000049.705|  493228.0000kb|      0.0000kb added| ALWAYS| Pre ::R3D::Perf::DinitPerfLists
+000049.705|  493228.0000kb|      0.0000kb added| ALWAYS| Post ::R3D::Perf::DinitPerfLists
+000049.705|  493228.0000kb|      0.0000kb added| ALWAYS| Exiting WinMain
+000049.714|  438140.0000kb| -55088.0000kb added| ALWAYS| ---- Waiting to fetch -1
+000049.900|  438160.0000kb|     20.0000kb added| ALWAYS| Spectator download thread ended due to exception: ThreadTerminate

@@ -1,0 +1,28 @@
+000000.000|   15624.0000kb|  15624.0000kb added| ALWAYS| Logging started at 2013-09-24T14:50:33.763
+000000.001|   15644.0000kb|     20.0000kb added| ALWAYS| Loading RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.187|   15868.0000kb|    224.0000kb added|   OKAY| Riot::RADS::Reader::RadsExportsMain::Initialize: RADS library initializing with specified working directory "C:\Riot Games\League of Legends\RADS\solutions\lol_game_client_sln\releases\0.0.0.247\deploy".
+000000.187|   15868.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.188|   15880.0000kb|     12.0000kb added|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.247/solutionmanifest")
+000000.189|   15660.0000kb|   -220.0000kb added|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.247/configurationmanifest")
+000000.191|   15660.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client_en_us/releases/0.0.0.165/releasemanifest")
+000000.200|   15724.0000kb|     64.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client/releases/0.0.0.180/releasemanifest")
+000009.340|   81944.0000kb|  66220.0000kb added| ALWAYS| Loaded RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000009.369|   82768.0000kb|    824.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects/lol_air_client/releases/0.0.1.47/deploy/preferences/
+000009.425|   83692.0000kb|    924.0000kb added| ALWAYS| Global logging level set to   WARN
+000009.426|   83748.0000kb|     56.0000kb added| ALWAYS| Build Version: Version 3.11.0.317 (Sep 10 2013/19:31:53) [PUBLIC] <Releases/3.11> ChangeList: 342774
+000009.500|   86340.0000kb|   2592.0000kb added| ALWAYS| 
+000009.500|   86340.0000kb|      0.0000kb added|  ERROR| Command line does not have correct number of parameters <0>
+000009.531|   89608.0000kb|   3268.0000kb added|  ERROR| Enet could not connect! Status - 7
+000009.531|   89608.0000kb|      0.0000kb added|  ERROR| Assertion failed!
+
+File: C:\jenkins\workspace\Code-CI-Releases-Public\code\HeroWars_clientServer\SourcesClient\ClientMain.cpp
+Line: 857
+
+Function: Game::MainLoop
+
+Expression: false
+
+Description: Assert occurred, game may crash.
+000009.531|   89612.0000kb|      4.0000kb added| ALWAYS| game::Shutdown
+000009.531|   89612.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+000009.531|   89612.0000kb|      0.0000kb added| ALWAYS| Exiting WinMain

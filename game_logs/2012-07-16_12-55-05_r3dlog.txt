@@ -1,0 +1,456 @@
+--- Log started at Mon Jul 16 12:55:05 2012
+
+000000.000|   13564.0000kb|  13564.0000kb added| ALWAYS| RADS::Common::Cider::Create: Running on Windows
+000000.357|  195420.0000kb| 181856.0000kb added| ALWAYS| Global Log Level set to WARN
+000000.357|  195508.0000kb|     88.0000kb added| ALWAYS| Build Version: Version 1.0.0.142 (Jul  6 2012/15:00:22) [PUBLIC] <__MAIN__>
+000000.386|  199004.0000kb|   3496.0000kb added| ALWAYS| "8394" "LoLLauncher.exe" "C:/Riot Games/League of Legends/RADS/projects/lol_air_client/releases/0.0.0.171/deploy/LolClient.exe" "64.7.194.176 5119 vxQxb4fDcSNjl3LRYSj5aQ== <id_removed>"
+000000.386|  199008.0000kb|      4.0000kb added| ALWAYS| Started System Init
+000000.388|  199120.0000kb|    112.0000kb added| ALWAYS| Maestro Init
+000000.466|  199296.0000kb|    176.0000kb added| ALWAYS| Maestro completed init
+000000.478|  200368.0000kb|   1072.0000kb added| ALWAYS| StartSession called
+000000.478|  200372.0000kb|      4.0000kb added| ALWAYS| Started Init event arguments
+000000.479|  200404.0000kb|     32.0000kb added| ALWAYS| Waiting until connection...
+000000.479|  200404.0000kb|      0.0000kb added| ALWAYS| InitRender() enter
+000000.481|  201040.0000kb|    636.0000kb added| ALWAYS| r3dRenderLayer::Init(0x0004072c) enter
+000000.502|  210552.0000kb|   9512.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000000.514|  211284.0000kb|    732.0000kb added| ALWAYS| Attempting to load fontconfig file for en_US (DATA/Menu/fontconfig_en_US.txt).
+000001.309|  228916.0000kb|  17632.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000001.309|  228916.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.165/deploy/data/menu/IMEConfig.xml", "rb") failed: No such file or directory
+000001.309|  228916.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000001.309|  228916.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.165/deploy/data/menu/IMEConfig.xml".
+000001.309|  228920.0000kb|      4.0000kb added|   WARN| FileManager::Open: Can't open C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.165/deploy/data/menu/IMEConfig.xml (from file (null))
+000001.634|  231092.0000kb|   2172.0000kb added| ALWAYS| Connected
+000001.634|  231120.0000kb|     28.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001ace8093
+000001.634|  231120.0000kb|      0.0000kb added| ALWAYS| Received client ID
+000001.634|  231120.0000kb|      0.0000kb added| ALWAYS| Physical memory: 0
+000001.634|  231120.0000kb|      0.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000001.634|  231120.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz, Intel64 Family 6 Model 58 Stepping 9, 2294 (0 core)
+000001.634|  231124.0000kb|      4.0000kb added| ALWAYS| Measured processor speed: 2311
+000001.634|  231124.0000kb|      0.0000kb added| ALWAYS| Physical memory: 0
+000001.634|  231124.0000kb|      0.0000kb added| ALWAYS| Started Init render
+000001.635|  231144.0000kb|     20.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects\lol_air_client\releases\0.0.0.171\deploy\preferences\
+000001.635|  231156.0000kb|     12.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(0)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(1)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(2)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(3)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(4)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(5)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(6)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(7)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(8)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(9)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(10)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(11)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(12)
+000001.636|  231156.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(13)
+000001.637|  231164.0000kb|      8.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(14)
+000001.637|  231176.0000kb|     12.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(15)
+000001.637|  231176.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(16)
+000001.637|  231176.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(17)
+000001.637|  231176.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(18)
+000001.637|  231176.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(19)
+000001.637|  231176.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(20)
+000001.637|  231180.0000kb|      4.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(21)
+000001.637|  231180.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(22)
+000001.637|  231180.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(23)
+000001.637|  231180.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(24)
+000001.637|  231180.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(25)
+000001.637|  231180.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(26)
+000001.637|  231180.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(27)
+000001.637|  231180.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(28)
+000001.646|  231380.0000kb|    200.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1280, YRes = 720, BPP = 32,  Flags=256, RenderPath = 101) enter
+000001.646|  231380.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Enumerating Display Modes
+000001.646|  231416.0000kb|     36.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000001.856|  233256.0000kb|   1840.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.856|  233256.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.856|  233256.0000kb|      0.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000001.856|  233256.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz, Intel64 Family 6 Model 58 Stepping 9, 2294 (0 core)
+000001.856|  233256.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 2333
+000001.856|  233256.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.856|  233256.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000003.359|  254884.0000kb|  21628.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000003.423|  256368.0000kb|   1484.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000003.533|  261508.0000kb|   5140.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000003.626|  262980.0000kb|   1472.0000kb added| ALWAYS| Set focus to app
+000003.626|  262980.0000kb|      0.0000kb added| ALWAYS| Input started
+000003.640|  263040.0000kb|     60.0000kb added| ALWAYS| Query Status Req started
+000003.650|  263060.0000kb|     20.0000kb added| ALWAYS| Query Status Req ended
+000003.650|  263060.0000kb|      0.0000kb added| ALWAYS| Waiting for server response...
+000003.850|  263060.0000kb|      0.0000kb added| ALWAYS| Receiving PKT_SynchVersionS2C_s, Server :Version 1.0.0.142 [PUBLIC]
+000003.850|  263064.0000kb|      4.0000kb added| ALWAYS| Started Map Map1
+000003.850|  263080.0000kb|     16.0000kb added| ALWAYS| netUID: 0 defaultname
+000003.850|  263080.0000kb|      0.0000kb added| ALWAYS| Adding level zip file: Map1.zip
+000003.854|  263096.0000kb|     16.0000kb added| ALWAYS| PlayGame Started
+000004.528|  327724.0000kb|  64628.0000kb added| ALWAYS| PlayGame Entered
+000004.528|  327748.0000kb|     24.0000kb added| ALWAYS| CurRenderPipeline
+000004.533|  327840.0000kb|     92.0000kb added| ALWAYS| CreateParticleSystemManager
+000006.781|  445592.0000kb| 117752.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000006.782|  445592.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/items/icons2d/annieincinerate.dds", "rb") failed: No such file or directory
+000006.782|  445592.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000006.782|  445592.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/items/icons2d/annieincinerate.dds".
+000006.782|  445592.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/items/icons2d/annieincinerate.dds (from file r3dTexture::LoadRawTexture)
+000006.782|  445592.0000kb|      0.0000kb added|  ERROR| Can not open file <data/items/icons2d/annieincinerate.dds> *********
+000006.782|  445592.0000kb|      0.0000kb added|  ERROR| Failed to load data/items/icons2d/annieincinerate.dds
+000006.782|  445596.0000kb|      4.0000kb added|   WARN| r3dTexture EX: data/items/icons2d/annieincinerate.dds - not found. Dummy texture created.
+000007.516|  452004.0000kb|   6408.0000kb added|  ERROR| Failed to load Behavior Tree Node Definition file: DATA\Summoner\SummonerBlockLibrary.xml!
+000007.516|  452004.0000kb|      0.0000kb added|  ERROR| Failed to load Behavior Tree Node Definition file: DATA\Summoner\SummonerBlockLibraryClient.xml!
+000007.516|  452004.0000kb|      0.0000kb added|  ERROR| Unable to load Behavior Tree metadata file: DATA\Summoner\SummonerBlockLibrary.xml. from group BehaviorTreeMetaData, using key 'BehaviorTreeMetaData' on map: Map1  Remaining Behavior Tree loading skipped!
+000007.676|  457760.0000kb|   5756.0000kb added| ALWAYS| FMOD: Attempting to load localized audio for en_US
+000007.718|  459924.0000kb|   2164.0000kb added| ALWAYS| LoLAudio::Load(): Successfully loaded default desired language locale: LoL_Audio_en_US.fev
+000007.723|  460080.0000kb|    156.0000kb added| ALWAYS| GameWorld.Update()
+000007.724|  460080.0000kb|      0.0000kb added| ALWAYS| Begin Game Object Update
+000008.103|  475068.0000kb|  14988.0000kb added| ALWAYS| End Game Object Update
+000009.061|  501452.0000kb|  26384.0000kb added| ALWAYS| PreloadGlobalEffects()
+000009.061|  501452.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000009.154|  506836.0000kb|   5384.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/particles/aoe.tga", "rb") failed: No such file or directory
+000009.154|  506836.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000009.154|  506836.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/particles/aoe.tga".
+000009.155|  506836.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/particles/aoe.tga (from file r3dTexture::LoadRawTexture)
+000009.155|  506836.0000kb|      0.0000kb added|  ERROR| Can not open file <data/particles/aoe.tga> *********
+000009.155|  506836.0000kb|      0.0000kb added|  ERROR| Failed to load data/particles/aoe.tga
+000009.155|  506836.0000kb|      0.0000kb added|   WARN| r3dTexture EX: data/particles/aoe.tga - not found. Dummy texture created.
+000009.416|  536372.0000kb|  29536.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000009.417|  536372.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalBuffAssets()
+000009.529|  540856.0000kb|   4484.0000kb added| ALWAYS| ObjectManager_RegisterNetworkWorld()
+000009.531|  540880.0000kb|     24.0000kb added| ALWAYS| FogOfWar::Init()
+000009.533|  541028.0968kb|    148.0000kb added| ALWAYS| Gamma::CreateIAPI()
+000009.535|  541036.0032kb|      8.0000kb added| ALWAYS| SimulationClock->Init()
+000009.687|  565252.0968kb|  24216.0000kb added|   WARN| Flash swf data/menu/Scoreboard.swf does not have a valid _global.ContentWidth defaulting
+000010.205|  608392.0000kb|  43140.0000kb added|   WARN| Flash swf data\menu\Tooltips.swf does not have a valid _global.ContentWidth defaulting
+000010.210|  608800.0000kb|    408.0000kb added|   WARN| Flash swf data\menu\RainboomTooltip.swf does not have a valid _global.ContentWidth defaulting
+000016.313|  650440.0000kb|  41640.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000016.313|  650440.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/particles/purp_white_lightbar.tga", "rb") failed: No such file or directory
+000016.313|  650440.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000016.313|  650440.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/particles/purp_white_lightbar.tga".
+000016.313|  650440.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/particles/purp_white_lightbar.tga (from file r3dTexture::LoadRawTexture)
+000016.313|  650440.0000kb|      0.0000kb added|  ERROR| Can not open file <data/particles/purp_white_lightbar.tga> *********
+000016.313|  650440.0000kb|      0.0000kb added|  ERROR| Failed to load data/particles/purp_white_lightbar.tga
+000016.313|  650440.0000kb|      0.0000kb added|   WARN| r3dTexture EX: data/particles/purp_white_lightbar.tga - not found. Dummy texture created.
+000017.255|  661984.0000kb|  11544.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000017.255|  661984.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("Data\Particles\test_crystals.sco", "rt") failed: No such file or directory
+000017.255|  661984.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000017.255|  661984.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "Data\Particles\test_crystals.sco".
+000017.255|  661984.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open Data\Particles\test_crystals.sco (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\Solutions\RiotRendering\Shared\Mesh\Mesh_SharedLS.cpp)
+000019.978|  705560.0000kb|  43576.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000019.979|  705560.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000020.081|  714620.0032kb|   9060.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000020.119|  729292.0032kb|  14672.0000kb added| ALWAYS| Start Main Loop
+000020.119|  728832.0000kb|   -460.0000kb added| ALWAYS| PKT_C2S_CharSelected sent
+000020.119|  728844.0032kb|     12.0000kb added| ALWAYS| Waiting for all players to connect
+000020.120|  728844.0032kb|      0.0000kb added| ALWAYS| Waiting for all players to connect end
+000092.289|   12400.0000kb| -716444.-032kb added| ALWAYS| PKT_S2C_StartSpawn
+000092.289|   12604.0000kb|    204.0000kb added| ALWAYS| Creating Hero...
+000092.308|   24912.0000kb|  12308.0000kb added| ALWAYS| Hero FiddleSticks created for cpatters20
+000092.308|   24912.0000kb|      0.0000kb added| ALWAYS| Spawning heroes/minions
+000092.319|   28144.0000kb|   3232.0000kb added| ALWAYS| Creating Hero...
+000092.326|   30140.0000kb|   1996.0000kb added| ALWAYS| Hero Leona created for Squatch
+000092.326|   30160.0000kb|     20.0000kb added| ALWAYS| Finished spawning heroes/minions
+000093.382|   33092.0000kb|   2932.0000kb added| ALWAYS| Creating Hero...
+000093.576|   35276.0000kb|   2184.0000kb added| ALWAYS| Hero Tryndamere created for conzor69
+000094.077|   35276.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000094.091|   36232.0000kb|    956.0000kb added| ALWAYS| Hero Vladimir created for waimin
+000094.091|   36232.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000094.124|   39520.0000kb|   3288.0000kb added|  ERROR| Failed to load .skn file for character [data\characters\ezreal_cyber_1/ezreal_cyber_1.ini], skin [MeshSkin]000094.125|   39620.0000kb|    100.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000094.125|   39620.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\characters\ezreal_cyber_1\_skeleton", "rb") failed: No such file or directory
+000094.125|   39620.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000094.125|   39620.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\characters\ezreal_cyber_1\_skeleton".
+000094.125|   39620.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\characters\ezreal_cyber_1\_skeleton (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\Animation\AnimUtils\RigResourceSerializer.cpp)
+000094.125|   39708.0000kb|     88.0000kb added|  ERROR| Failed to load data\characters\ezreal_cyber_1\_skeleton
+000094.125|   39712.0000kb|      4.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000094.125|   39712.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("Data\Characters\ezreal_cyber_1\Animations.list", "rt") failed: No such file or directory
+000094.125|   39712.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000094.125|   39712.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "Data\Characters\ezreal_cyber_1\Animations.list".
+000094.125|   39712.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open Data\Characters\ezreal_cyber_1\Animations.list (from file Riot::Animation::`anonymous-namespace'::LoadCompatibleList)
+000094.152|   42752.0000kb|   3040.0000kb added|  ERROR| Failed to load .skn file for character [data\characters\ezreal_cyber_2/ezreal_cyber_2.ini], skin [MeshSkin]000094.152|   42752.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000094.152|   42756.0000kb|      4.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\characters\ezreal_cyber_2\_skeleton", "rb") failed: No such file or directory
+000094.152|   42756.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000094.152|   42756.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\characters\ezreal_cyber_2\_skeleton".
+000094.152|   42756.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\characters\ezreal_cyber_2\_skeleton (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\Animation\AnimUtils\RigResourceSerializer.cpp)
+000094.152|   42756.0000kb|      0.0000kb added|  ERROR| Failed to load data\characters\ezreal_cyber_2\_skeleton
+000094.152|   42756.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000094.152|   42756.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("Data\Characters\ezreal_cyber_2\Animations.list", "rt") failed: No such file or directory
+000094.152|   42756.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000094.152|   42756.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "Data\Characters\ezreal_cyber_2\Animations.list".
+000094.153|   42756.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open Data\Characters\ezreal_cyber_2\Animations.list (from file Riot::Animation::`anonymous-namespace'::LoadCompatibleList)
+000094.169|   44296.0000kb|   1540.0000kb added|  ERROR| Failed to load .skn file for character [data\characters\ezreal_cyber_3/ezreal_cyber_3.ini], skin [MeshSkin]000094.169|   44296.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000094.169|   44296.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data\characters\ezreal_cyber_3\_skeleton", "rb") failed: No such file or directory
+000094.169|   44296.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000094.169|   44296.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data\characters\ezreal_cyber_3\_skeleton".
+000094.169|   44296.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data\characters\ezreal_cyber_3\_skeleton (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\Animation\AnimUtils\RigResourceSerializer.cpp)
+000094.169|   44296.0000kb|      0.0000kb added|  ERROR| Failed to load data\characters\ezreal_cyber_3\_skeleton
+000094.169|   44296.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000094.169|   44296.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("Data\Characters\ezreal_cyber_3\Animations.list", "rt") failed: No such file or directory
+000094.169|   44296.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000094.169|   44296.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "Data\Characters\ezreal_cyber_3\Animations.list".
+000094.169|   44296.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open Data\Characters\ezreal_cyber_3\Animations.list (from file Riot::Animation::`anonymous-namespace'::LoadCompatibleList)
+000094.186|   45820.0000kb|   1524.0000kb added| ALWAYS| Hero Ezreal created for NWK SheepHerder
+000094.687|   47332.0000kb|   1512.0000kb added| ALWAYS| Creating Hero...
+000095.182|   62808.0000kb|  15476.0000kb added| ALWAYS| Hero Ashe created for Ashe Bot
+000095.683|   62812.0000kb|      4.0000kb added| ALWAYS| Creating Hero...
+000096.219|   68076.0000kb|   5264.0000kb added| ALWAYS| Hero Warwick created for Warwick Bot
+000096.750|   69164.0000kb|   1088.0000kb added| ALWAYS| Creating Hero...
+000097.396|   78592.0000kb|   9428.0000kb added| ALWAYS| Hero Ryze created for Ryze Bot
+000097.902|   78604.0000kb|     12.0000kb added| ALWAYS| Creating Hero...
+000098.413|  100784.0000kb|  22180.0000kb added| ALWAYS| Hero Lux created for Lux Bot
+000098.917|  100796.0000kb|     12.0000kb added| ALWAYS| Creating Hero...
+000098.918|  100820.0000kb|     24.0000kb added| ALWAYS| Hero Leona created for Leona Bot
+000099.537|  112576.0000kb|  11756.0000kb added| ALWAYS| PKT_S2C_EndSpawn
+000110.563|  115192.0000kb|   2616.0000kb added| ALWAYS| PKT_StartGame
+000111.998|  157300.0000kb|  42108.0000kb added| ALWAYS| PKT_StartGame Finished proccessing
+000112.013|  159932.0000kb|   2632.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000112.013|  159932.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Starting music and loading announcements
+000112.013|  159944.0000kb|     12.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000112.027|  160808.0000kb|    864.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000112.027|  160824.0000kb|     16.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000112.027|  160832.0000kb|      8.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000112.027|  160832.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000112.027|  160836.0000kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000112.042|  162188.0000kb|   1352.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000112.042|  162196.0000kb|      8.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000112.127|  179700.0000kb|  17504.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000112.127|  179900.0000kb|    200.0000kb added| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000112.142|  180500.0000kb|    600.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000112.163|  184924.0000kb|   4424.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000112.163|  184968.0000kb|     44.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.163|  184968.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for GlobalScale:Globals in DATA\Menu\HUD\Hud1280x720.ini.
+000112.163|  184968.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.163|  184968.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:Minimap in DATA\Menu\HUD\Hud1280x720.ini.
+000112.163|  184964.0000kb|     -4.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.163|  184976.0000kb|     12.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:MinimapFlipped in DATA\Menu\HUD\Hud1280x720.ini.
+000112.164|  185304.0000kb|    328.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.164|  185360.0000kb|     56.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:MapOverlay in DATA\Menu\HUD\Hud1280x720.ini.
+000112.164|  185776.0000kb|    416.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.164|  185912.0000kb|    136.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChat in DATA\Menu\HUD\Hud1280x720.ini.
+000112.164|  186168.0000kb|    256.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.164|  186168.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChatFlipped in DATA\Menu\HUD\Hud1280x720.ini.
+000112.164|  186168.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.164|  186168.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChatReplay in DATA\Menu\HUD\Hud1280x720.ini.
+000112.164|  186168.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.164|  186168.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:ItemShop in DATA\Menu\HUD\Hud1280x720.ini.
+000112.164|  186172.0000kb|      4.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.165|  186172.0000kb|      0.0000kb added|  ERROR| Failed to write value 0.0000 for XPos:ChampionsFriendly in DATA\Menu\HUD\Hud1280x720.ini.
+000112.165|  186172.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.165|  186172.0000kb|      0.0000kb added|  ERROR| Failed to write value 0.0000 for XPos:ChampionsEnemy in DATA\Menu\HUD\Hud1280x720.ini.
+000112.165|  186172.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000112.165|  186172.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for MinimapScale:Globals in DATA\Menu\HUD\Hud1280x720.ini.
+000112.236|  237328.0000kb|  51156.0000kb added| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000112.236|  237336.0000kb|      8.0000kb added| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000112.236|  237340.0000kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000112.236|  237356.0000kb|     16.0000kb added| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000112.236|  237480.0000kb|    124.0000kb added| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000112.241|  239248.0000kb|   1768.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000280.893|  437924.0000kb| 198676.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000287.240|  439608.0000kb|   1684.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000330.308|  465500.0000kb|  25892.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000332.625|  464580.0000kb|   -920.0000kb added|   WARN| r3dTexture EX: data/particles/yikes_circle.DDS - not found. Dummy texture created.
+000336.705|  468112.0000kb|   3532.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000342.687|  469228.0000kb|   1116.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000348.950|  469928.0000kb|    700.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000362.231|  472416.0000kb|   2488.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000368.392|  474552.0000kb|   2136.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000379.538|  477324.0000kb|   2772.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000382.704|  477808.0000kb|    484.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000427.686|  492020.0000kb|  14212.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000431.253|  492084.0000kb|     64.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000433.884|  492532.0000kb|    448.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000437.519|  497624.0000kb|   5092.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000441.817|  498048.0000kb|    424.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000444.813|  495452.0000kb|  -2596.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000451.929|  496488.0000kb|   1036.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000458.061|  497436.0000kb|    948.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000475.268|  499184.0000kb|   1748.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000481.449|  499656.0000kb|    472.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000510.822|  502948.0000kb|   3292.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000517.018|  505884.0000kb|   2936.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000540.808|  519528.0000kb|  13644.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000547.140|  520336.0000kb|    808.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000556.587|  521788.0000kb|   1452.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000562.723|  526496.0000kb|   4708.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000605.617|  541672.0000kb|  15176.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000607.884|  542164.0968kb|    492.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000642.786|  546204.0032kb|   4040.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000648.950|  546816.0000kb|    612.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000658.849|  547468.0032kb|    652.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000660.113|  547728.0000kb|    260.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000665.010|  548028.0032kb|    300.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000666.293|  548080.0000kb|     52.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000679.206|  551832.0000kb|   3752.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000685.552|  552380.0032kb|    548.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000693.568|  552756.0968kb|    376.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000699.847|  553156.0968kb|    400.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000732.250|  559428.0968kb|   6272.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000738.498|  559704.0000kb|    276.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000744.531|  562692.0968kb|   2988.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000750.694|  564240.0000kb|   1548.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000756.111|  565176.0000kb|    936.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000762.456|  565496.0000kb|    320.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000776.318|  569256.0000kb|   3760.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000782.682|  569552.0000kb|    296.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000787.697|  570440.0000kb|    888.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000788.630|  570948.0968kb|    508.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000793.844|  571216.0000kb|    268.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000794.877|  571352.0000kb|    136.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000802.242|  571776.0000kb|    424.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000808.371|  572332.0032kb|    556.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000829.681|  577560.0000kb|   5228.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000835.894|  578256.0000kb|    696.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000849.056|  581060.0968kb|   2804.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000852.290|  581608.0000kb|    548.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000882.509|  586768.0000kb|   5160.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000885.514|  587284.0968kb|    516.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000886.745|  587948.0032kb|    664.0000kb added|  ERROR| Assertion failed!
+
+Program: League of Legends.exe
+File: C:\jenkins\workspace\New-Code-CI-__MAIN__\code\gameengine\Stats\Health.cpp
+Line: 217
+
+Function: Health::InvariantCheck
+Expression: mCurrent <= mMax
+
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts
+
+(Press Retry to debug the application - JIT must be enabled)
+
+000886.745|  587948.0032kb|      0.0000kb added|  ERROR| Assert Description: General hard assert occurred, game may crash!
+000911.266|  591144.0000kb|   3196.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 01d1474e
+000940.072|  594188.0032kb|   3044.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000940.471|  594188.0032kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000946.338|  594944.0000kb|    756.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000946.835|  594952.0000kb|      8.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000950.101|  601120.0000kb|   6168.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 01d1474e
+000957.847|  610212.0968kb|   9092.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000963.977|  611564.0032kb|   1352.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000966.596|  611632.0000kb|     68.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000969.708|  611920.0000kb|    288.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000982.509|  613100.0032kb|   1180.0000kb added| ALWAYS| chat_debug: Console SendChat you used your pool for no reason
+001015.442|  615216.0000kb|   2116.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001028.158|  617588.0968kb|   2372.0000kb added| ALWAYS| chat_debug: Console SendChat thats what co-op vs AI is for ;)
+001029.059|  618028.0032kb|    440.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001031.036|  619780.0968kb|   1752.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001034.152|  623104.0000kb|   3324.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001053.795|  629476.0968kb|   6372.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 01d1474e
+001063.157|  630412.0032kb|    936.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001066.405|  630780.0032kb|    368.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001076.886|  632588.0032kb|   1808.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001078.953|  633244.0032kb|    656.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 01d1474e
+001083.051|  634008.0000kb|    764.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001083.836|  634316.0032kb|    308.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001090.047|  635212.0032kb|    896.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001162.654|  635468.0032kb|    256.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001163.437|  635536.0000kb|     68.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001163.437|  635556.0968kb|     20.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 02445c36
+001163.437|  635560.0000kb|      4.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0bcfe673
+001163.437|  635568.0000kb|      8.0000kb added| ALWAYS| The Killer was: Lux Bot
+001163.437|  635568.0000kb|      0.0000kb added| ALWAYS| HEALS
+001163.438|  635568.0000kb|      0.0000kb added| ALWAYS|   Squatch applied amount 0 with abilities [LeonaShieldOfDaybreak|amount:0|priority:34][LeonaSolarBarrier|amount:0|priority:9][MasteryHoardBuff|amount:0|priority:0][MonsterBuffs|amount:0|priority:0][game_item_displayname_3105|amount:0|priority:0][FlashFrostSpell|amount:0|priority:0][LeonaZenithBlade|amount:0|priority:0][game_item_displayname_3158|amount:0|priority:0][game_item_displayname_3067|amount:0|priority:0][game_item_displayname_3096|amount:0|priority:0][game_item_displayname_3132|amount:0|priority:0]
+001163.438|  635568.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+001163.438|  635568.0000kb|      0.0000kb added| ALWAYS|   Lux Bot applied amount 212.409 with abilities [LuxMaliceCannon|amount:212.409|priority:221]
+001189.040|  666436.0968kb|  30868.0000kb added| ALWAYS| End game message processing!
+001189.040|  666436.0968kb|      0.0000kb added| ALWAYS| End game message processed!
+001189.057|  666436.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001198.287|  544596.0968kb| -121840.0000kb added| ALWAYS| Finished Main Loop
+001201.410|  445700.0000kb| -98896.0000kb added| ALWAYS| Finished Play game
+001201.410|  445704.0000kb|      4.0000kb added| ALWAYS| Game exited
+001201.429|  436696.0000kb|  -9008.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+001201.450|  383928.0000kb| -52768.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001201.450|  383672.0000kb|   -256.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00024.tga" ref count 1.
+001201.451|  383672.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00023.tga" ref count 1.
+001201.451|  383672.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00022.tga" ref count 1.
+001201.451|  383672.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00021.tga" ref count 1.
+001201.451|  383672.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00020.tga" ref count 1.
+001201.451|  383672.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00019.tga" ref count 1.
+001201.451|  383672.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00018.tga" ref count 1.
+001201.451|  383672.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00017.tga" ref count 1.
+001201.451|  383292.0000kb|   -380.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00016.tga" ref count 1.
+001201.451|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00015.tga" ref count 1.
+001201.451|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00014.tga" ref count 1.
+001201.451|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00013.tga" ref count 1.
+001201.451|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00012.tga" ref count 1.
+001201.451|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00011.tga" ref count 1.
+001201.451|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00010.tga" ref count 1.
+001201.451|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00009.tga" ref count 1.
+001201.451|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00008.tga" ref count 1.
+001201.451|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00007.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00006.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00005.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00004.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00003.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00002.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00001.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00000.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/xpbarmask.tga" ref count 2.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/xpbar.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/chatbubble.tga" ref count 1.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00042.tga" ref count 51.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00041.tga" ref count 51.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00040.tga" ref count 51.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00039.tga" ref count 51.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00038.tga" ref count 51.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00037.tga" ref count 51.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00036.tga" ref count 51.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00035.tga" ref count 51.
+001201.452|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00034.tga" ref count 51.
+001201.453|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00033.tga" ref count 51.
+001201.453|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00032.tga" ref count 51.
+001201.453|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00031.tga" ref count 51.
+001201.453|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00030.tga" ref count 51.
+001201.453|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00029.tga" ref count 51.
+001201.453|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00028.tga" ref count 51.
+001201.453|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00027.tga" ref count 51.
+001201.453|  383292.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/otherchatbubble.tga" ref count 50.
+001201.453|  382844.0000kb|   -448.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/teleporthome.DDS" ref count 1.
+001201.453|  382844.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/luxilluminatingfraulein.DDS" ref count 3.
+001201.453|  382844.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/lux/info/lux_circle.DDS" ref count 14.
+001201.453|  382844.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/ryze/info/ryze_circle.DDS" ref count 9.
+001201.453|  382844.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/warwick/info/warwick_circle_0.DDS" ref count 9.
+001201.453|  382844.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/ashe/info/bowmaster_circle.DDS" ref count 12.
+001201.453|  382844.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/textures/aoe_leona_outer.DDS" ref count 2.
+001201.453|  382572.0000kb|   -272.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3158_ionian_boots_of_lucidity.DDS" ref count 1.
+001201.454|  382384.0000kb|   -188.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3014_doppleganker.DDS" ref count 1.
+001201.454|  382384.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3051_renewal_tunic.DDS" ref count 1.
+001201.454|  382384.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/113_tome_of_minor_necro_compulsion.DDS" ref count 1.
+001201.454|  382384.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/034_steel_shield.DDS" ref count 1.
+001201.454|  382384.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3062_soul_pendant.DDS" ref count 1.
+001201.454|  382384.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3067_kindlegem.DDS" ref count 1.
+001201.454|  382384.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/2003_regeneration_potion.DDS" ref count 1.
+001201.454|  382384.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/165_harmony_ring.DDS" ref count 1.
+001201.454|  382108.0000kb|   -276.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/1001_boots_of_speed.DDS" ref count 1.
+001201.454|  381736.0000kb|   -372.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/ezreal/info/ezreal_square.DDS" ref count 1.
+001201.454|  381736.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/ezreal/info/ezreal_circle.DDS" ref count 30.
+001201.454|  381564.0000kb|   -172.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/vladimir/info/vladimir_square_0.DDS" ref count 1.
+001201.454|  381564.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/vladimir/info/vladimir_circle_0.DDS" ref count 5.
+001201.454|  381472.0000kb|    -92.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/tryndamere/info/darkchampion_square.DDS" ref count 1.
+001201.455|  381472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/tryndamere/info/darkchampion_circle.DDS" ref count 18.
+001201.455|  381472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/leona/info/leonasunlight.DDS" ref count 1.
+001201.455|  381472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/leonasolarflare.DDS" ref count 1.
+001201.455|  381472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/leonazenithblade.DDS" ref count 1.
+001201.455|  381472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/leonasolarbarrier.DDS" ref count 2.
+001201.455|  381472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/leonashieldofdaybreak.DDS" ref count 1.
+001201.455|  381472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/leona/info/leona_square.DDS" ref count 1.
+001201.455|  381472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/leona/info/leona_circle.DDS" ref count 14.
+001201.455|  381460.0000kb|    -12.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/fiddlesticks/info/fiddlesticks_square.DDS" ref count 1.
+001201.455|  381460.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/fiddlesticks/info/fiddlesticks_circle.DDS" ref count 7.
+001201.455|  381428.0000kb|    -32.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/minimapicons/ring.tga" ref count 122.
+001201.455|  380892.0000kb|   -536.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/textures/hudcenterbar.tga" ref count 1.
+001201.455|  380708.0000kb|   -184.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/textures/hudatlas.tga" ref count 1.
+001201.456|  376600.0000kb|  -4108.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/textures/aoe.DDS" ref count 4.
+001201.456|  374104.0000kb|  -2496.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/gsb_taunt.DDS" ref count 1.
+001201.456|  374108.0000kb|      4.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/minotaur_triumphantroar.DDS" ref count 4.
+001201.456|  373476.0000kb|   -632.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/healthbarsdefault.tga" ref count 106.
+001201.456|  373128.0000kb|   -348.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/lamp.DDS" ref count 374.
+001201.456|  373112.0000kb|    -16.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/chronokeeper_timestop.DDS" ref count 2.
+001201.457|  372792.0000kb|   -320.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/annie_incinerate.DDS" ref count 2.
+001201.457|  372504.0000kb|   -288.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/dragon/info/dragon_circle.DDS" ref count 1.
+001201.457|  370216.0000kb|  -2288.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/blue_minion_basic/info/bluemelee_square.DDS" ref count 1.
+001201.457|  370156.0000kb|    -60.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/blue_minion_wizard/info/bluerange_circle.DDS" ref count 2.
+001201.457|  369876.0000kb|   -280.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/summoner_flash.DDS" ref count 1.
+001201.457|  369876.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/summoner_exhaust.DDS" ref count 7.
+001201.457|  369876.0000kb|      0.0000kb added|   WARN| WARNING: Direct3DDevice was released but has a reference count of 1
+001201.457|  369876.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+001201.458|  369920.0000kb|     44.0000kb added| ALWAYS| Destroying the Renderer (1)
+001201.458|  369920.0000kb|      0.0000kb added| ALWAYS| game::Shutdown
+001201.458|  369920.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001201.458|  369920.0000kb|      0.0000kb added| ALWAYS| Pre ::R3D::Perf::DinitPerfLists
+001201.458|  369920.0000kb|      0.0000kb added| ALWAYS| Post ::R3D::Perf::DinitPerfLists
+001201.458|  369920.0000kb|      0.0000kb added| ALWAYS| Exiting WinMain

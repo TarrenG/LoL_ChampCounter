@@ -1,0 +1,510 @@
+--- Log started at Tue Jul 17 20:58:07 2012
+
+000000.000|   13424.0000kb|  13424.0000kb added| ALWAYS| RADS::Common::Cider::Create: Running on Windows
+000000.351|  195432.0000kb| 182008.0000kb added| ALWAYS| Global Log Level set to WARN
+000000.351|  195456.0000kb|     24.0000kb added| ALWAYS| Build Version: Version 1.0.0.142 (Jul  6 2012/15:00:22) [PUBLIC] <__MAIN__>
+000000.381|  199092.0000kb|   3636.0000kb added| ALWAYS| "8394" "LoLLauncher.exe" "C:/Riot Games/League of Legends/RADS/projects/lol_air_client/releases/0.0.0.171/deploy/LolClient.exe" "216.133.234.76 5214 5VsFGSjedBpn+6Q3LIUeKw== <id_removed>"
+000000.381|  199096.0000kb|      4.0000kb added| ALWAYS| Started System Init
+000000.383|  199208.0000kb|    112.0000kb added| ALWAYS| Maestro Init
+000000.460|  199380.0000kb|    172.0000kb added| ALWAYS| Maestro completed init
+000000.476|  200748.0000kb|   1368.0000kb added| ALWAYS| StartSession called
+000000.476|  200748.0000kb|      0.0000kb added| ALWAYS| Started Init event arguments
+000000.476|  200824.0000kb|     76.0000kb added| ALWAYS| Waiting until connection...
+000000.476|  200828.0000kb|      4.0000kb added| ALWAYS| InitRender() enter
+000000.480|  201556.0000kb|    728.0000kb added| ALWAYS| r3dRenderLayer::Init(0x00eb04ca) enter
+000000.501|  210828.0000kb|   9272.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000000.513|  211564.0000kb|    736.0000kb added| ALWAYS| Attempting to load fontconfig file for en_US (DATA/Menu/fontconfig_en_US.txt).
+000001.296|  228576.0000kb|  17012.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000001.296|  228576.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.165/deploy/data/menu/IMEConfig.xml", "rb") failed: No such file or directory
+000001.296|  228576.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000001.296|  228576.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.165/deploy/data/menu/IMEConfig.xml".
+000001.296|  228580.0000kb|      4.0000kb added|   WARN| FileManager::Open: Can't open C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.0.165/deploy/data/menu/IMEConfig.xml (from file (null))
+000001.618|  230756.0000kb|   2176.0000kb added| ALWAYS| Connected
+000001.618|  230784.0000kb|     28.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID :000000001ae483ea
+000001.618|  230784.0000kb|      0.0000kb added| ALWAYS| Received client ID
+000001.618|  230784.0000kb|      0.0000kb added| ALWAYS| Physical memory: 0
+000001.618|  230784.0000kb|      0.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000001.619|  230784.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz, Intel64 Family 6 Model 58 Stepping 9, 2294 (0 core)
+000001.619|  230788.0000kb|      4.0000kb added| ALWAYS| Measured processor speed: 2311
+000001.619|  230788.0000kb|      0.0000kb added| ALWAYS| Physical memory: 0
+000001.619|  230788.0000kb|      0.0000kb added| ALWAYS| Started Init render
+000001.620|  230808.0000kb|     20.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects\lol_air_client\releases\0.0.0.171\deploy\preferences\
+000001.620|  230820.0000kb|     12.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(0)
+000001.620|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(1)
+000001.620|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(2)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(3)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(4)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(5)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(6)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(7)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(8)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(9)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(10)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(11)
+000001.621|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(12)
+000001.622|  230820.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(13)
+000001.622|  230828.0000kb|      8.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(14)
+000001.622|  230840.0000kb|     12.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(15)
+000001.622|  230840.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(16)
+000001.622|  230840.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(17)
+000001.622|  230840.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(18)
+000001.622|  230840.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(19)
+000001.622|  230840.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(20)
+000001.622|  230844.0000kb|      4.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(21)
+000001.622|  230844.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(22)
+000001.622|  230844.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(23)
+000001.622|  230844.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(24)
+000001.623|  230844.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(25)
+000001.623|  230844.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(26)
+000001.623|  230844.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(27)
+000001.623|  230844.0000kb|      0.0000kb added| ALWAYS| OptionsManager::OnOptionChanged(28)
+000001.629|  231040.0000kb|    196.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1280, YRes = 720, BPP = 32,  Flags=256, RenderPath = 101) enter
+000001.630|  231040.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Enumerating Display Modes
+000001.630|  231076.0000kb|     36.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000001.661|  232896.0000kb|   1820.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.661|  232896.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.661|  232896.0000kb|      0.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+000001.661|  232896.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz, Intel64 Family 6 Model 58 Stepping 9, 2294 (0 core)
+000001.661|  232896.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 2322
+000001.661|  232896.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 660M 2147483648 8.17.12.9593
+000001.661|  232896.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000003.332|  259116.0000kb|  26220.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000003.396|  260600.0000kb|   1484.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000003.519|  265740.0000kb|   5140.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000003.592|  267188.0000kb|   1448.0000kb added| ALWAYS| Set focus to app
+000003.592|  267188.0000kb|      0.0000kb added| ALWAYS| Input started
+000003.606|  267416.0000kb|    228.0000kb added| ALWAYS| Query Status Req started
+000003.617|  267436.0000kb|     20.0000kb added| ALWAYS| Query Status Req ended
+000003.617|  267436.0000kb|      0.0000kb added| ALWAYS| Waiting for server response...
+000003.816|  267436.0000kb|      0.0000kb added| ALWAYS| Receiving PKT_SynchVersionS2C_s, Server :Version 1.0.0.142 [PUBLIC]
+000003.816|  267440.0000kb|      4.0000kb added| ALWAYS| Started Map Map1
+000003.817|  267456.0000kb|     16.0000kb added| ALWAYS| netUID: 1 defaultname
+000003.817|  267456.0000kb|      0.0000kb added| ALWAYS| Adding level zip file: Map1.zip
+000003.820|  267472.0000kb|     16.0000kb added| ALWAYS| PlayGame Started
+000003.939|  272868.0000kb|   5396.0000kb added| ALWAYS| PlayGame Entered
+000003.939|  273200.0000kb|    332.0000kb added| ALWAYS| CurRenderPipeline
+000003.964|  281800.0000kb|   8600.0000kb added| ALWAYS| CreateParticleSystemManager
+000006.551|  431448.0000kb| 149648.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000006.551|  431448.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/items/icons2d/annieincinerate.dds", "rb") failed: No such file or directory
+000006.551|  431448.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000006.552|  431448.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/items/icons2d/annieincinerate.dds".
+000006.552|  431448.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/items/icons2d/annieincinerate.dds (from file r3dTexture::LoadRawTexture)
+000006.552|  431448.0000kb|      0.0000kb added|  ERROR| Can not open file <data/items/icons2d/annieincinerate.dds> *********
+000006.552|  431448.0000kb|      0.0000kb added|  ERROR| Failed to load data/items/icons2d/annieincinerate.dds
+000006.552|  431448.0000kb|      0.0000kb added|   WARN| r3dTexture EX: data/items/icons2d/annieincinerate.dds - not found. Dummy texture created.
+000007.285|  437996.0000kb|   6548.0000kb added|  ERROR| Failed to load Behavior Tree Node Definition file: DATA\Summoner\SummonerBlockLibrary.xml!
+000007.285|  437996.0000kb|      0.0000kb added|  ERROR| Failed to load Behavior Tree Node Definition file: DATA\Summoner\SummonerBlockLibraryClient.xml!
+000007.285|  437996.0000kb|      0.0000kb added|  ERROR| Unable to load Behavior Tree metadata file: DATA\Summoner\SummonerBlockLibrary.xml. from group BehaviorTreeMetaData, using key 'BehaviorTreeMetaData' on map: Map1  Remaining Behavior Tree loading skipped!
+000007.432|  444732.0000kb|   6736.0000kb added| ALWAYS| FMOD: Attempting to load localized audio for en_US
+000007.475|  446832.0000kb|   2100.0000kb added| ALWAYS| LoLAudio::Load(): Successfully loaded default desired language locale: LoL_Audio_en_US.fev
+000007.480|  447140.0000kb|    308.0000kb added| ALWAYS| GameWorld.Update()
+000007.481|  447140.0000kb|      0.0000kb added| ALWAYS| Begin Game Object Update
+000007.944|  464284.0000kb|  17144.0000kb added| ALWAYS| End Game Object Update
+000009.013|  490256.0000kb|  25972.0000kb added| ALWAYS| PreloadGlobalEffects()
+000009.013|  490256.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000009.107|  495872.0000kb|   5616.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000009.107|  495872.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/particles/aoe.tga", "rb") failed: No such file or directory
+000009.107|  495872.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000009.107|  495872.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/particles/aoe.tga".
+000009.107|  495872.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/particles/aoe.tga (from file r3dTexture::LoadRawTexture)
+000009.107|  495872.0000kb|      0.0000kb added|  ERROR| Can not open file <data/particles/aoe.tga> *********
+000009.107|  495872.0000kb|      0.0000kb added|  ERROR| Failed to load data/particles/aoe.tga
+000009.107|  495872.0000kb|      0.0000kb added|   WARN| r3dTexture EX: data/particles/aoe.tga - not found. Dummy texture created.
+000009.368|  524908.0000kb|  29036.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000009.368|  524908.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalBuffAssets()
+000009.481|  529256.0000kb|   4348.0000kb added| ALWAYS| ObjectManager_RegisterNetworkWorld()
+000009.483|  529280.0000kb|     24.0000kb added| ALWAYS| FogOfWar::Init()
+000009.485|  529432.0000kb|    152.0000kb added| ALWAYS| Gamma::CreateIAPI()
+000009.486|  529440.0000kb|      8.0000kb added| ALWAYS| SimulationClock->Init()
+000009.639|  553688.0000kb|  24248.0000kb added|   WARN| Flash swf data/menu/Scoreboard.swf does not have a valid _global.ContentWidth defaulting
+000010.151|  597032.0000kb|  43344.0000kb added|   WARN| Flash swf data\menu\Tooltips.swf does not have a valid _global.ContentWidth defaulting
+000010.155|  597440.0000kb|    408.0000kb added|   WARN| Flash swf data\menu\RainboomTooltip.swf does not have a valid _global.ContentWidth defaulting
+000010.628|  625616.0000kb|  28176.0000kb added|  ERROR| RADS::API::Impl::FileManagedCompressed::Read: End of file
+000011.111|  639212.0032kb|  13596.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000011.111|  639212.0032kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/particles/bellcurve.tga", "rb") failed: No such file or directory
+000011.111|  639212.0032kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000011.111|  639212.0032kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/particles/bellcurve.tga".
+000011.112|  639212.0032kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/particles/bellcurve.tga (from file r3dTexture::LoadRawTexture)
+000011.112|  639212.0032kb|      0.0000kb added|  ERROR| Can not open file <data/particles/bellcurve.tga> *********
+000011.112|  639212.0032kb|      0.0000kb added|  ERROR| Failed to load data/particles/bellcurve.tga
+000011.112|  639212.0032kb|      0.0000kb added|   WARN| r3dTexture EX: data/particles/bellcurve.tga - not found. Dummy texture created.
+000014.665|  680748.0032kb|  41536.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000014.666|  680748.0032kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/items/icons2d/darkchampioo_endlessrage.dds", "rb") failed: No such file or directory
+000014.666|  680748.0032kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000014.666|  680748.0032kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/items/icons2d/darkchampioo_endlessrage.dds".
+000014.666|  680748.0032kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/items/icons2d/darkchampioo_endlessrage.dds (from file r3dTexture::LoadRawTexture)
+000014.666|  680748.0032kb|      0.0000kb added|  ERROR| Can not open file <data/items/icons2d/darkchampioo_endlessrage.dds> *********
+000014.666|  680748.0032kb|      0.0000kb added|  ERROR| Failed to load data/items/icons2d/darkchampioo_endlessrage.dds
+000014.666|  680748.0032kb|      0.0000kb added|   WARN| r3dTexture EX: data/items/icons2d/darkchampioo_endlessrage.dds - not found. Dummy texture created.
+000014.754|  683272.0000kb|   2524.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/particles/mordekaiser_knight_tx_cm2.dds", "rb") failed: No such file or directory
+000014.755|  683272.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000014.755|  683272.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/particles/mordekaiser_knight_tx_cm2.dds".
+000014.755|  683272.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/particles/mordekaiser_knight_tx_cm2.dds (from file r3dTexture::LoadRawTexture)
+000014.755|  683272.0000kb|      0.0000kb added|  ERROR| Can not open file <data/particles/mordekaiser_knight_tx_cm2.dds> *********
+000014.755|  683272.0000kb|      0.0000kb added|  ERROR| Failed to load data/particles/mordekaiser_knight_tx_cm2.dds
+000014.755|  683272.0000kb|      0.0000kb added|   WARN| r3dTexture EX: data/particles/mordekaiser_knight_tx_cm2.dds - not found. Dummy texture created.
+000015.617|  702948.0968kb|  19676.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000015.617|  702948.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000015.740|  731232.0000kb|  28284.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000015.761|  733692.0032kb|   2460.0000kb added| ALWAYS| Start Main Loop
+000015.761|  733692.0032kb|      0.0000kb added| ALWAYS| PKT_C2S_CharSelected sent
+000015.761|  733704.0000kb|     12.0000kb added| ALWAYS| Waiting for all players to connect
+000015.761|  733704.0000kb|      0.0000kb added| ALWAYS| Waiting for all players to connect end
+000108.504|   12716.0000kb| -720988.-032kb added| ALWAYS| PKT_S2C_StartSpawn
+000108.504|   12936.0000kb|    220.0000kb added| ALWAYS| Creating Hero...
+000108.522|   24412.0000kb|  11476.0000kb added| ALWAYS| Hero Zilean created for Stormwar21
+000108.522|   24412.0000kb|      0.0000kb added| ALWAYS| Spawning heroes/minions
+000108.550|   30420.0000kb|   6008.0000kb added| ALWAYS| Finished spawning heroes/minions
+000109.051|   30428.0000kb|      8.0000kb added| ALWAYS| Creating Hero...
+000109.059|   32560.0000kb|   2132.0000kb added| ALWAYS| Hero Graves created for Noobiezillah
+000109.579|   34084.0000kb|   1524.0000kb added| ALWAYS| Creating Hero...
+000109.582|   34596.0000kb|    512.0000kb added| ALWAYS| Hero Evelynn created for Woogski
+000109.593|   35248.0000kb|    652.0000kb added| ALWAYS| Creating Hero...
+000109.822|   38332.0000kb|   3084.0000kb added| ALWAYS| Hero Darius created for carnadigital
+000110.329|   38712.0000kb|    380.0000kb added| ALWAYS| Creating Hero...
+000110.331|   39100.0000kb|    388.0000kb added| ALWAYS| Hero Singed created for burntpastries
+000110.332|   39100.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000110.334|   39540.0000kb|    440.0000kb added| ALWAYS| Hero Jax created for Geroth
+000110.334|   39548.0000kb|      8.0000kb added| ALWAYS| Creating Hero...
+000110.347|   40744.0000kb|   1196.0000kb added| ALWAYS| Hero Mordekaiser created for GunRiver
+000110.849|   40744.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000110.857|   41236.0000kb|    492.0000kb added| ALWAYS| Hero Soraka created for xiaoxiong520
+000110.857|   41236.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000110.862|   41812.0000kb|    576.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: No such file or directory
+000110.862|   41812.0000kb|      0.0000kb added|  ERROR| RADS::Common::CRT::fopen_s: ("data/items/icons2d/xinzhao_tirelesswarrior.dds", "rb") failed: No such file or directory
+000110.862|   41812.0000kb|      0.0000kb added|  ERROR| RADS::API::Impl::FileUnmanaged::FileUnmanaged: The handle that was passed to the API has been either invalidated or closed.
+000110.862|   41812.0000kb|      0.0000kb added|   NONE| RADS::API::Impl::FileUnmanaged::FileUnmanaged: Failed to open "data/items/icons2d/xinzhao_tirelesswarrior.dds".
+000110.862|   41812.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/items/icons2d/xinzhao_tirelesswarrior.dds (from file r3dTexture::LoadRawTexture)
+000110.862|   41812.0000kb|      0.0000kb added|  ERROR| Can not open file <data/items/icons2d/xinzhao_tirelesswarrior.dds> *********
+000110.862|   41812.0000kb|      0.0000kb added|  ERROR| Failed to load data/items/icons2d/xinzhao_tirelesswarrior.dds
+000110.862|   41832.0000kb|     20.0000kb added|   WARN| r3dTexture EX: data/items/icons2d/xinzhao_tirelesswarrior.dds - not found. Dummy texture created.
+000110.867|   42720.0000kb|    888.0000kb added| ALWAYS| Hero XinZhao created for I LikeApplesauce
+000110.867|   42732.0000kb|     12.0000kb added| ALWAYS| Creating Hero...
+000110.881|   43972.0000kb|   1240.0000kb added| ALWAYS| Hero Teemo created for Imperfect Eight
+000112.004|   58192.0000kb|  14220.0000kb added| ALWAYS| PKT_S2C_EndSpawn
+000117.018|   60684.0000kb|   2492.0000kb added| ALWAYS| PKT_StartGame
+000118.293|  103932.0000kb|  43248.0000kb added| ALWAYS| PKT_StartGame Finished proccessing
+000118.304|  105572.0000kb|   1640.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000118.304|  105572.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Starting music and loading announcements
+000118.304|  105584.0000kb|     12.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000118.315|  106040.0000kb|    456.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000118.315|  106056.0000kb|     16.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000118.315|  106064.0000kb|      8.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000118.315|  106064.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000118.320|  106132.0000kb|     68.0000kb added| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000118.337|  108284.0000kb|   2152.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000118.338|  108400.0000kb|    116.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000118.409|  127268.0000kb|  18868.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000118.409|  127440.0000kb|    172.0000kb added| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000118.425|  128244.0000kb|    804.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000118.442|  131204.0000kb|   2960.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000118.442|  131232.0000kb|     28.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.442|  131232.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for GlobalScale:Globals in DATA\Menu\HUD\Hud1280x720.ini.
+000118.442|  131232.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.442|  131232.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:Minimap in DATA\Menu\HUD\Hud1280x720.ini.
+000118.443|  131232.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.443|  131232.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:MinimapFlipped in DATA\Menu\HUD\Hud1280x720.ini.
+000118.443|  131232.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.443|  131232.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:MapOverlay in DATA\Menu\HUD\Hud1280x720.ini.
+000118.443|  131232.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.443|  131232.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChat in DATA\Menu\HUD\Hud1280x720.ini.
+000118.443|  131232.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.443|  131232.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChatFlipped in DATA\Menu\HUD\Hud1280x720.ini.
+000118.444|  131232.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.444|  131232.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:PlayerHudChatReplay in DATA\Menu\HUD\Hud1280x720.ini.
+000118.444|  131232.0000kb|      0.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.444|  131232.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for Scale:ItemShop in DATA\Menu\HUD\Hud1280x720.ini.
+000118.444|  131236.0000kb|      4.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.444|  131236.0000kb|      0.0000kb added|  ERROR| Failed to write value 0.0000 for XPos:ChampionsFriendly in DATA\Menu\HUD\Hud1280x720.ini.
+000118.444|  131240.0000kb|      4.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.444|  131240.0000kb|      0.0000kb added|  ERROR| Failed to write value 0.0000 for XPos:ChampionsEnemy in DATA\Menu\HUD\Hud1280x720.ini.
+000118.444|  131236.0000kb|     -4.0000kb added|   WARN| FileManager::Open: Can't open data/menu/hud/hud1280x720.ini (from file C:\jenkins\workspace\New-Code-CI-__MAIN__\code\RiotCommon\source\File\ConfigFile\ConfigUtils.cpp)
+000118.444|  131236.0000kb|      0.0000kb added|  ERROR| Failed to write value 1.0000 for MinimapScale:Globals in DATA\Menu\HUD\Hud1280x720.ini.
+000118.524|  184744.0000kb|  53508.0000kb added| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000118.524|  184744.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000118.524|  184744.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000118.524|  184752.0000kb|      8.0000kb added| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000118.524|  184852.0000kb|    100.0000kb added| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000118.531|  186892.0000kb|   2040.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000204.423|  260604.0000kb|  73712.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000228.508|  406688.0000kb| 146084.0000kb added| ALWAYS| chat_debug: Console SendChat holy shit 
+000231.408|  411312.0000kb|   4624.0000kb added| ALWAYS| chat_debug: Console SendChat your korean
+000240.939|  432072.0000kb|  20760.0000kb added| ALWAYS| chat_debug: Console SendChat i guess you willcarry us
+000268.263|  363372.0000kb| -68700.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000292.745|  392092.0000kb|  28720.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000410.035|  445640.0000kb|  53548.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000448.029|  471820.0000kb|  26180.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000600.351|  625084.0032kb| 153264.0000kb added| ALWAYS| chat_debug: Console SendChat omw
+000617.005|  629512.0000kb|   4428.0000kb added| ALWAYS| chat_debug: Console SendChat ill wait for raka
+000657.626|  636872.0000kb|   7360.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+000670.286|  640324.0968kb|   3452.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+000670.671|  640416.0000kb|     92.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0e44a435
+000670.671|  640432.0000kb|     16.0000kb added| ALWAYS| The Killer was: carnadigital
+000670.671|  640432.0000kb|      0.0000kb added| ALWAYS| HEALS
+000670.671|  640432.0000kb|      0.0000kb added| ALWAYS|   I LikeApplesauce applied amount 17.5 with abilities [XenZhaoComboTarget|amount:0|priority:58][XenZhaoSweep|amount:0|priority:58][XenZhaoPuncture|amount:17.5|priority:16][XenZhaoBattleCry|amount:0|priority:7][SummonerFlash|amount:0|priority:7][RegenerationPotion|amount:0|priority:0]
+000670.671|  640432.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000670.671|  640432.0000kb|      0.0000kb added| ALWAYS|   carnadigital applied amount 722.015 with abilities [DariusExecute|amount:298.8|priority:298][_BasicAttack|amount:111.991|priority:111][SummonerDot|amount:102|priority:110][DariusCleave|amount:104.013|priority:104][DariusNoxianTacticsONH|amount:64.9987|priority:64][DariusHemoMarker|amount:40.2125|priority:40][DeadlyVenom_Internal|amount:0|priority:0][DariusHemo|amount:0|priority:0]
+000670.671|  640432.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 429.089 with abilities [_BasicAttack|amount:429.089|priority:429]
+000670.671|  640432.0000kb|      0.0000kb added| ALWAYS|   Noobiezillah applied amount 0 with abilities [SummonerExhaust|amount:0|priority:0]
+000802.901|  662216.0000kb|  21784.0000kb added|  ERROR| Assertion failed!
+
+Program: League of Legends.exe
+File: C:\jenkins\workspace\New-Code-CI-__MAIN__\code\HeroWars_clientServer\Sources\ObjectsCode\SPELLS_NEW\SpellChainMissile.CPP
+Line: 245
+
+Function: obj_SpellChainMissile::UpdateProjectile
+Expression: fabsf(Velocity.y) < 10000.0f
+
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts
+
+(Press Retry to debug the application - JIT must be enabled)
+
+000802.901|  662216.0000kb|      0.0000kb added|  ERROR| Assert Description: SpellName: HateSpikeMissile Caster: Evelynn Target: XinZhao # of targets already hit: 0 LastTargetPosition: 7482.58, 46.0184, 3197.66 Position: 7490.81, 190.872, 190.872
+000803.033|  662232.0000kb|     16.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+000803.401|  662268.0032kb|     36.0000kb added|   WARN| Death Recap damage from unknown source
+000803.401|  662268.0032kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+000803.401|  662268.0032kb|      0.0000kb added|   WARN| Death Recap damage from unknown source
+000803.401|  662268.0032kb|      0.0000kb added| ALWAYS| The Killer was: carnadigital
+000803.401|  662268.0032kb|      0.0000kb added| ALWAYS| HEALS
+000803.401|  662268.0032kb|      0.0000kb added| ALWAYS|   I LikeApplesauce applied amount 140 with abilities [RespawnClassic|amount:140|priority:138][XenZhaoSweep|amount:0|priority:60][XenZhaoComboTarget|amount:0|priority:60][XenZhaoBattleCry|amount:0|priority:8][RegenerationPotion|amount:0|priority:0][Recall|amount:0|priority:0][game_item_displayname_3106|amount:0|priority:0][XenZhaoParry|amount:0|priority:0]
+000803.401|  662268.0032kb|      0.0000kb added| ALWAYS| DAMAGE
+000803.401|  662268.0032kb|      0.0000kb added| ALWAYS|   carnadigital applied amount 832.433 with abilities [DariusExecute|amount:332|priority:332][DariusCleave|amount:211.083|priority:211][_BasicAttack|amount:148.144|priority:148][DariusHemoMarker|amount:74.5273|priority:74][DariusNoxianTacticsONH|amount:66.6796|priority:66][DeadlyVenom_Internal|amount:0|priority:0][DariusHemo|amount:0|priority:0][MordekaiserSyphonOfDestruction|amount:0|priority:0]
+000803.401|  662268.0032kb|      0.0000kb added| ALWAYS|   Woogski applied amount 447.549 with abilities [_BasicAttack|amount:200.282|priority:200][Ravage|amount:136.937|priority:143][HateSpike|amount:110.33|priority:110]
+000803.401|  662268.0032kb|      0.0000kb added| ALWAYS|   Minion applied amount 0 with abilities [BlessingoftheLizardElder|amount:0|priority:0]
+000908.960|  676668.0032kb|  14400.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+000914.957|  680164.0968kb|   3496.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+000925.538|  688336.0000kb|   8172.0000kb added| ALWAYS| The Killer was: Stormwar21
+000925.538|  688336.0000kb|      0.0000kb added| ALWAYS| HEALS
+000925.538|  688336.0000kb|      0.0000kb added| ALWAYS|   I LikeApplesauce applied amount 240 with abilities [RespawnClassic|amount:240|priority:238][XenZhaoComboTarget|amount:0|priority:60][XenZhaoSweep|amount:0|priority:60][XenZhaoBattleCry|amount:0|priority:8][game_item_displayname_3154|amount:0|priority:0][XenZhaoParry|amount:0|priority:0]
+000925.538|  688336.0000kb|      0.0000kb added| ALWAYS|   xiaoxiong520 applied amount 202.1 with abilities [Wish|amount:202.1|priority:200]
+000925.538|  688336.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000925.538|  688336.0000kb|      0.0000kb added| ALWAYS|   Stormwar21 applied amount 729.016 with abilities [TimeBomb|amount:510.96|priority:510][_BasicAttack|amount:218.057|priority:218]
+000925.538|  688336.0000kb|      0.0000kb added| ALWAYS|   Woogski applied amount 537.969 with abilities [_BasicAttack|amount:259.49|priority:259][Ravage|amount:136.937|priority:143][HateSpike|amount:141.541|priority:141][ShadowWalk|amount:0|priority:60]
+000925.538|  688336.0000kb|      0.0000kb added| ALWAYS|   Noobiezillah applied amount 444.671 with abilities [_BasicAttack|amount:342.894|priority:342][GravesClusterShot|amount:101.777|priority:101][SummonerExhaust|amount:0|priority:0]
+000925.538|  688336.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 339.467 with abilities [_BasicAttack|amount:339.467|priority:339]
+000952.081|  695704.0000kb|   7368.0000kb added| ALWAYS| chat_debug: Console SendChat gz guys
+000961.027|  693380.0968kb|  -2324.0000kb added| ALWAYS| chat_debug: Console SendChat ty for gaving awarness jax
+000967.257|  693692.0032kb|    312.0000kb added| ALWAYS| chat_debug: Console SendChat haing
+000968.725|  693784.0000kb|     92.0000kb added| ALWAYS| chat_debug: Console SendChat having
+001000.477|  696280.0000kb|   2496.0000kb added| ALWAYS| chat_debug: Console SendChat he rushed a thornmail
+001063.752|  705584.0000kb|   9304.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 07243ed2
+001063.752|  705588.0968kb|      4.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 07e80897
+001063.752|  705588.0968kb|      0.0000kb added| ALWAYS| The Killer was: Woogski
+001063.752|  705588.0968kb|      0.0000kb added| ALWAYS| HEALS
+001063.752|  705588.0968kb|      0.0000kb added| ALWAYS|   I LikeApplesauce applied amount 49.505 with abilities [XenZhaoComboTarget|amount:0|priority:63][XenZhaoSweep|amount:0|priority:63][RespawnClassic|amount:49.505|priority:48][XenZhaoBattleCry|amount:0|priority:8][SummonerFlash|amount:0|priority:8][RegenerationPotion|amount:0|priority:0][XenZhaoParry|amount:0|priority:0][game_item_displayname_3154|amount:0|priority:0]
+001063.752|  705588.0968kb|      0.0000kb added| ALWAYS|   Pet applied amount 0 with abilities [HeightenedLearning|amount:0|priority:0]
+001063.752|  705588.0968kb|      0.0000kb added| ALWAYS| DAMAGE
+001063.752|  705588.0968kb|      0.0000kb added| ALWAYS|   Tower applied amount 824.878 with abilities [_BasicAttack|amount:824.878|priority:824][TurretDamageMarker|amount:0|priority:0]
+001063.752|  705588.0968kb|      0.0000kb added| ALWAYS|   Woogski applied amount 324.085 with abilities [Ravage|amount:148.256|priority:155][_BasicAttack|amount:125.83|priority:125][ShadowWalk|amount:0|priority:63][HateSpike|amount:50|priority:50]
+001063.752|  705588.0968kb|      0.0000kb added| ALWAYS|   Minion applied amount 103.082 with abilities [_BasicAttack|amount:103.082|priority:103]
+001063.752|  705588.0968kb|      0.0000kb added| ALWAYS|   burntpastries applied amount 93.4744 with abilities [Fling|amount:93.4744|priority:220]
+001120.878|  730016.0000kb|  24428.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+001220.638|  739280.0000kb|   9264.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+001322.374|  748448.0000kb|   9168.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+001327.731|  749608.0000kb|   1160.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0aeb38e5
+001327.731|  749608.0000kb|      0.0000kb added| ALWAYS| The Killer was: Noobiezillah
+001327.731|  749608.0000kb|      0.0000kb added| ALWAYS| HEALS
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS|   xiaoxiong520 applied amount 113.403 with abilities [AstralBlessing|amount:113.403|priority:111][ConsecrationAuraNoParticle|amount:0|priority:0]
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS|   I LikeApplesauce applied amount 95 with abilities [RespawnClassic|amount:95|priority:93][XenZhaoComboTarget|amount:0|priority:71][XenZhaoSweep|amount:0|priority:71][XenZhaoBattleCry|amount:0|priority:9][game_item_displayname_3132|amount:0|priority:0][game_item_displayname_3154|amount:0|priority:0][RegenerationPotion|amount:0|priority:0][XenZhaoParry|amount:0|priority:0]
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS|   GunRiver applied amount 0 with abilities [MordekaiserCreepingDeathCast|amount:0|priority:0]
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS|   Noobiezillah applied amount 1051.98 with abilities [_BasicAttack|amount:920.331|priority:920][GravesClusterShot|amount:131.652|priority:131][SummonerExhaust|amount:0|priority:0]
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS|   Stormwar21 applied amount 594.035 with abilities [TimeBomb|amount:504.934|priority:504][_BasicAttack|amount:89.1011|priority:89]
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS|   carnadigital applied amount 421.836 with abilities [DariusCleave|amount:234.838|priority:234][DariusNoxianTacticsONH|amount:81.2141|priority:81][game_item_displayname_3075|amount:61.9332|priority:63][DariusHemoMarker|amount:43.8501|priority:43][DeadlyVenom_Internal|amount:0|priority:0][DariusHemo|amount:0|priority:0][MordekaiserSyphonOfDestruction|amount:0|priority:0]
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 40.4851 with abilities [_BasicAttack|amount:40.4851|priority:40]
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS|   Woogski applied amount 10.7368 with abilities [HateSpike|amount:10.7368|priority:10]
+001327.732|  749608.0000kb|      0.0000kb added| ALWAYS|   burntpastries applied amount 0 with abilities [MegaAdhesive|amount:0|priority:132]
+001329.164|  749768.0000kb|    160.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+001421.378|  754324.0968kb|   4556.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+001429.360|  755936.0000kb|   1612.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+001443.440|  764132.0968kb|   8196.0000kb added| ALWAYS| chat_debug: Console SendChat lalglglalglalg
+001444.506|  764132.0968kb|      0.0000kb added| ALWAYS| chat_debug: Console SendChat lag
+001572.633|  769380.0968kb|   5248.0000kb added| ALWAYS| chat_debug: Console SendChat care jax
+001576.515|  769816.0000kb|    436.0000kb added| ALWAYS| chat_debug: Console SendChat all mia
+001629.113|  773252.0968kb|   3436.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+001781.737|  792616.0000kb|  19364.0000kb added|  ERROR| Assertion failed!
+
+Program: League of Legends.exe
+File: C:\jenkins\workspace\New-Code-CI-__MAIN__\code\HeroWars_clientServer\Sources\ObjectsCode\SPELLS_NEW\BuffManager_Client.cpp
+Line: 91
+
+Function: BuffManager_pimpl::OnNetworkPacket
+Expression: sb.IsActive()
+
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts
+
+(Press Retry to debug the application - JIT must be enabled)
+
+001781.737|  792616.0000kb|      0.0000kb added|  ERROR| Assert Description: General hard assert occurred, game may crash!
+001846.382|  794168.0000kb|   1552.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+001847.999|  794560.0000kb|    392.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0aeb38e5
+001848.000|  794560.0000kb|      0.0000kb added| ALWAYS| The Killer was: carnadigital
+001848.000|  794560.0000kb|      0.0000kb added| ALWAYS| HEALS
+001848.000|  794560.0000kb|      0.0000kb added| ALWAYS|   xiaoxiong520 applied amount 351.1 with abilities [AstralBlessing|amount:181.3|priority:179][Wish|amount:169.8|priority:168][ConsecrationAuraNoParticle|amount:0|priority:0]
+001848.000|  794560.0000kb|      0.0000kb added| ALWAYS|   I LikeApplesauce applied amount 55 with abilities [XenZhaoComboTarget|amount:0|priority:79][XenZhaoSweep|amount:0|priority:79][RespawnClassic|amount:55|priority:53][XenZhaoBattleCry|amount:0|priority:10][XenZhaoParry|amount:0|priority:0][game_item_displayname_3154|amount:0|priority:0][game_item_displayname_3132|amount:0|priority:0]
+001848.000|  794560.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+001848.000|  794560.0000kb|      0.0000kb added| ALWAYS|   carnadigital applied amount 1661.69 with abilities [DariusExecute|amount:587|priority:587][SummonerDot|amount:264|priority:274][_BasicAttack|amount:273.039|priority:273][DariusNoxianTacticsONH|amount:216.709|priority:216][DariusCleave|amount:210.301|priority:210][DariusHemoMarker|amount:87.6696|priority:87][game_item_displayname_3075|amount:22.9677|priority:24][DeadlyVenom_Internal|amount:0|priority:0][DariusHemo|amount:0|priority:0][MordekaiserSyphonOfDestruction|amount:0|priority:0]
+001848.000|  794560.0000kb|      0.0000kb added| ALWAYS|   Noobiezillah applied amount 714.153 with abilities [_BasicAttack|amount:585.713|priority:305][GravesSmokeGrenade|amount:128.44|priority:169]
+001848.000|  794560.0000kb|      0.0000kb added| ALWAYS|   Stormwar21 applied amount 227.022 with abilities [TimeBomb|amount:177.252|priority:177][_BasicAttack|amount:49.7703|priority:49]
+001893.710|  799348.0968kb|   4788.0000kb added|  ERROR| Assertion failed!
+
+Program: League of Legends.exe
+File: C:\jenkins\workspace\New-Code-CI-__MAIN__\code\gameengine\Stats\Health.cpp
+Line: 217
+
+Function: Health::InvariantCheck
+Expression: mCurrent <= mMax
+
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts
+
+(Press Retry to debug the application - JIT must be enabled)
+
+001893.710|  799348.0968kb|      0.0000kb added|  ERROR| Assert Description: General hard assert occurred, game may crash!
+001997.687|  807324.0032kb|   7976.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00bdb5e4
+002020.218|  809564.0032kb|   2240.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0aeb38e5
+002020.218|  809564.0032kb|      0.0000kb added|   WARN| Death Recap damage from unknown source
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS| The Killer was: Noobiezillah
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS| HEALS
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS|   I LikeApplesauce applied amount 345 with abilities [RespawnClassic|amount:345|priority:343][XenZhaoSweep|amount:0|priority:82][XenZhaoComboTarget|amount:0|priority:82][XenZhaoBattleCry|amount:0|priority:10][game_item_displayname_3132|amount:0|priority:0][game_item_displayname_3154|amount:0|priority:0][XenZhaoParry|amount:0|priority:0]
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS|   xiaoxiong520 applied amount 343.1 with abilities [Wish|amount:343.1|priority:341][game_item_displayname_3105|amount:0|priority:0][ConsecrationAuraNoParticle|amount:0|priority:0]
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS| DAMAGE
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS|   Noobiezillah applied amount 950.663 with abilities [GravesChargeShot|amount:317.879|priority:317][_BasicAttack|amount:249.537|priority:249][GravesSmokeGrenade|amount:174.79|priority:218][GravesClusterShot|amount:208.456|priority:208]
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS|   Woogski applied amount 768.843 with abilities [_BasicAttack|amount:615.53|priority:615][HateSpike|amount:153.314|priority:153][game_item_displayname_3078|amount:0|priority:0]
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS|   burntpastries applied amount 684.03 with abilities [SummonerDot|amount:330|priority:340][_BasicAttack|amount:206.824|priority:206][MegaAdhesive|amount:0|priority:159][PoisonTrail|amount:147.206|priority:147][SummonerExhaust|amount:0|priority:0]
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS|   carnadigital applied amount 438.736 with abilities [_BasicAttack|amount:247.242|priority:247][game_item_displayname_3075|amount:112.143|priority:113][DariusHemoMarker|amount:79.3501|priority:79][DeadlyVenom_Internal|amount:0|priority:0][DariusHemo|amount:0|priority:0]
+002020.218|  809564.0032kb|      0.0000kb added| ALWAYS|   Stormwar21 applied amount 39.4723 with abilities [_BasicAttack|amount:39.4723|priority:39]
+002094.654|  828112.0000kb|  18548.0000kb added| ALWAYS| chat_debug: Console SendChat yeah
+002193.263|  835972.0968kb|   7860.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0aeb38e5
+002193.263|  835972.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+002193.264|  835972.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+002193.264|  835972.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cc98d72
+002193.264|  835972.0968kb|      0.0000kb added| ALWAYS| The Killer was: Woogski
+002193.264|  835972.0968kb|      0.0000kb added| ALWAYS| HEALS
+002193.264|  835972.0968kb|      0.0000kb added| ALWAYS|   I LikeApplesauce applied amount 180 with abilities [RespawnClassic|amount:180|priority:178][XenZhaoComboTarget|amount:0|priority:84][game_item_displayname_3132|amount:0|priority:0][game_item_displayname_3154|amount:0|priority:0]
+002193.264|  835972.0968kb|      0.0000kb added| ALWAYS|   xiaoxiong520 applied amount 0 with abilities [ConsecrationAuraNoParticle|amount:0|priority:0][game_item_displayname_3105|amount:0|priority:0]
+002193.264|  835972.0968kb|      0.0000kb added| ALWAYS| DAMAGE
+002193.264|  835972.0968kb|      0.0000kb added| ALWAYS|   Woogski applied amount 936.038 with abilities [_BasicAttack|amount:371.646|priority:371][Ravage|amount:215.47|priority:225][HateSpike|amount:222.922|priority:222][blessingofthelizardelder|amount:126|priority:126][ShadowWalk|amount:0|priority:87][game_item_displayname_3078|amount:0|priority:0]
+002193.264|  835972.0968kb|      0.0000kb added| ALWAYS|   Tower applied amount 202.859 with abilities [_BasicAttack|amount:202.859|priority:202]
+002193.264|  835972.0968kb|      0.0000kb added| ALWAYS|   Noobiezillah applied amount 145.436 with abilities [GravesClusterShot|amount:145.436|priority:145]
+002193.264|  835972.0968kb|      0.0000kb added| ALWAYS|   Minion applied amount 83.4663 with abilities [_BasicAttack|amount:83.4663|priority:83]
+002237.458|  851380.0968kb|  15408.0000kb added|   WARN| [Noobiezillah] warning: PKT_CastSpell received for dead Unit. Spell: GravesBasicAttack
+002445.632|  885636.0968kb|  34256.0000kb added| ALWAYS| chat_debug: Console SendChat /all gg
+002449.810|  902268.0032kb|  16632.0000kb added| ALWAYS| End game message processing!
+002449.810|  902268.0032kb|      0.0000kb added| ALWAYS| End game message processed!
+002449.827|  902268.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+002451.904|  784624.0000kb| -117644.0000kb added| ALWAYS| Finished Main Loop
+002455.011|  625116.0032kb| -159508.0000kb added| ALWAYS| Finished Play game
+002455.011|  625116.0032kb|      0.0000kb added| ALWAYS| Game exited
+002455.044|  610208.0000kb| -14908.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+002455.063|  570988.0032kb| -39220.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002455.064|  570732.0032kb|   -256.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00024.tga" ref count 1.
+002455.064|  570732.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00023.tga" ref count 1.
+002455.064|  570732.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00022.tga" ref count 1.
+002455.064|  570732.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00021.tga" ref count 1.
+002455.064|  570732.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00020.tga" ref count 1.
+002455.064|  570708.0968kb|    -24.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00019.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00018.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00017.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00016.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00015.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00014.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00013.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00012.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00011.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00010.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00009.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00008.tga" ref count 1.
+002455.064|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00007.tga" ref count 1.
+002455.065|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00006.tga" ref count 1.
+002455.065|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00005.tga" ref count 1.
+002455.065|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00004.tga" ref count 1.
+002455.065|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00003.tga" ref count 1.
+002455.065|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00002.tga" ref count 1.
+002455.065|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00001.tga" ref count 1.
+002455.065|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/experience/xp2_00000.tga" ref count 1.
+002455.065|  570708.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/xpbarmask.tga" ref count 2.
+002455.065|  570092.0032kb|   -616.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/xpbar.tga" ref count 1.
+002455.065|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/chatbubble.tga" ref count 1.
+002455.065|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00042.tga" ref count 71.
+002455.065|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00041.tga" ref count 71.
+002455.065|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00040.tga" ref count 71.
+002455.065|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00039.tga" ref count 71.
+002455.065|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00038.tga" ref count 71.
+002455.065|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00037.tga" ref count 71.
+002455.065|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00036.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00035.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00034.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00033.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00032.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00031.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00030.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00029.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00028.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/levelup/lvlup_00027.tga" ref count 71.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/gamebar/otherchatbubble.tga" ref count 70.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/ui/teleporthome.DDS" ref count 1.
+002455.066|  570092.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/textures/aoe_brand.DDS" ref count 1.
+002455.066|  569824.0000kb|   -268.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/textures/darius_cleave_outside.DDS" ref count 1.
+002455.066|  568796.0032kb|  -1028.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/gravestruegrit.DDS" ref count 2.
+002455.066|  568796.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3051_renewal_tunic.DDS" ref count 1.
+002455.066|  568796.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3072_the_bloodthirster.DDS" ref count 1.
+002455.066|  568796.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3071_the_black_cleaver.DDS" ref count 1.
+002455.067|  568796.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3047_phase_striders.DDS" ref count 1.
+002455.067|  568796.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3046_phantom_dancer.DDS" ref count 1.
+002455.067|  568796.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3031_infinity_edge.DDS" ref count 1.
+002455.067|  568796.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3022_frozen_heart.DDS" ref count 1.
+002455.067|  568796.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3006_berserkers_greaves.DDS" ref count 1.
+002455.067|  568372.0968kb|   -424.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/165_harmony_ring.DDS" ref count 1.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/1026_blasting_band.DDS" ref count 1.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/teemo_poisoneddart.DDS" ref count 3.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/teemo/info/teemo_square_0.DDS" ref count 1.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/teemo/info/teemo_circle_0.DDS" ref count 23.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/xinzhao/info/xinzhao_tirelesswarrior.DDS" ref count 1.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/xinzhao_crescentsweep.DDS" ref count 1.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/xinzhao_charge.DDS" ref count 1.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/xenzhao_battlecry.DDS" ref count 1.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/xinzhao_battlecry.DDS" ref count 3.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/xinzhao_threetalon.DDS" ref count 3.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/xinzhao/info/xinzhao_square_0.DDS" ref count 1.
+002455.067|  568372.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/xinzhao/info/xinzhao_circle_0.DDS" ref count 14.
+002455.067|  568352.0000kb|    -20.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/soraka_starcall.DDS" ref count 2.
+002455.067|  568352.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/soraka/info/soraka_square.DDS" ref count 1.
+002455.068|  568352.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/soraka/info/soraka_circle.DDS" ref count 7.
+002455.068|  568336.0000kb|    -16.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/mordekaiser/info/mordekaiser_square.DDS" ref count 1.
+002455.068|  568336.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/mordekaiser/info/mordekaiser_circle.DDS" ref count 5.
+002455.068|  568328.0000kb|     -8.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/jax/info/jax_square_0.DDS" ref count 1.
+002455.068|  568328.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/jax/info/jax_circle_0.DDS" ref count 15.
+002455.068|  568328.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/jester_deathward.DDS" ref count 1.
+002455.068|  567596.0032kb|   -732.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/singed/info/chemicalman_circle.DDS" ref count 12.
+002455.068|  566184.0000kb|  -1412.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/darius/info/darius_circle_0.DDS" ref count 19.
+002455.068|  566184.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/evelynn/info/evelynn_circle.DDS" ref count 8.
+002455.068|  566184.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/gravesquickdraw.DDS" ref count 4.
+002455.068|  566184.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/graves/info/graves_circle.DDS" ref count 18.
+002455.069|  566184.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/zilean/info/chronokeeper_circle.DDS" ref count 9.
+002455.069|  566184.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/minimapicons/ring.tga" ref count 133.
+002455.069|  565636.0968kb|   -548.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/textures/hudcenterbar.tga" ref count 1.
+002455.069|  565484.0032kb|   -152.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/menu/textures/hudatlas.tga" ref count 1.
+002455.069|  561376.0000kb|  -4108.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/textures/aoe.DDS" ref count 5.
+002455.069|  561364.0968kb|    -12.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/teemo_tranquilizingshot.DDS" ref count 2.
+002455.069|  561364.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/gsb_taunt.DDS" ref count 1.
+002455.070|  560808.0000kb|   -556.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/3114_malady.DDS" ref count 3.
+002455.070|  560808.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/items/icons2d/3154_wrigglelantern.DDS" ref count 1.
+002455.070|  560808.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/healthbarsdefault.tga" ref count 146.
+002455.070|  560156.0032kb|   -652.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/images/lamp.DDS" ref count 374.
+002455.070|  560156.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/averdrian_astralbeam.DDS" ref count 4.
+002455.070|  559936.0000kb|   -220.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/48thslave_tattoo.DDS" ref count 1.
+002455.070|  559936.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/summoner_exhaust.DDS" ref count 6.
+002455.070|  559356.0032kb|   -580.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/characters/red_minion_wizard/info/redrange_circle.DDS" ref count 3.
+002455.071|  556700.0032kb|  -2656.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/summoner_flash.DDS" ref count 1.
+002455.071|  556616.0000kb|    -84.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "data/spells/icons2d/summoner_smite.DDS" ref count 1.
+002455.071|  556616.0000kb|      0.0000kb added|   WARN| WARNING: Direct3DDevice was released but has a reference count of 1
+002455.071|  556616.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+002455.071|  556660.0968kb|     44.0000kb added| ALWAYS| Destroying the Renderer (1)
+002455.071|  556660.0968kb|      0.0000kb added| ALWAYS| game::Shutdown
+002455.071|  556660.0968kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+002455.071|  556660.0968kb|      0.0000kb added| ALWAYS| Pre ::R3D::Perf::DinitPerfLists
+002455.071|  556660.0968kb|      0.0000kb added| ALWAYS| Post ::R3D::Perf::DinitPerfLists
+002455.071|  556660.0968kb|      0.0000kb added| ALWAYS| Exiting WinMain
