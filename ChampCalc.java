@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
 Author: Tarren Grimsley
 LoL champion game calc
 */
@@ -8,7 +9,6 @@ import java.lang.*;
 import java.util.*;
 
 public class ChampCalc {
-
    static String dir = "game_logs/";//"C:\\Riot Games\\League of Legends\\Logs\\Game - R3d Logs";
    static TreeMap<String, Integer> champSet = new TreeMap<String, Integer>();
    static TreeMap<String, Integer> winRate = new TreeMap<String, Integer>();
